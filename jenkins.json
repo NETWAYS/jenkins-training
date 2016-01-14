@@ -1,0 +1,31 @@
+{
+  "name": "Jenkins Training",
+  "date": "sometime",
+  "location": "Nuremberg",
+  "author": "Jean Flach",
+
+  "favicon": "image/global/favicon.ico",
+
+/*
+  "protected": ["presenter", "onepage", "print"],
+  "user": "netways",
+  "password": "awesome",
+*/
+
+  "templates":{
+    "default":"global/templates/default.tpl"
+  },
+
+  "sections": [
+	"global/Pre/Title",
+	"global/Pre/NETWAYS",
+    "global/Pre/Staff/JF.md",
+
+    "Intro",
+    "Installation",
+    "Beispiel",
+	"Distributed",
+
+    {"section":"global/Post"}
+  ]
+}
