@@ -5,27 +5,30 @@
 #Vorbereitung
 * Plugin installieren:
  - Violations
+ - Cobertura
 
 ~~~SECTION:notes~~~
 
-TODO: Corbetura mit nosexcoverage
+Kein Neustart erforderlich
 
 ~~~ENDSECTION~~~
-
 
 !SLIDE smbullets incremental
 #Den Job editieren
 * Auf den Job klicken
 * `Configure`
-* Unter `Post-build Actions` -> `Report Violations`
+* `Post-build Actions` -> `Report Violations`  
+ -> '\*\*/pylint.out'  
 <img src="./_img/Violations.png" alt="violations" />
+* `Post-build Actions` -> `Publish Cobertura Report`  
+ -> '\*\*/covarage.xml'  
+<img src="./_img/Cobertura.png" alt="cobertura" />
 
 ~~~SECTION:notes~~~
 
 TODO: Erklärung Grenzwerte, Erklärung ** foo
 
 ~~~ENDSECTION~~~
-
 
 !SLIDE code noprint
 #Execute Shell
@@ -37,8 +40,11 @@ TODO: Erklärung Grenzwerte, Erklärung ** foo
   virtualenv --no-site-packages $PYENV_HOME
   . $PYENV_HOME/bin/activate
   pip install --quiet pylint
+  pip install --quiet nosexcover
   pip install $WORKSPACE/
-  pylint -f parseable suchmaschine/ | tee pylint.out
+  pylint -f parseable $WORKSPACE | tee pylint.out
+  nosetests --with-xcoverage --with-xunit \
+    --cover-package=$WORKSPACE --cover-erase
 
 ~~~SECTION:notes~~~
 
@@ -47,7 +53,27 @@ Klick 'See the list of available environment variables' unter execute shell
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
-#Das Ergebniss
+!SLIDE center noprint
+#Das Ergebnis
+<img src="./_img/output_bad.png" alt="Schlechtes Ergebnis" />
 
-ES GEHT NET OMGWTFBBQ
+~~~SECTION:notes~~~
+
+Gute Übersicht über Code Qualität und Testcoverage.  
+nosexcoverage zeigt auch die coverage der packages im virtualenv an, sonst
+würde nichts zu sehen sein (suchmaschine hat keine tests)
+
+~~~ENDSECTION~~~
+
+!SLIDE bullets
+#Automatische builds (trigger)
+* `Build Triggers`
+* `Poll SCM`
+* `Schedule`: TODO
+
+~~~SECTION:notes~~~
+
+Schedule TODO: Irgendetwas das nicht so lange dauert wie der nächste Abschnitt
+damit der build fertig ist wenn man dazu zurückkehrt.
+
+~~~ENDSECTION~~~

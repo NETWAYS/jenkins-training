@@ -1,13 +1,19 @@
-!SLIDE smbullets
+!SLIDE bullets
 # Installation
 * Aus Paketen ...
 * ... Oder eigener Container + .war
 
-!SLIDE smbullets
-#Paketinstallation
+!SLIDE bullets incremental
+# Paketinstallation
+* Java installieren (mind. Version 1.7)
+
+    @@@ Shell
+    $ sudo yum install java
+
 * Jenkins Repository hinzufügen
 
-    apt install jenkins
+    @@@ Shell
+    $ sudo yum install jenkins
 
 ~~~SECTION:notes~~~
 
@@ -15,15 +21,21 @@ Repository ist schon hinzugefügt.
 
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets
-#Jenkins starten
+!SLIDE center code
+# Jenkins starten
 
     @@@ shell
     systemctl start jenkins
 
-> Notiz:
-> Mit tomcat schlägt der Jenkins-Start meist fehl
-> Port muss geändert werden in `/etc/default/jenkins`
+~~~SECTION:notes~~~
 
-> Notiz:
-> Port 80 kann per iptables umgeleitet werden
+`systemctl status jenkins` für status
+
+~~~ENDSECTION~~~
+
+!SLIDE
+# Jenkins läuft
+
+Jenkins läuft nun local auf Port 8080
+
+    `http://localhost:8080`

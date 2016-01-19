@@ -1,7 +1,6 @@
 !SLIDE subsection
 # ~~~SECTION:MINOR~~~ Ein Projekt erstellen
 
-
 !SLIDE smbullets incremental
 #Vorbereitung
 * Plugin installieren:
@@ -18,7 +17,6 @@
 Build tools sind schon vorinstalliert.
 
 ~~~ENDSECTION~~~
-
 
 !SLIDE smbullets incremental
 #Einen neuen Job erstellen
@@ -38,7 +36,6 @@ Git: Alles lassen wie es ist.
 Build triggers: Später  
 
 ~~~ENDSECTION~~~
-
 
 !SLIDE code noprint
 #Execute Shell
