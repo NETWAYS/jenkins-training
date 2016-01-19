@@ -11,3 +11,10 @@ aber optional.
 Datenbank: Alle Config Datein in XML in Jenkins Home (defaut: /var/lib/jenkins)
 
 ~~~ENDSECTION~~~
+
+!SLIDE bullets printonly
+* Jenkins liegt in einem Container (Tomcat, Glasfish...)
+* Alle Konfiguration wird als xml im Jenkins Home gespeichert
+* Jenkins kann mit anderen Jenkins Instanzen kommunizieren
+
+

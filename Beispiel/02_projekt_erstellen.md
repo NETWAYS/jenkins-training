@@ -1,3 +1,7 @@
+!SLIDE subsection
+# ~~~SECTION:MINOR~~~ Ein Projekt erstellen
+
+
 !SLIDE smbullets incremental
 #Vorbereitung
 * Plugin installieren:
@@ -14,6 +18,7 @@
 Build tools sind schon vorinstalliert.
 
 ~~~ENDSECTION~~~
+
 
 !SLIDE smbullets incremental
 #Einen neuen Job erstellen
@@ -34,6 +39,7 @@ Build triggers: Später
 
 ~~~ENDSECTION~~~
 
+
 !SLIDE code noprint
 #Execute Shell
 
@@ -42,8 +48,8 @@ Build triggers: Später
       rm -rf $PYENV_HOME
   fi  
   virtualenv --no-site-packages $PYENV_HOME
-  source $PYENV_HOME/bin/activate
-  pip install --quiet $WORKSPACE/
+  . $PYENV_HOME/bin/activate
+  pip install $WORKSPACE/
 
 ~~~SECTION:notes~~~
 

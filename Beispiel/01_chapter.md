@@ -1,11 +1,10 @@
-<!SLIDE subsection>
+!SLIDE subsection
 # ~~~SECTION:MAJOR~~~ Hands On: Ein Beispielprojekt
 
-<!SLIDE smbullets>
-
+!SLIDE bullets
 # Hands On: Ein Beispielprojekt
 Ziele dieses Kapitels:
 
-* Ein Python-Projekt bauen lassen
-* Code-Coverage und Unit tests einbauen
+* Ein Python-Projekt automatisch installieren
+* Mit pylint die codequalität überprüfen lassen
 * Ergebnisse graphisch in Jenkins darstellen
