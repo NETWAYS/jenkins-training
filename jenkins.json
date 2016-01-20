@@ -21,10 +21,14 @@
 	"global/Pre/NETWAYS",
     "global/Pre/Staff/JF.md",
 
+    "jenkins_pre",
+
     "Intro",
     "Installation",
     "Beispiel",
-	"Distributed",
+    "Distributed",
+
+	"Extras",
 
     {"section":"global/Post"}
   ]

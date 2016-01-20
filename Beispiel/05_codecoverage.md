@@ -1,7 +1,7 @@
 !SLIDE subsection
 # ~~~SECTION:MINOR~~~ Code Qualität überprüfen
 
-!SLIDE bullets incremental
+!SLIDE bullets
 #Vorbereitung
 * Plugin installieren:
  - Violations
@@ -9,6 +9,7 @@
 
 ~~~SECTION:notes~~~
 
+Teilnehmer sollen selbst addons installieren
 Kein Neustart erforderlich
 
 ~~~ENDSECTION~~~

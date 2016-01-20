@@ -1,15 +1,14 @@
-!SLIDE center
+!SLIDE
 #Elevator pitch
 > Jenkins is an open source automation server which enables developers around
 > the world to reliably build, test, and deploy their software.
 
-<img src="./_img/jenkins.png" alt="jenkins"
- align="right"/>
+<img src="./_img/jenkins.png" style="width:250px" alt="jenkins" align="right"/>
 
 ~~~SECTION:notes~~~
 
-Cloudbees beschäfftigt Kohsuke Kawaguchi (Jenkins Erfinder).
-Ausserdem gibt es noch ein Buch von O'Reily.
+Jenkins ist ein open source automations Server der es Entwicklern überall
+ermöglicht software zuverlässig zu bauen, testen und bereitzustellen
 
 ~~~ENDSECTION~~~
 
@@ -20,6 +19,7 @@ Ausserdem gibt es noch ein Buch von O'Reily.
 ~~~SECTION:notes~~~
 
 Kohsuke Kawaguchi (Sun)
+Continous Integration software
 
 ~~~ENDSECTION~~~
 
