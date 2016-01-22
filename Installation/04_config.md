@@ -19,6 +19,14 @@
 * "# of executors" : 5
 * Save
 
+!SLIDE center noprint
+#Konfigdateien
+Per SSH auf den jenkins-master verbinden
+
+    @@@ Shell
+    ssh netways@192.168.52.50
+    Password: netways
+
 !SLIDE bullets incremental
 #Konfigdateien
 * `cd /var/lib/jenkins`

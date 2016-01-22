@@ -34,12 +34,12 @@ TODO: Erklärung Grenzwerte, Erklärung ** foo
 !SLIDE code noprint
 #Execute Shell
 
-  PYENV_HOME=$WORKSPACE/.venv/    
-  if [ -d $PYENV_HOME ]; then
+  PYENV\_HOME=$WORKSPACE/.venv/    
+  if [ -d $PYENV\_HOME ]; then
       rm -rf $PYENV_HOME
   fi  
-  virtualenv --no-site-packages $PYENV_HOME
-  . $PYENV_HOME/bin/activate
+  virtualenv --no-site-packages $PYENV\_HOME
+  . $PYENV\_HOME/bin/activate
   pip install --quiet pylint
   pip install --quiet nosexcover
   pip install $WORKSPACE/

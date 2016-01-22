@@ -4,7 +4,12 @@
 !SLIDE bullets
 # Hands On: Ein Beispielprojekt
 Ziele dieses Kapitels:
+* Jobs erstellen, konfigurieren und starten
+* Addons kennenlernen und installieren
+* Git mit Jenkins beobachten
 
-* Ein Python-Projekt automatisch installieren
-* Mit pylint die codequalität überprüfen lassen
-* Ergebnisse graphisch in Jenkins darstellen
+~~~SECTION:notes~~~
+
+Git mit Jenkins beobachten... und automatisch bauen
+
+~~~ENDSECTION~~~

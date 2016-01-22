@@ -22,6 +22,9 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE bullets
-#Zusätzliche Sicherheit
-* CSRF Schutz mit Crumbs
- Jenkins ist mä
+#Zusätzliche Tipps
+* Jenkins hat im Zweifel totale Kontrolle über alle Slaves
+ - Auf Slaves extra Jenkins User verwenden (mit eigenem ssh key)
+* Offene Jenkins Instalaltionen sind nicht unüblich
+ - Keine Passwörter o.Ä. in Job-Skripten verwenden
+

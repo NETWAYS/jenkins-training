@@ -1,11 +1,10 @@
 !SLIDE bullets
 #Einen Jenkins Slave hinzufügen
 
-* Credentials eintragen:  
-  root:netways@192.156.24.1 TODO: richtige daten eintragen
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
-* `Host` eintragen und `Credentials` wählen
+* `Host` : "192.168.56.200"
+* `Credentials` auswählen
 
 ~~~SECTION:notes~~~
 
@@ -49,16 +48,39 @@ Teilnehmer fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets noprint
-#Der Fix
-`python-virtualenv` via jenkins installieren.
+!SLIDE bullets
+#Nodes provisionieren
+`python-virtualenv` (oder andere tools) via jenkins installieren.
+
+* Neues Freestyle Projekt
+* 'This Build is parameterized'
+ - Name wird als Umgebungsvariable exportiert
 
     @@@ Bash
-    yum install python-virtualenv -y
+    apt-get install $tool -y
 
 ~~~SECTION:notes~~~
 
 -y Da Jenkins nicht interaktiv ist
-Nochmal erwähnen das build jobs nicht als root laufen sollten
 
 ~~~ENDSECTION~~~
+
+!SLIDE center noprint
+#Jobs verketten
+`Post-Build Action` -> `Build Other Projects`
+So das Beispielprojekt gleich danach bauen
+
+~~~SECTION:notes~~~
+
+Erklärung nächste Folie
+
+~~~ENDSECTION~~~
+
+!SLIDE smbullets
+#Jobs verketten
+Verkettete Jobs erlauben es komplexe oder langsame Jobs in kurze Abschnitte
+auszuteilen.
+
+* Schnelleres Wiederaufnehmen von gescheiterten Jobs
+* Wiederverwendung von generischen Jobs
+* Workflow plugin hilft

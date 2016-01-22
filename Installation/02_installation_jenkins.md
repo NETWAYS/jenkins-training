@@ -1,19 +1,10 @@
 !SLIDE bullets
 # Installation
-* Aus Paketen ...
-* ... Oder eigener Container + .war
-
-!SLIDE bullets incremental
-# Paketinstallation
-* Java installieren (mind. Version 1.7)
-
-    @@@ Shell
-    $ sudo yum install java
-
-* Jenkins Repository hinzufügen
-
-    @@@ Shell
-    $ sudo yum install jenkins
+* Java  (jdk > 1.7)
+* Optional: Tomcat, Glassfish, ...
+* Entweder
+ - Packet
+ - jenkins.war
 
 ~~~SECTION:notes~~~
 
@@ -21,21 +12,16 @@ Repository ist schon hinzugefügt.
 
 ~~~ENDSECTION~~~
 
-!SLIDE center code
+!SLIDE bullets
 # Jenkins starten
-
+* Mit Container
+* Via systemd/init
     @@@ shell
     systemctl start jenkins
-
-~~~SECTION:notes~~~
-
-`systemctl status jenkins` für status
-
-~~~ENDSECTION~~~
 
 !SLIDE
 # Jenkins läuft
 
-Jenkins läuft nun local auf Port 8080
+Jenkins läuft auf Port 8080
 
-    `http://localhost:8080`
+	`http://192.168.56.50:8080`
