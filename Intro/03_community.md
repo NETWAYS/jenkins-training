@@ -25,9 +25,10 @@ Erst im Wiki suchen (gut gepflegt), dann fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE
+!SLIDE bullets
 #Enterprise und Support
-[CloudBees](https://www.cloudbees.com/) bietet Jenkins hosting und Support an.
+* [CloudBees](https://www.cloudbees.com/) bietet Jenkins hosting und Support an.
+  - Beschäfftigt Kohsuke Kawaguchi
 
 Andere finden sich im [Jenkins Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Commercial+Support).
 

@@ -14,8 +14,10 @@ Repository ist schon hinzugefügt.
 
 !SLIDE bullets
 # Jenkins starten
+
 * Mit Container
 * Via systemd/init
+
     @@@ shell
     systemctl start jenkins
 
@@ -24,4 +26,5 @@ Repository ist schon hinzugefügt.
 
 Jenkins läuft auf Port 8080
 
-	`http://192.168.56.50:8080`
+    @@@ shell
+    http://192.168.56.50:8080

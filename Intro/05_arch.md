@@ -17,4 +17,3 @@ Datenbank: Alle Config Datein in XML in Jenkins Home
 * Alle Konfiguration wird als xml im Jenkins Home gespeichert
 * Jenkins kann mit anderen Jenkins Instanzen kommunizieren
 
-

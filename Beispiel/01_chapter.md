@@ -1,9 +1,10 @@
 !SLIDE subsection
 # ~~~SECTION:MAJOR~~~ Hands On: Ein Beispielprojekt
 
-!SLIDE bullets
+!SLIDE smbullets
 # Hands On: Ein Beispielprojekt
-Ziele dieses Kapitels:
+Ziele dieses Kapitels
+
 * Jobs erstellen, konfigurieren und starten
 * Addons kennenlernen und installieren
 * Git mit Jenkins beobachten

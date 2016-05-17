@@ -7,7 +7,7 @@
 
 ~~~SECTION:notes~~~
 
-Jenkins ist ein open source automations Server der es Entwicklern überall
+Jenkins ist ein Open Source automations-Server der es Entwicklern überall
 ermöglicht software zuverlässig zu bauen, testen und bereitzustellen
 
 TODO Was ist CI, CD?

@@ -1,4 +1,4 @@
-!SLIDE smbullets
+!SLIDE bullets
 # Konfiguration
 * Entweder im webinterface ...
 * ... oder in Konfigdateien (XML-Format)
@@ -54,7 +54,7 @@ Per Webinterface:
 Änderungen im Webfrontend werden gleich in Konfigdateien geschreiben.
 Auch jobs haben jeweils ihre eigenen config.xml Dateien.
 
-Das komplette $JENKINS_HOME Verzeichniss zu sichern kann aber zu sehr großen 
+Das komplette $JENKINS\_HOME Verzeichniss zu sichern kann aber zu sehr großen 
 Backupdateien führen da sich dort auch Workspaces und build-Artefakte befinden.
 
 https://gist.github.com/abayer/527063a4519f205efc74
