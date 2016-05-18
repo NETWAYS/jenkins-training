@@ -1,6 +1,12 @@
+!SLIDE
+#CI und CD
+Exkurs:
+Was heissen CI und CD?
+
 !SLIDE incremental
 #Was ist CI?
 CI = "Continuous Integration"
+
 ...
 
 !SLIDE
@@ -10,7 +16,7 @@ Wikipedia (DE):
 > der den Prozess des fortlaufenden Zusammenfügens von Komponenten zu
 > einer Anwendung beschreibt.
 
-Beispiel: Ein Jenkins Job der Packete baut
+Beispiel: Ein Jenkins Job der Software compiliert
 
 ~~~SECTION:notes~~~
 Ständiges Erstellen einer Gesamtaufnahme
@@ -23,6 +29,7 @@ CD = "Continuous Delivery"
 
 !SLIDE
 #Was ist CD?
+Wikipdaia (DE):
 > Continuous Delivery (CD) bezeichnet eine Sammlung von Techniken, Prozessen
 > und Werkzeugen, die den Softwareauslieferungsprozess (englisch: Deployment)
 > verbessern.
@@ -34,6 +41,9 @@ Beispiel: Ein Jenkins der Packete baut
 * Viele Überschneidungen
 * Werden oft austauschbar verwendet
 * Beides sind andauernde Prozesse
+* Aber:  
+CD hat immer ein greifbares Ergebnis,  
+CI nur Teilstücke oder Statistiken
 
 
 ~~~SECTION:notes~~~

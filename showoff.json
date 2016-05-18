@@ -23,7 +23,9 @@
 
     "jenkins_pre",
 
+	"Exkurs/CICD.md",
     "Intro",
+	"Exkurs/Unix.md",
     "Installation",
     "Beispiel",
     "Distributed",

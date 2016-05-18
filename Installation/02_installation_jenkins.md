@@ -7,10 +7,15 @@
  - jenkins.war
 
 ~~~SECTION:notes~~~
-
-Repository ist schon hinzugefügt.
-
 ~~~ENDSECTION~~~
+
+!SLIDE
+#Installation
+Im Home-Verzeichniss des Nutzers (/home/jenkins) liegt ein .deb file bereit.
+Installation via:
+
+    @@@ shell
+    sudo dpkg -i jenkins_1.644_all.deb
 
 !SLIDE bullets
 # Jenkins starten
