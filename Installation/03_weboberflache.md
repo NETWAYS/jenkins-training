@@ -1,14 +1,55 @@
 !SLIDE fullpage center noprint
-#DIe Weboberfläche
-<img src="./_img/jenkins_dashboard_wip.png" style="width:1000px" alt="Jenkins Dasboard 1.x">
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_empty.png" style="width:800px">
 
-!SLIDE bullets
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_overview.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_new_item.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_new_item2.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_people.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_build_history.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_manage_jenkins.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_credentials.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_queue.png" style="width:800px">
+
+!SLIDE fullpage center noprint
+#Die Weboberfläche
+<img src="./_img/jenkins_dashboard_marked_exec.png" style="width:800px">
+~~~SECTION:notes~~~
+
+Executoren wurden im "Architektur" Teil erklärt
+
+~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
 # Die Weboberfläche
 
 * Dashboard zeigt Jobs und ihren Status an
 * `Build Queue` ist die Job-Warteschlange
 * Aktueller Job Fortschritt unter `Executor Status`
-* Administration via Menü darüber
+* Administration über `Manage Jenkins` und andere Menüs
 
 ~~~SECTION:notes~~~
 

@@ -17,11 +17,9 @@ Installation via:
     @@@ shell
     sudo dpkg -i jenkins_1.644_all.deb
 
-!SLIDE bullets
+!SLIDE
 # Jenkins starten
-
-* Mit Container
-* Via systemd/init
+Via systemd/init
 
     @@@ shell
     systemctl start jenkins
@@ -32,4 +30,4 @@ Installation via:
 Jenkins läuft auf Port 8080
 
     @@@ shell
-    http://192.168.56.50:8080
+    http://172.16.32.10:8080

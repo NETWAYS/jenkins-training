@@ -1,7 +1,8 @@
 !SLIDE bullets
 # Hello Jenkins
-TODO: Einleitung
 
+TODO: Einleitung
+[Bild von jenkins dashboard?]
 
 !SLIDE incremental
 #Einen neuen Job erstellen

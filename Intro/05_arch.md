@@ -6,9 +6,10 @@
 
 Container: Ein Java-Webserver (Alternativen: Glassfish, Geronimo)  
 Jenkins: Jenkins Java application (.WAR)  
-Rest: Andere Jenkins Applikationen, Executoren eigendlich teil von jenkins sind
-aber optional.
-Datenbank: Alle Config Datein in XML in Jenkins Home
+Config: Als .xml in $JENKINS\_HOME, z.B /var/lib/jenkins
+Executoren: Plätze auf denen Jobs laufen können.
+Es laufen maximal so viele Jobs parallel wie Executoren frei sind
+
 
 ~~~ENDSECTION~~~
 
