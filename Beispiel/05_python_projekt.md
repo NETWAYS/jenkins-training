@@ -54,3 +54,18 @@ $WORKSPACE: Jenkins env
 Klick 'See the list of available environment variables' unter execute shell  
 
 ~~~ENDSECTION~~~
+
+!SLIDE noprint center
+#Build it!
+<img src="./_img/build_now.png" alt="Build Now!" />
+
+!SLIDE noprint center
+#Build it!
+<img src="./_img/build_running.png" />
+
+~~~SECTION:notes~~~
+
+Live Konsolen output ist zu sehen, interessant zum debuggen
+
+~~~ENDSECTION~~~
+

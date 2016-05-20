@@ -1,11 +1,11 @@
 !SLIDE bullets
 #Jenkins bei NETWAYS und Icinga
 * Verwendung intern:
-  - Build und Push von Dockerimages, getriggert durch Änderungen im SCM
+  - Build und Push von Dockerimages, angestoßen durch Änderungen im SCM
   - CI/CD von Rails und Sinatra Apps
   - Testing von Puppetmodulen
 
-* Als Icinga Packet builder
+* Als Buildplattform für Icinga-Pakete (RPM, DEB)
 
 !SLIDE fullpage center noprint
 #Altes build.icinga.org

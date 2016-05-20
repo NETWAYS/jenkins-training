@@ -8,5 +8,5 @@ Ziele dieses Kapitels:
 * Jenkins installieren und starten
 * Konfiguration:
  - Weboberfläche
- - Konfigurationsdatein
-* Konfigurations Backups
+ - Konfigurationsdateien
+* Backups der Konfiguration

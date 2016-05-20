@@ -4,7 +4,7 @@
 
 ~~~SECTION:notes~~~
 
-Eine volle Jenkins Installation
+Eine Installation mit beliebig vilen Executoren
 
 ~~~ENDSECTION~~~
 

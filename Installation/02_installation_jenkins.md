@@ -1,9 +1,9 @@
 !SLIDE bullets
 # Installation
-* Java  (jdk > 1.7)
+* Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
 * Entweder
- - Packet
+ - Paket
  - jenkins.war
 
 ~~~SECTION:notes~~~

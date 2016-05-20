@@ -30,3 +30,10 @@ Gute Developer Guidelines erwähnen
 Anhand gitplugin Wikiseite zeigen.
 
 ~~~ENDSECTION~~~
+
+!SLIDE
+#Was sind gute Plugins?
+Ein paar essentielle Plugins, wie das git-plugin, verwenden wir hier in
+der Schulung.
+
+Am Ende gibt es nocht eine Liste mit Empfehlungen.

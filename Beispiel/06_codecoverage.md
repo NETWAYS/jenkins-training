@@ -66,6 +66,12 @@ würde nichts zu sehen sein (suchmaschine hat keine tests)
 
 ~~~ENDSECTION~~~
 
+!SLIDE
+#Fixen
+
+TODO: Make patch. Push patch etc.
+
+
 !SLIDE bullets
 #Automatische builds (trigger)
 * `Build Triggers`

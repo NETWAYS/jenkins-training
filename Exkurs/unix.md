@@ -2,8 +2,8 @@
 #Die Schulungsnotebooks
 Verwendungszwecke:
 
-* Den Unterlagen folgen
-* Die Virtuellen Maschinen hosten
+* Verfolgen der Schulungsunterlagen
+* Ausführen der virtuellen Maschinen
 
 !SLIDE bullets incremental
 #Virtualbox
@@ -20,8 +20,8 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 !SLIDE bullets incremental
 #jenkins-master
-* Entweder im Virtualbox Fester arbeiten...
-* ...oder per ssh auf die Maschine verbinden
+* Entweder im VirtualBox-Fenster arbeiten...
+* ...oder per SSH auf die Maschine verbinden
 
     @@@ sh
     ssh jenkins@171.16.32.10

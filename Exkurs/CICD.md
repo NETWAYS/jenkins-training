@@ -16,7 +16,7 @@ Wikipedia (DE):
 > der den Prozess des fortlaufenden Zusammenfügens von Komponenten zu
 > einer Anwendung beschreibt.
 
-Beispiel: Ein Jenkins Job der Software compiliert
+Beispiel: Ein Jenkins-Job der Software compiliert
 
 ~~~SECTION:notes~~~
 Ständiges Erstellen einer Gesamtaufnahme
@@ -34,7 +34,7 @@ Wikipdaia (DE):
 > und Werkzeugen, die den Softwareauslieferungsprozess (englisch: Deployment)
 > verbessern.
 
-Beispiel: Ein Jenkins der Packete baut
+Beispiel: Ein Jenkins der Pakete baut
 
 !SLIDE incremental
 #Und was ist der Unterschied?

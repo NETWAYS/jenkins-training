@@ -1,9 +1,9 @@
 !SLIDE bullets
 #Die Jenkins Community
-* MIT Lizenz
+* MIT-Lizenz
 * Transparente Führung
-* SPI Projekt (FFmpeg, Debian, PostgreSQL)
-* Vier Jenkins User Konferenzen in 2015  
+* SPI-Projekt (FFmpeg, Debian, PostgreSQL)
+* Vier Jenkins-User-Konferenzen in 2015  
 (USA, England, Israel)
 
 ~~~SECTION:notes~~~
@@ -14,8 +14,8 @@ SPI: Software in the Public Interest
 ~~~ENDSECTION~~~
 
 !SLIDE bullets
-#Die Jenkins Community
-* Aktive [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Home)
+#Die Jenkins-Community
+* Aktives [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Home)
 * [Mailinglisten](https://jenkins-ci.org/content/mailing-lists/)
 * IRC: #jenkins auf freenode
 
@@ -27,10 +27,11 @@ Erst im Wiki suchen (gut gepflegt), dann fragen
 
 !SLIDE bullets
 #Enterprise und Support
-* [CloudBees](https://www.cloudbees.com/) bietet Jenkins hosting und Support an.
+* [CloudBees](https://www.cloudbees.com/) bietet Jenkins-Hosting und -Support an.
   - Beschäfftigt Kohsuke Kawaguchi
+  - Verantworlich für einen großen Teil der Jenkins-Entwicklung
 
-Andere finden sich im [Jenkins Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Commercial+Support).
+Andere finden sich im [Jenkins-Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Commercial+Support).
 
 ~~~SECTION:notes~~~
 

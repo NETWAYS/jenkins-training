@@ -2,9 +2,9 @@
 #Agenda
 * Geschichte und Stand des Jenkins Projekts
 * Architektur
-* Installation einer Jenkins Instanz
+* Installation einer Jenkins-Instanz
 * Erstellen eines Jobs
-* Hinzufügen eines Jenkins Slaves
+* Hinzufügen eines Jenkins-Agenten
 * Fragen und Extras
 
 !SLIDE bullets incremental

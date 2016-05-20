@@ -1,8 +1,7 @@
-!SLIDE
+!SLIDE center
 # Viele bunte Projektypen
 
-TODO: tatsächliche projekttypen finden
-eventuell Bild
+<img src="./_img/project_types_many.png" alt="Defualt Projekte + einige Plugins" />
 
 ~~~SECTION:notes~~~
 
@@ -27,6 +26,7 @@ TODO: Extra Teil über pipeline projekte
 !SLIDE bullets incremental
 #Multiconfiguration
 [Bild von matrix build vom Buildserver]
+
 * Geignet für Jobs mit vielen Parametern
 * Achsen erlauben es schnell sehr viele builds zu konfigurieren/starten
 * z.B. Builds die auf mehreren os versionen und Architekturen laufen sollen
@@ -41,12 +41,6 @@ TODO: Extra Teil über pipeline projekte
 Letzten Satz irgendwie witzig machen, sonst Übelkeit
 
 ~~~ENDSECTION~~~
-
-!SLIDE bullets incremental
-#Und die Anderen?
-* Maven ist ein Build Sytem von Apache
-* free-style multi-branch project?!
-  - Wie 'freestyle' nur auf multiple git branches
 
 !SLIDE incremental noprint
 #Gibts noch mehr?

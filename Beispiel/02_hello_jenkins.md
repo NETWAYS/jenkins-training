@@ -9,7 +9,8 @@ TODO: Einleitung
 * Auf `New Item` klicken
 * Name eingeben und Freestyle Projekt auswählen
 * `Build` -> `Execute Shell`
-    @@@ Sh
+
+    @@@ sh
     echo "Hello Jenkins"
     exit 0
 
@@ -24,6 +25,7 @@ Enthält Dateien vom build gebraucht und erstellt werden
 * Build History  
 Vergangene Builds, Anzahl konfigurierbar
 Enthält genauere Status und Ablaufsinformationen
+Verfällt bei vielen Projektypen nach Jenkins Neustart
 
 ~~~SECTION:notes~~~
 

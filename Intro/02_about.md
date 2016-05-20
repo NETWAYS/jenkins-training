@@ -10,8 +10,7 @@
 Jenkins ist ein Open Source automations-Server der es Entwicklern überall
 ermöglicht software zuverlässig zu bauen, testen und bereitzustellen
 
-TODO Was ist CI, CD?
-Jenkins Feature set?
+TODO: Jenkins Feature set?
 
 ~~~ENDSECTION~~~
 

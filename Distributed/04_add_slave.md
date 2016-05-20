@@ -1,5 +1,5 @@
 !SLIDE bullets
-#Einen Jenkins Slave hinzufügen
+#Einen Jenkins Agenten hinzufügen
 
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
@@ -9,8 +9,8 @@
 ~~~SECTION:notes~~~
 
 Schlechte idee jenkins als root laufen zu lassen
-Node: Master und Slaves sind Nodes
-TODO: Beispiel 'smart' Slave
+Node: Master und Agenten sind Nodes
+TODO: Beispiel 'smart Slaves' 
 Label restrictions: bsp windows
 Startet automatisch nach save
 
@@ -18,23 +18,23 @@ Startet automatisch nach save
 
 !SLIDE center noprint
 #Arbeit verteilen
-Das Beispielprojekt soll nur auf dem Slave gebaut werden
+Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 
 ~~~SECTION:notes~~~
 
 Die Teilnehmer können das selbst versuchen.
 Lösungen:
 Master executoren wegnehmen
-Slave label hinzufügen und bei Projekt eintragen
+Agenten label hinzufügen und bei Projekt eintragen
 
 ~~~ENDSECTION~~~
 
 !SLIDE bullets printonly
 #Arbeit verteilen
-Das Beispielprojekt soll nur auf dem Slave gebaut werden
+Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 
 * Entweder Executoren des Masters auf 0 stellen
-* Oder dem Slave ein label geben und im Beispielprojekt eintragen
+* Oder dem Agenten ein label geben und im Beispielprojekt eintragen
 
 !SLIDE center incremental norpint 
 #Fehlschlag
@@ -83,4 +83,4 @@ auszuteilen.
 
 * Schnelleres Wiederaufnehmen von gescheiterten Jobs
 * Wiederverwendung von generischen Jobs
-* Workflow plugin hilft
+* Workflow/Pipleine plugin hilft

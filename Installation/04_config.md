@@ -10,7 +10,7 @@
 #Anzahl Executors ändern
 
 > Notiz:  
-> Executoren sind die "Arbeiter" einer Jenkins Instanz/Slaves.
+> Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 
 !SLIDE bullets incremental
 #Weboberfläche
