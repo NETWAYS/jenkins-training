@@ -66,21 +66,3 @@ würde nichts zu sehen sein (suchmaschine hat keine tests)
 
 ~~~ENDSECTION~~~
 
-!SLIDE
-#Fixen
-
-TODO: Make patch. Push patch etc.
-
-
-!SLIDE bullets
-#Automatische builds (trigger)
-* `Build Triggers`
-* `Poll SCM`
-* `Schedule`: TODO
-
-~~~SECTION:notes~~~
-
-Schedule TODO: Irgendetwas das nicht so lange dauert wie der nächste Abschnitt
-damit der build fertig ist wenn man dazu zurückkehrt.
-
-~~~ENDSECTION~~~

@@ -8,11 +8,19 @@
 ~~~SECTION:notes~~~
 
 Jenkins ist ein Open Source automations-Server der es Entwicklern überall
-ermöglicht software zuverlässig zu bauen, testen und bereitzustellen
+ermöglicht software zuverlässig zu bauen, testen und bereitzustellen.
 
 TODO: Jenkins Feature set?
 
 ~~~ENDSECTION~~~
+
+!SLIDE bullets
+#Feature Set
+* Einfach zu installieren
+* Konfiguration per Webinterface
+  - Konfiguration besteht im XML Format
+* Erweiterbar mit Plugins
+* Skallierbar dank verteilter Architektur
 
 !SLIDE fullpage center noprint
 #Jenkins Timeline
