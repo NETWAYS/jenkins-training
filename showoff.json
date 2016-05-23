@@ -1,6 +1,6 @@
 {
   "name": "Jenkins Training",
-  "date": "sometime",
+  "date": "08.06.2016",
   "location": "Nuremberg",
   "author": "Jean Flach",
 
@@ -30,7 +30,7 @@
     "Beispiel",
     "Distributed",
 
-    "Extras",
+    "Extras/best-practise.md",
 
     {"section":"global/Post"}
   ]
