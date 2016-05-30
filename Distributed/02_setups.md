@@ -1,10 +1,13 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Architektur und Startup
+
 !SLIDE center
 #Was wir schon haben
 <img src="./_img/Jenkins Server Single.svg" alt="Single Server"/>
 
 ~~~SECTION:notes~~~
 
-Eine Installation mit beliebig vilen Executoren
+Eine Installation mit beliebig vielen Executoren
 
 ~~~ENDSECTION~~~
 
@@ -22,12 +25,12 @@ Kommunikation via tcp/ip.
 ~~~ENDSECTION~~~
 
 !SLIDE
-#Slave via SSH
-Master benötigt SSH Zugangsdaten zum Slave Server.
-Installiert und startet diesen selbst.
+#Agent via SSH
+Master benötigt nur SSH-Zugangsdaten zum Server des Agenten, der Rest
+geschieht automatisch.
 
 Eventuelle Tools (python, virtualenv...) die zum ausführen von Jobs gebraucht
-werden müssen selbst installiert werden.
+werden, müssen selbst installiert werden.
 
 ~~~SECTION:notes~~~
 
@@ -40,10 +43,12 @@ Tools sind schon vorinstalliert (ausser virtualenv, geplanter fehlschlag)
 * WMI und DOM auf Windows
 * JNLP (Graphisch)
 * Eigenes Script
- - Jenkins verwendet stdin/out zur Kommunikation. Beispiel:
+ - Jenkins verwendet stdin/out zur Kommunikation.
 
-   @@@ Shell
-   ssh slave java -jar ~/bin/slave.jar
+Beispiel:
+
+    @@@ Shell
+    ssh slave java -jar ~/bin/slave.jar
 
 ~~~SECTION:notes~~~
 

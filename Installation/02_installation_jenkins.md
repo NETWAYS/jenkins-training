@@ -1,3 +1,6 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Installation
+
 !SLIDE bullets
 # Installation
 * Java (JDK > 1.7)
@@ -11,7 +14,7 @@
 
 !SLIDE
 #Installation
-Im Home-Verzeichniss des Nutzers (/home/jenkins) liegt ein .deb file bereit.
+Im Home-Verzeichnis des Nutzers (/home/jenkins) liegt ein .deb file bereit.
 Installation via:
 
     @@@ shell

@@ -18,10 +18,10 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE incremental
 #jenkins-master
-* Entweder im VirtualBox-Fenster arbeiten...
-* ...oder per SSH auf die Maschine verbinden
+Entweder im VirtualBox-Fenster arbeiten . . .  
+. . . oder per SSH auf die Maschine verbinden
 
     @@@ sh
     ssh jenkins@171.16.32.10
@@ -40,7 +40,9 @@ Wer im Fenster arbeiten möchte braucht auch jenkins:icinga
   - Wir brauchen ihn aber später noch
 * 'root' hat volle Kontrolle über die Box
 
-   @@@ sh
-   sudo -i
-   Passwort: icinga
+How to?
+
+    @@@ sh
+    sudo -i
+    Passwort: icinga
 

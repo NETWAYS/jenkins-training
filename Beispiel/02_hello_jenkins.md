@@ -1,26 +1,66 @@
-!SLIDE bullets
-# Hello Jenkins
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Hello, Jenkins!
 
-Jetzt ist es an der Zeit Jenkins zu verwenden
-
-!SLIDE incremental
+!SLIDE
 #Einen neuen Job erstellen
+
 * Auf `New Item` klicken
 * Name eingeben und Freestyle Projekt auswählen
 * `Build` -> `Execute Shell`
 
+## Code:
+
     @@@ sh
     echo "Hello Jenkins"
-    exit 0
+    exit 0 	  				 	 	 	   	 	  	   		  	 
 
-!SLIDE smbullets incremental
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_blank.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_overview.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_changes.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_workspace.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_build_now.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_delete.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_configure.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_history.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<img src="./_img/overview_trend.png" />
+
+
+!SLIDE bullets  small
 #Die Statusseite
 * Changes  
 Kann Changelog anzeigen (muss eingerichtet werden)
 * Workspace  
 Enthält Dateien vom build gebraucht und erstellt werden
+
 > Achtung: Keine Garantie das Datein im Workspace erhalten bleiben.
 > Daten werden auch nicht aufgeräumt (Plugin dafür existiert)
+
 * Build History  
 Vergangene Builds, Anzahl konfigurierbar
 Enthält genauere Status und Ablaufsinformationen

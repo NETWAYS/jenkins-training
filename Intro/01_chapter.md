@@ -5,5 +5,5 @@
 # Geschichte und Idee
 Ziele dieses Kapitels:
 
-* Jenkins kennen lernen
+* Jenkins kennenlernen
 * Mögliche Use-Cases erfahren

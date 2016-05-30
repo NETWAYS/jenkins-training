@@ -1,8 +1,13 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Triggered Builds
+
+TODO TODO TODO
+
 !SLIDE noprint
 #Unzufrieden?
-Das Ergebniss ist nicht gut genug!
+Das Ergebnis ist nicht gut genug!
 
-Verbesserter Code wird gepushed, build soll automatisch starten
+Verbesserter Code wird gepushed, Build soll automatisch starten
 
 
 !SLIDE bullets

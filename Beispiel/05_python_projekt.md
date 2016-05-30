@@ -1,7 +1,7 @@
 !SLIDE subsection
-# ~~~SECTION:MINOR~~~ Ein Projekt erstellen
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Projekt erstellen
 
-!SLIDE smbullets incremental
+!SLIDE bullets incremental
 #Vorbereitung
 * Plugin installieren:
  - Git plugin
@@ -18,10 +18,10 @@ Build tools sind schon vorinstalliert.
 
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets incremental
+!SLIDE bullets incremental
 #Einen neuen Job erstellen
 * Auf `New Item` klicken
-* Name eingeben und Freestyle Projekt auswählen
+* Name eingeben und `Freestyle projekt` auswählen
 * `Source Code management`:
  - Git Url:  
 `git://git.netways.org/jenkins-training/jenkins-training.git`
@@ -40,13 +40,14 @@ Build triggers: Später
 !SLIDE code noprint
 #Execute Shell
 
-  PYENV\_HOME=$WORKSPACE/.venv/    
-  if [ -d $PYENV\_HOME ]; then
-      rm -rf $PYENV_HOME
-  fi  
-  virtualenv --no-site-packages $PYENV\_HOME
-  . $PYENV\_HOME/bin/activate
-  pip install $WORKSPACE/
+    @@@ sh
+    PYENV_HOME=$WORKSPACE/.venv/    
+    if [ -d $PYENV_HOME ]; then
+        rm -rf $PYENV_HOME
+    fi  
+    virtualenv --no-site-packages $PYENV_HOME
+    . $PYENV_HOME/bin/activate
+    pip install $WORKSPACE/
 
 ~~~SECTION:notes~~~
 
@@ -55,11 +56,11 @@ Klick 'See the list of available environment variables' unter execute shell
 
 ~~~ENDSECTION~~~
 
-!SLIDE noprint center
+!SLIDE noprint
 #Build it!
 <img src="./_img/build_now.png" alt="Build Now!" />
 
-!SLIDE noprint center
+!SLIDE noprint
 #Build it!
 <img src="./_img/build_running.png" />
 

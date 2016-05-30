@@ -1,3 +1,6 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Jenkins Agent erstellen
+
 !SLIDE bullets
 #Einen Jenkins Agenten hinzufügen
 
@@ -56,7 +59,9 @@ Teilnehmer fragen
 * 'This Build is parameterized'
  - Name wird als Umgebungsvariable exportiert
 
-    @@@ Bash
+Build step:
+
+    @@@ sh
     apt-get install $tool -y
 
 ~~~SECTION:notes~~~
@@ -65,10 +70,10 @@ Teilnehmer fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE center noprint
+!SLIDE bullets noprint
 #Jobs verketten
-`Post-Build Action` -> `Build Other Projects`
-So das Beispielprojekt gleich danach bauen
+* `Post-Build Action` -> `Build Other Projects`  
+* So das Beispielprojekt gleich danach bauen
 
 ~~~SECTION:notes~~~
 
@@ -76,11 +81,11 @@ Erklärung nächste Folie
 
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets
+!SLIDE bullets
 #Jobs verketten
 Verkettete Jobs erlauben es komplexe oder langsame Jobs in kurze Abschnitte
 auszuteilen.
 
 * Schnelleres Wiederaufnehmen von gescheiterten Jobs
 * Wiederverwendung von generischen Jobs
-* Workflow/Pipleine plugin hilft
+* Workflow/Pipleine Plugin hilft

@@ -1,5 +1,5 @@
 !SLIDE subsection
-# ~~~SECTION:MINOR~~~ Code Qualität überprüfen
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Metriken generieren
 
 !SLIDE bullets
 #Vorbereitung
@@ -31,21 +31,21 @@ TODO: Erklärung Grenzwerte, Erklärung ** foo
 
 ~~~ENDSECTION~~~
 
-!SLIDE code noprint
+!SLIDE small code
 #Execute Shell
-
-  PYENV\_HOME=$WORKSPACE/.venv/    
-  if [ -d $PYENV\_HOME ]; then
-      rm -rf $PYENV_HOME
-  fi  
-  virtualenv --no-site-packages $PYENV\_HOME
-  . $PYENV\_HOME/bin/activate
-  pip install --quiet pylint
-  pip install --quiet nosexcover
-  pip install $WORKSPACE/
-  pylint -f parseable $WORKSPACE | tee pylint.out
-  nosetests --with-xcoverage --with-xunit \
-    --cover-package=$WORKSPACE --cover-erase
+    @@@ sh
+    PYENV_HOME=$WORKSPACE/.venv/    
+    if [ -d $PYENV_HOME ]; then
+        rm -rf $PYENV_HOME
+    fi  
+    virtualenv --no-site-packages $PYENV_HOME
+    . $PYENV_HOME/bin/activate
+    pip install --quiet pylint
+    pip install --quiet nosexcover
+    pip install $WORKSPACE/
+    pylint -f parseable $WORKSPACE | tee pylint.out
+    nosetests --with-xcoverage --with-xunit \
+      --cover-package=$WORKSPACE --cover-erase
 
 ~~~SECTION:notes~~~
 
@@ -54,7 +54,7 @@ Klick 'See the list of available environment variables' unter execute shell
 
 ~~~ENDSECTION~~~
 
-!SLIDE center noprint
+!SLIDE noprint
 #Das Ergebnis
 <img src="./_img/output_bad.png" alt="Schlechtes Ergebnis" />
 

@@ -1,3 +1,6 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Credentials
+
 !SLIDE bullets
 #Crendentials
 * ... Haben eine Domain (Gruppe)

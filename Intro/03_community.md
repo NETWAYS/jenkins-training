@@ -14,7 +14,7 @@ SPI: Software in the Public Interest
 ~~~ENDSECTION~~~
 
 !SLIDE bullets
-#Die Jenkins-Community
+#Die Jenkins Community
 * Aktives [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Home)
 * [Mailinglisten](https://jenkins-ci.org/content/mailing-lists/)
 * IRC: #jenkins auf freenode
@@ -28,7 +28,7 @@ Erst im Wiki suchen (gut gepflegt), dann fragen
 !SLIDE bullets
 #Enterprise und Support
 * [CloudBees](https://www.cloudbees.com/) bietet Jenkins-Hosting und -Support an.
-  - Beschäfftigt Kohsuke Kawaguchi
+  - Beschäftigt Kohsuke Kawaguchi
   - Verantworlich für einen großen Teil der Jenkins-Entwicklung
 
 Andere finden sich im [Jenkins-Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Commercial+Support).
@@ -40,3 +40,17 @@ Ausserdem gibt es noch ein Buch von O'Reily.
 
 ~~~ENDSECTION~~~
 
+!SLIDE bullets
+#Enterprise und Support
+* Jenkins Enterprise
+  - LTS Jenkins Version
+  - Geeignet für Projekte in denen Jenkins von kritischer Bedeutung ist
+  - Cloudbees Software
+
+~~~SECTION:notes~~~
+
+Enterprise Version in den meisten Fällen nicht nötig.
+Besonders nicht wenn Jenkins nicht schon ein wichtiger Bestandteil der
+Infrastruktur ist
+
+~~~ENDSECTION~~~

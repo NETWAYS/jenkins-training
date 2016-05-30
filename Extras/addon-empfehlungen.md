@@ -1,4 +1,4 @@
-!SLIDE smbullets
+!SLIDE bullets
 #Interessante/Nützliche Plugins
 * delete workspace
 * share workspace

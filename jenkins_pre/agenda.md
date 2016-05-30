@@ -1,6 +1,6 @@
 !SLIDE smbullets
 #Agenda
-* Geschichte und Stand des Jenkins Projekts
+* Geschichte und Stand des Jenkins-Projekts
 * Architektur
 * Installation einer Jenkins-Instanz
 * Erstellen eines Jobs

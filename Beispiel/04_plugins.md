@@ -1,3 +1,6 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Plugins
+
 !SLIDE
 # Jenkins und Plugins
 Plugins machen einen großen Teil von Jenkins aus.

@@ -20,7 +20,7 @@ TODO: Jenkins Feature set?
 * Konfiguration per Webinterface
   - Konfiguration besteht im XML Format
 * Erweiterbar mit Plugins
-* Skallierbar dank verteilter Architektur
+* Skalierbar dank verteilter Architektur
 
 !SLIDE fullpage center noprint
 #Jenkins Timeline

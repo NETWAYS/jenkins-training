@@ -1,16 +1,23 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Konfiguration
+
 !SLIDE bullets
 # Konfiguration
-* Entweder im webinterface ...
+* Entweder im Webinterface ...
 * ... oder in Konfigdateien (XML-Format)
 
-> Notiz:  
-> Konfigdateien liegen im home Verzeichnis des jenkins-Benutzers.
+~~~SECTION:notes~~~
+Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
+~~~ENDSECTION~~~
 
-!SLIDE smbullets
+!SLIDE noprint
 #Anzahl Executors ändern
+Einfache Übungsaufgabe:  
+  Ändern der Executoren über beide Wege
 
-> Notiz:  
-> Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
+~~~SECTION:notes~~~
+Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
+~~~ENDSECTION~~~
 
 !SLIDE bullets incremental
 #Weboberfläche
@@ -46,15 +53,19 @@ Per Webinterface:
 
     http://192.168.56.102:8080/reload  
 
-> Notiz:  
-> Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
+~~~SECTION:notes~~~
+Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
+TODO: Add to cheatsheet
+~~~ENDSECTION~~~
 
 !SLIDE
 #Backups von Jenkins
 Änderungen im Webfrontend werden gleich in Konfigdateien geschreiben.
-Auch jobs haben jeweils ihre eigenen config.xml Dateien.
+Auch Jobs haben jeweils ihre eigenen config.xml Dateien.
 
-Das komplette $JENKINS\_HOME Verzeichniss zu sichern kann aber zu sehr großen 
-Backupdateien führen da sich dort auch Workspaces und build-Artefakte befinden.
+Das komplette $JENKINS\_HOME Verzeichnis zu sichern kann aber zu sehr großen 
+Backupdateien führen, da sich dort auch Workspaces und build-Artefakte befinden.
 
+~~~SECTION:notes~~~
 https://gist.github.com/abayer/527063a4519f205efc74
+~~~ENDSECTION~~~

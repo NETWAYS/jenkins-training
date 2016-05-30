@@ -1,7 +1,7 @@
 !SLIDE subsection
 # ~~~SECTION:MAJOR~~~ Hands On: Ein Beispielprojekt
 
-!SLIDE smbullets
+!SLIDE bullets
 # Hands On: Ein Beispielprojekt
 Ziele dieses Kapitels
 

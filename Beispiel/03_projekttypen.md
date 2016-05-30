@@ -1,7 +1,10 @@
+!SLIDE subsection
+#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Projekttypen
+
 !SLIDE center
 # Viele bunte Projektypen
 
-<img src="./_img/project_types_many.png" alt="Defualt Projekte + einige Plugins" />
+<img src="./_img/project_types_many.png" alt="Default Projekte + einige Plugins" />
 
 ~~~SECTION:notes~~~
 
@@ -31,11 +34,12 @@ TODO: Extra Teil über pipeline projekte
 * Achsen erlauben es schnell sehr viele builds zu konfigurieren/starten
 * z.B. Builds die auf mehreren os versionen und Architekturen laufen sollen
 
-!SLIDE bullets incremental
+!SLIDE incremental
 #External Job
-* Verwandelt Jenkins in ein Monitoring System
+* Verwandelt Jenkins in ein Monitoring-System
 * Nicht relevant für dieses Training
 * Ausserdem hat jeder schon Icinga fürs Monitoring
+
 ~~~SECTION:notes~~~
 
 Letzten Satz irgendwie witzig machen, sonst Übelkeit
