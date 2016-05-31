@@ -31,6 +31,7 @@ Gute Developer Guidelines erwähnen
 ~~~SECTION:notes~~~
 
 Anhand gitplugin Wikiseite zeigen.
+es gibt einige 'Git Plugins' aber wir sollen das normale
 
 ~~~ENDSECTION~~~
 

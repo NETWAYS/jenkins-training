@@ -23,8 +23,7 @@ Build tools sind schon vorinstalliert.
 * Auf `New Item` klicken
 * Name eingeben und `Freestyle projekt` auswählen
 * `Source Code management`:
- - Git Url:  
-`git://git.netways.org/jenkins-training/jenkins-training.git`
+ - Git Url: `git@localhost:/opt/git/training.git`
 * `Build` -> `Execute Shell`
 
 ~~~SECTION:notes~~~
