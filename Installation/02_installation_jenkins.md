@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Installation
-
 !SLIDE bullets
 # Installation
 * Java (JDK > 1.7)
@@ -13,7 +10,7 @@
 ~~~ENDSECTION~~~
 
 !SLIDE
-#Installation
+# Installation
 Im Home-Verzeichnis des Nutzers (/home/jenkins) liegt ein .deb file bereit.
 Installation via:
 

@@ -29,7 +29,7 @@ TODO: Extra Teil über pipeline projekte
 #Multiconfiguration
 [Bild von matrix build vom Buildserver]
 
-* Geignet für Jobs mit vielen Parametern
+* Geeignet für Jobs mit vielen Parametern
 * Achsen erlauben es schnell sehr viele builds zu konfigurieren/starten
 * z.B. Builds die auf mehreren os versionen und Architekturen laufen sollen
 

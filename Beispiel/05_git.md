@@ -1,3 +1,6 @@
+!SLIDE subsection
+#Exkurs: Git
+
 !SLIDE bullets
 #Lokaler Git Server
 

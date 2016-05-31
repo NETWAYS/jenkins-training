@@ -28,8 +28,9 @@ TODO: Jenkins Feature set?
 
 ~~~SECTION:notes~~~
 
-Kohsuke Kawaguchi (Sun)
+Kohsuke Kawaguchi (Sun)  
 Continous Integration software
+Mangel an CI software 
 
 ~~~ENDSECTION~~~
 

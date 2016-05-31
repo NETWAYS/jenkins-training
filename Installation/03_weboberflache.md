@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Die Weboberfläche
-
 !SLIDE fullpage center noprint
 #Die Weboberfläche
 <img src="./_img/jenkins_dashboard_empty.png" style="width:800px">
