@@ -31,8 +31,8 @@ Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 Per SSH auf den jenkins-master verbinden
 
     @@@ Shell
-    ssh netways@192.168.52.50
-    Password: netways
+    ssh jenkins@172.16.32.10
+    Password: icinga
 
 !SLIDE bullets incremental
 #Konfigdateien
@@ -51,7 +51,7 @@ Per Konsole:
 
 Per Webinterface:
 
-    http://192.168.56.102:8080/reload  
+    http://172.16.32.10:8080/reload  
 
 ~~~SECTION:notes~~~
 Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.

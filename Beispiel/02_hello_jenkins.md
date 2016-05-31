@@ -64,7 +64,6 @@ Enthält Dateien vom build gebraucht und erstellt werden
 * Build History  
 Vergangene Builds, Anzahl konfigurierbar
 Enthält genauere Status und Ablaufsinformationen
-Verfällt bei vielen Projektypen nach Jenkins Neustart
 
 ~~~SECTION:notes~~~
 

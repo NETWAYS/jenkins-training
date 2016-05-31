@@ -6,7 +6,7 @@
 
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
-* `Host` : "192.168.56.200"
+* `Host` : '172.16.32.20'
 * `Credentials` auswählen
 
 ~~~SECTION:notes~~~

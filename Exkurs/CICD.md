@@ -27,7 +27,7 @@ CD = "Continuous Delivery"
 
 !SLIDE
 #Was ist CD?
-Wikipdia (DE):
+Wikipedia (DE):
 > Continuous Delivery (CD) bezeichnet eine Sammlung von Techniken, Prozessen
 > und Werkzeugen, die den Softwareauslieferungsprozess (englisch: Deployment)
 > verbessern.
@@ -37,7 +37,6 @@ Beispiel: Ein Jenkins der Pakete baut
 !SLIDE incremental
 #Und was ist der Unterschied?
 * Viele Überschneidungen
-* Werden oft austauschbar verwendet
 * Beides sind andauernde Prozesse
 * Aber:  
 CD hat immer ein greifbares Ergebnis,  

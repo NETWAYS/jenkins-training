@@ -16,7 +16,6 @@
 # Freestyle
 * Simpleste Projektform
 * Ermöglichen simple Prozessabbildung durch Aneinanderreihung
-* Historie und Logs überstehen keinen Jenkins-Neustart
 * Dem Workflow/Pipeline Job in jeder Hinsicht unterlegen
 
 ~~~SECTION:notes~~~
