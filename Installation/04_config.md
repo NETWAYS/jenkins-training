@@ -19,7 +19,7 @@ Einfache Übungsaufgabe:
 Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Weboberfläche
 * "Manage Jenkins"
 * "Configure System"
@@ -31,10 +31,10 @@ Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 Per SSH auf den jenkins-master verbinden
 
     @@@ Shell
-    ssh jenkins@jenkins-master
-    Password: icinga
+    ssh jenkins-master
+    Password: netways
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Konfigdateien
 * `cd /var/lib/jenkins`
 * `vim/emacs/ed config.xml`

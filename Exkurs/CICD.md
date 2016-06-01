@@ -1,7 +1,7 @@
 !SLIDE 
 # ~~~SECTION:MINOR~~~ Exkurs: Was heissen CI und CD?
 
-!SLIDE incremental
+!SLIDE 
 #Was ist CI?
 CI = "Continuous Integration"
 
@@ -34,7 +34,7 @@ Wikipedia (DE):
 
 Beispiel: Ein Jenkins der Pakete baut
 
-!SLIDE incremental
+!SLIDE 
 #Und was ist der Unterschied?
 * Viele Überschneidungen
 * Beides sind andauernde Prozesse

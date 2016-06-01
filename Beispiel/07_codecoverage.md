@@ -14,7 +14,7 @@ Kein Neustart erforderlich
 
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets incremental
+!SLIDE smbullets 
 #Den Job editieren
 * Job konfigurieren
 * `Post-build Actions` -> `Publish Cobertura Report`  

@@ -1,13 +1,13 @@
 !SLIDE subsection
 #Best Practise
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Backups, Backups, Backups
 * Jenkins Konfiguration mit Hilfe von SCM sichern
 * Tags für funktionierende Zustände
 * Testen in Branches
 
-!SLIDE smbullets incremental
+!SLIDE smbullets 
 #Die Testinstanz
 * Ein sperater Jenkins-Test-Master erspaart viel kummer
   - Hardware muss nicht equivalent sein
@@ -17,7 +17,7 @@
 * Test-Agenten mit Docker o.ä. realisieren
 * Kann per Merge einfach in Produktion genommen werden
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Agilität durch Granularität
 * Jobs in Teilschritte aufteilen:
   - Erlaubt Wiederverwendung von Modulen
@@ -25,14 +25,14 @@
   - Schnellere Wiederaufnahme von fehlgeschlagenen Jobs
 * Workflow/Pipeline Plugin
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Agilität durch Granularität
 * Mehrere Teams - Mehrere Master
   - Lastverteilung
   - Vermindert Plugin Bloat
 * Unabhängige Projekte wenn möglich physisch trennen
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Agilität durch Uniformität
 * Uniforme Agenten sind leicht zu ersetzen
 * Gleiche tools, gleiche Hardware

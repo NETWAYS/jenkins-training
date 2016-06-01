@@ -11,9 +11,9 @@
 
 ~~~SECTION:notes~~~
 
-Schlechte idee jenkins als root laufen zu lassen
+Slave/Agent erklären
 Node: Master und Agenten sind Nodes
-TODO: Beispiel 'smart Slaves' 
+Es gibt keine noch keine 'smart' slaves
 Label restrictions: bsp windows
 Startet automatisch nach save
 
@@ -39,7 +39,7 @@ Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 * Entweder Executoren des Masters auf 0 stellen
 * Oder dem Agenten ein label geben und im Beispielprojekt eintragen
 
-!SLIDE center incremental norpint 
+!SLIDE center  norpint 
 #Fehlschlag
 Was ging schief?
 

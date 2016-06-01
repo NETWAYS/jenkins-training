@@ -1,7 +1,7 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Projekt erstellen
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Vorbereitung
 * Plugin installieren:
  - Git plugin
@@ -18,7 +18,7 @@ Build tools sind schon vorinstalliert.
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Einen neuen Job erstellen
 * Auf `New Item` klicken
 * Name eingeben und `Freestyle projekt` auswählen

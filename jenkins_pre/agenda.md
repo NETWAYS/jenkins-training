@@ -7,7 +7,7 @@
 * Hinzufügen eines Jenkins-Agenten
 * Fragen und Extras
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Ziele des Trainings
 * Jenkins installieren
 * Konfiguration erstellen und verwalten

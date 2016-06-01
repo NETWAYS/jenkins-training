@@ -12,7 +12,7 @@
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Freestyle
 * Simpleste Projektform
 * Ermöglichen simple Prozessabbildung durch Aneinanderreihung
@@ -25,7 +25,7 @@ TODO: Extra Teil über pipeline projekte
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Multiconfiguration
 [Bild von matrix build vom Buildserver]
 
@@ -33,7 +33,7 @@ TODO: Extra Teil über pipeline projekte
 * Achsen erlauben es schnell sehr viele builds zu konfigurieren/starten
 * z.B. Builds die auf mehreren os versionen und Architekturen laufen sollen
 
-!SLIDE incremental
+!SLIDE 
 #External Job
 * Verwandelt Jenkins in ein Monitoring-System
 * Nicht relevant für dieses Training
@@ -45,7 +45,7 @@ Letzten Satz irgendwie witzig machen, sonst Übelkeit
 
 ~~~ENDSECTION~~~
 
-!SLIDE incremental noprint
+!SLIDE  noprint
 #Gibts noch mehr?
 Klar!
 Und zwar als ...

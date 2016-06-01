@@ -1,11 +1,11 @@
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Die Schulungsnotebooks
 Verwendungszwecke:
 
 * Verfolgen der Schulungsunterlagen
 * Ausführen der virtuellen Maschinen
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 #Virtualbox
 * Virtualbox starten
 [Bild von virtualbox]
@@ -18,19 +18,19 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 ~~~ENDSECTION~~~
 
-!SLIDE incremental
+!SLIDE 
 #jenkins-master
 Entweder im VirtualBox-Fenster arbeiten . . .  
 . . . oder per SSH auf die Maschine verbinden
 
     @@@ sh
-    ssh jenkins@jenkins-master
-    Passwort: icinga
+    ssh jenkins-master
+    Passwort: netways
 
 ~~~SECTION:notes~~~
 
 TODO: Richtige Daten eintragen
-Wer im Fenster arbeiten möchte braucht auch jenkins:icinga
+Wer im Fenster arbeiten möchte braucht auch training:netways
 
 ~~~ENDSECTION~~~
 
@@ -44,5 +44,9 @@ How to?
 
     @@@ sh
     sudo -i
-    Passwort: icinga
 
+~~~SECTION:notes~~~
+
+Passwordless erklären
+
+~~~ENDSECTION~~~

@@ -15,13 +15,13 @@ Gute Developer Guidelines erwähnen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Plugin Installation
 * `Manage Jenkins`
 * `Manage Plugins`
 * `Available`
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Plugin Installation
 * `Filter`: 'git plugin'
 * Tick `Install`
