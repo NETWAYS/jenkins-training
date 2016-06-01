@@ -7,6 +7,17 @@
 * Tags für funktionierende Zustände
 * Testen in Branches
 
+!SLIDE smbullets
+#Was soll man sichern?
+
+* `$JENKINS_HOME/*.xml`
+* `$JENKINS_HOME/jobs/*/*.xml`
+* `$JENKINS_HOME/nodes/*`
+* `$JENKINS_HOME/plugins/*.jpi`
+* `$JENKINS_HOME/users/*`
+
+Den Rest in eine .gitignore
+
 !SLIDE smbullets 
 #Die Testinstanz
 * Ein sperater Jenkins-Test-Master erspaart viel kummer

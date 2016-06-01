@@ -50,8 +50,11 @@ Build triggers: Später
 
 ~~~SECTION:notes~~~
 
-$WORKSPACE: Jenkins env  
-Klick 'See the list of available environment variables' unter execute shell  
+"PYENV .. $WORKSPACE" $WORKSPACE erklären, andere vars zeigen  
+"if..rm..fi" Geht sicher das nichts von vorherigen builds bleibt  
+"virtualenv..HOME" Erstellt isolierte python umgebung
+" . ... activate" Wechselt in isollierte umgeben (mit imports erklären)
+"pip install" Installiert projekt in virtualenv
 
 ~~~ENDSECTION~~~
 

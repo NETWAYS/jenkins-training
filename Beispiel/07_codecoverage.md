@@ -48,8 +48,9 @@ TODO: Erklärung Grenzwerte, Erklärung ** foo
 
 ~~~SECTION:notes~~~
 
-$WORKSPACE: Jenkins env  
-Klick 'See the list of available environment variables' unter execute shell  
+"pip --quiet ..." installiert aus dem Netz, output interssiert nicht
+"pylint ..." Statische code analyse (anhand output erklären)
+"nosetest ..." python unit tests, überprüfen einzelne code teile
 
 ~~~ENDSECTION~~~
 

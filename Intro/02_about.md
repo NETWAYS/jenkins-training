@@ -14,26 +14,6 @@ TODO: Jenkins Feature set?
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
-#Feature Set
-* Einfach zu installieren
-* Konfiguration per Webinterface
-  - Konfiguration besteht im XML Format
-* Erweiterbar mit Plugins
-* Skalierbar dank verteilter Architektur
-
-!SLIDE fullpage center noprint
-#Jenkins Timeline
-<img src="./_img/timeline4.svg" style="width:1000px" alt="jenkins timeline">
-
-~~~SECTION:notes~~~
-
-Kohsuke Kawaguchi (Sun)  
-Continous Integration software
-Mangel an CI software 
-
-~~~ENDSECTION~~~
-
 !SLIDE fullpage center noprint
 #Jenkins Timeline
 <img src="./_img/timeline3.svg" style="width:1000px" alt="jenkins timeline">
@@ -92,3 +72,37 @@ Kawaguchi sieht das als Sieg für Jenkins.
 Hudson: ~30 Mitglieder/20 Repositories
 
 ~~~ENDSECTION~~~
+
+!SLIDE bullets
+#Feature Set
+* Einfach zu installieren
+* Konfiguration per Webinterface
+  - Konfiguration besteht im XML Format
+* Erweiterbar mit Plugins
+* Skalierbar dank verteilter Architektur
+
+!SLIDE fullpage center noprint
+#Jenkins Timeline
+<img src="./_img/timeline4.svg" style="width:1000px" alt="jenkins timeline">
+
+~~~SECTION:notes~~~
+
+Kohsuke Kawaguchi (Sun)  
+Continous Integration software
+Mangel an CI software 
+
+~~~ENDSECTION~~~
+
+!SLIDE bullets
+#Jenkins und andere CI/CD tools
+* Frei und kostenlos
+* Aktive Community und Enwicklung
+* Der de-facto Standard
+* Erweiterbar und einfach zu bedienen
+
+~~~SECTION:notes~~~
+
+Buildbot ist kompliziert, teamcity teuer und gitlab ci steckt noch in den Kinderschuhen
+
+~~~ENDSECTION~~~
+
