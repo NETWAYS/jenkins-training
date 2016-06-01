@@ -16,14 +16,13 @@ Kein Neustart erforderlich
 
 !SLIDE smbullets incremental
 #Den Job editieren
-* Auf den Job klicken
-* `Configure`
-* `Post-build Actions` -> `Report Violations`  
- -> '\*\*/pylint.out'  
-<img src="./_img/Violations.png" alt="violations" />
+* Job konfigurieren
 * `Post-build Actions` -> `Publish Cobertura Report`  
  -> '\*\*/covarage.xml'  
 <img src="./_img/Cobertura.png" alt="cobertura" />
+* `Post-build Actions` -> `Report Violations`  
+ -> '\*\*/pylint.out'  
+<img src="./_img/Violations.png" alt="violations" />
 
 ~~~SECTION:notes~~~
 

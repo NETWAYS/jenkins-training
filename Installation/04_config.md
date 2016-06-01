@@ -31,14 +31,14 @@ Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 Per SSH auf den jenkins-master verbinden
 
     @@@ Shell
-    ssh jenkins@172.16.32.10
+    ssh jenkins@jenkins-master
     Password: icinga
 
 !SLIDE bullets incremental
 #Konfigdateien
 * `cd /var/lib/jenkins`
 * `vim/emacs/ed config.xml`
-* `<numExecutors>3<numExecutors>`
+* `<numExecutors>3</numExecutors>`
 
 !SLIDE
 #Konfigänderungen sichtbar machen
@@ -51,7 +51,7 @@ Per Konsole:
 
 Per Webinterface:
 
-    http://172.16.32.10:8080/reload  
+    http://jenkins-master:8080/reload  
 
 ~~~SECTION:notes~~~
 Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.

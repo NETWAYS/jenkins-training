@@ -8,7 +8,3 @@
   - baut parameterizierte builds neu
 * build timeout 
   - manchmal hängen sich builds auf
-
-!SLIDE
-#MVP (Most valuable plugin)
- Workflow/Pipeline

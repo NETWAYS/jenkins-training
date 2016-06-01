@@ -24,7 +24,7 @@ Entweder im VirtualBox-Fenster arbeiten . . .
 . . . oder per SSH auf die Maschine verbinden
 
     @@@ sh
-    ssh jenkins@171.16.32.10
+    ssh jenkins@jenkins-master
     Passwort: icinga
 
 ~~~SECTION:notes~~~

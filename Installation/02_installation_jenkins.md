@@ -30,4 +30,4 @@ Via systemd/init
 Jenkins läuft auf Port 8080
 
     @@@ shell
-    http://172.16.32.10:8080
+    http://jenkins-master:8080

@@ -41,7 +41,7 @@ Tools sind schon vorinstalliert (ausser virtualenv, geplanter fehlschlag)
 !SLIDE bullets
 #Alternative Startmöglichkeiten
 * WMI und DOM auf Windows
-* JNLP (Graphisch)
+* JNLP (Grafisch)
 * Eigenes Script
  - Jenkins verwendet stdin/out zur Kommunikation.
 

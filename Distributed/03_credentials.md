@@ -18,8 +18,8 @@ Gleich die Credentials eintragen lassen
 #Credentials eintragen
 * Domain wählen/erstellen
 * Typ: 'Username with Password'
- - Username: `root`
- - Password: `netways`
+ - Username: `jenkins`
+ - Password: `icinga`
 
 ~~~SECTION:notes~~~
 ~~~ENDSECTION~~~
