@@ -14,7 +14,7 @@ Wie das im Detail funktioniert wird in der git-Schulung erklärt.
 Einen ssh key für den jenkins-Benutzer erstellen
 
     @@@ Sh
-    $ ssh-keygen
+    $ sudo su jenkins -c 'ssh-keygen'
 
 
 !SLIDE bullets
@@ -26,12 +26,21 @@ Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis
     $ sudo adduser git
     $ sudo su git -c 'mkdir /home/git/.ssh'
     $ sudo cp /home/jenkins/.ssh/id_rsa.pub \
-        /home/git/.ssh/authorized_keys
+          /home/git/.ssh/authorized_keys
+    $ sudo su -c "cat /home/training/.ssh/id_rsa.pub \
+         >> /home/git/.ssh/authorized_keys"
 
 ### Verbindungstest
 
     @@@ Sh
     ssh git@localhost
+
+~~~SECTION:notes~~~
+
+Einen Satz zu jeder Zeile sagen
+Wir brauchen beide ssh keys im git auth keys
+
+~~~ENDSECTION~~~
 
 !SLIDE 
 #Repository
@@ -46,12 +55,18 @@ Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis
     @@@ Sh
     $ sudo chown -R git:git /opt/git
 
+~~~SECTION:notes~~~
+
+Einen Satz zu jeder Zeile sagen
+
+~~~ENDSECTION~~~
+
 !SLIDE
 # Repository
 ### Repository hinzufügen
 
     @@@ Sh
-    $ cd /home/jenkins
+    $ cd /home/training
     $ tar xvzf suchmaschine.tar.gz
     $ cd suchmaschine
     $ git remote add origin \
@@ -63,3 +78,10 @@ Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis
     @@@ Sh
     $ git push --set-upstream origin master
 
+~~~SECTION:notes~~~
+
+Einen Satz zu jeder Zeile sagen
+Der commit wurde schon vorbereitet
+sshkey training ist in /git/authrized keys
+
+~~~ENDSECTION~~~

@@ -10,7 +10,7 @@ Starten sie den Jenkins Agenten
 
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
-* `Host` : 'jenkins-agent'
+* `Host` : '192.168.56.102'
 * `Credentials` auswählen
 
 ~~~SECTION:notes~~~
@@ -43,11 +43,10 @@ Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 * Entweder Executoren des Masters auf 0 stellen
 * Oder dem Agenten ein label geben und im Beispielprojekt eintragen
 
-!SLIDE center  norpint 
+!SLIDE center norpint
 #Fehlschlag
 Was ging schief?
 
-Das Paket python-virtualenv fehlt
 
 ~~~SECTION:notes~~~
 
@@ -55,18 +54,11 @@ Teilnehmer fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
-#Nodes provisionieren
-`python-virtualenv` (oder andere tools) via jenkins installieren.
+!SLIDE center noprint
+#Fehlschlag
+Das Paket python-virtualenv fehlt
 
-* Neues Freestyle Projekt
-* 'This Build is parameterized'
- - Name wird als Umgebungsvariable exportiert
-
-Build step:
-
-    @@@ sh
-    apt-get install $tool -y
+Installieren sie das python-virtualenv Paket
 
 ~~~SECTION:notes~~~
 
