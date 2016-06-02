@@ -3,7 +3,7 @@
 
 !SLIDE center
 #Was wir schon haben
-<img src="./_img/Jenkins Server Single.svg" alt="Single Server"/>
+<img src="./_img/Jenkins_Server_Single.svg" alt="Single Server"/>
 
 ~~~SECTION:notes~~~
 
@@ -13,7 +13,7 @@ Eine Installation mit beliebig vielen Executoren
 
 !SLIDE center
 #Was wir wollen
-<img src="./_img/Jenkins Server Multi.svg" alt="Multi Server"/>
+<img src="./_img/Jenkins_Server_Multi.svg" alt="Multi Server"/>
 
 ~~~SECTION:notes~~~
 

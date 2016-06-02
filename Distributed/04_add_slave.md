@@ -12,6 +12,7 @@ Starten sie den Jenkins Agenten
 * `Node Name` + 'Dumb Slave'
 * `Host` : '192.168.56.102'
 * `Credentials` auswählen
+* `Remote root directory`: '/home/jenkins'
 
 ~~~SECTION:notes~~~
 
@@ -40,13 +41,11 @@ Agenten label hinzufügen und bei Projekt eintragen
 #Arbeit verteilen
 Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 
-* Entweder Executoren des Masters auf 0 stellen
-* Oder dem Agenten ein label geben und im Beispielprojekt eintragen
+Dazu sollten labels verwendet werden.
 
 !SLIDE center norpint
 #Fehlschlag
 Was ging schief?
-
 
 ~~~SECTION:notes~~~
 
@@ -54,15 +53,14 @@ Teilnehmer fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE center noprint
+!SLIDE bullets
 #Fehlschlag
-Das Paket python-virtualenv fehlt
-
-Installieren sie das python-virtualenv Paket
+* Der Agent hat keinen Zugriff auf das Repository am Master
+* `localhost` auf `192.168.56.101` ändern
+* Credentials eintragen
 
 ~~~SECTION:notes~~~
 
--y Da Jenkins nicht interaktiv ist
+Credentials werden vom master and Agenten weitergereicht
 
 ~~~ENDSECTION~~~
-

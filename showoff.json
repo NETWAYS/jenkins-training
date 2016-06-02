@@ -1,7 +1,7 @@
 {
   "name": "Jenkins Training",
   "date": "08.06.2016",
-  "location": "Nuremberg",
+  "location": "Regensburg",
   "author": "Jean Flach",
 
   "favicon": "image/global/favicon.ico",
@@ -29,8 +29,8 @@
     "Installation",
     "Beispiel",
     "Distributed",
-    "Pipeline",
 
+    "Extras/sicherheit.md",
     "Extras/best-practise.md",
 
     {"section":"global/Post"}

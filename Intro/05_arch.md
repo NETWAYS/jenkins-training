@@ -1,6 +1,6 @@
 !SLIDE center
 #Architektur
-<img src="./_img/Jenkins System.svg" alt="Jenkins System"/>
+<img src="./_img/Jenkins_System.svg" alt="Jenkins System"/>
 
 ~~~SECTION:notes~~~
 
