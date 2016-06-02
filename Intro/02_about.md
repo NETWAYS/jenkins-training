@@ -74,6 +74,13 @@ Hudson: ~30 Mitglieder/20 Repositories
 ~~~ENDSECTION~~~
 
 !SLIDE bullets
+#Und was kommt noch?
+* Jenkins 2.0
+  - Eigendlich nur Jenkins 1.659
+* Blue Ocean
+  - Bessere Visualisierung
+
+!SLIDE bullets
 #Feature Set
 * Einfach zu installieren
 * Konfiguration per Webinterface
