@@ -27,6 +27,7 @@ Kein Neustart erforderlich
 ~~~SECTION:notes~~~
 
 TODO: Erklärung Grenzwerte, Erklärung ** foo
+Ant-style pfade 
 
 ~~~ENDSECTION~~~
 
@@ -64,5 +65,7 @@ Gute Übersicht über Code Qualität und Testcoverage.
 nosexcoverage zeigt auch die coverage der packages im virtualenv an, sonst
 würde nichts zu sehen sein (suchmaschine hat keine tests)
 
-~~~ENDSECTION~~~
+Falls das nicht geht wegen __init__.py  
+$echo "__all__ = ['suchmaschine']" > __init__.py
 
+~~~ENDSECTION~~~

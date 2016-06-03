@@ -16,7 +16,7 @@
 * `$JENKINS_HOME/plugins/*.jpi`
 * `$JENKINS_HOME/users/*`
 
-Den Rest in eine .gitignore
+* .gitignore hilft
 
 !SLIDE smbullets 
 #Die Testinstanz

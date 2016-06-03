@@ -5,7 +5,6 @@ und der Overhead alles zu verwalten steigt.
 
 Was tun?
 
-
 !SLIDE bullets
 #Workflow/Pipeline Plugin
 * 'Pipeline' Plugin installieren

@@ -4,7 +4,7 @@
 * Installation einer Jenkins-Instanz
 * Jobs und Plugins
 * Verteilte Jenkins Installation
-* Das Pipeline-Plugin
+* Komplexe Job
 * Fragen und Extras
 
 !SLIDE bullets 
