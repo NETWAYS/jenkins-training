@@ -11,9 +11,9 @@ Eine Installation mit beliebig vielen Executoren
 
 ~~~ENDSECTION~~~
 
-!SLIDE center printonly
+!SLIDE printonly
 #Was wir schon haben
-<img src="./_img/Jenkins_Server_Single.svg" style="width:250" alt="Single Server"/>
+<center><img src="./_img/Jenkins_Server_Single.svg" style="width:600" alt="Single Server"/><center>
 
 !SLIDE center noprint
 #Was wir wollen
@@ -28,9 +28,9 @@ Kommunikation via tcp/ip.
 
 ~~~ENDSECTION~~~
 
-!SLIDE center noprint
+!SLIDE printonly
 #Was wir wollen
-<img src="./_img/Jenkins_Server_Multi.svg" style="width:250" alt="Multi Server"/>
+<center><img src="./_img/Jenkins_Server_Multi.svg" style="width:200" alt="Multi Server"/></center>
 
 !SLIDE
 #Agent via SSH

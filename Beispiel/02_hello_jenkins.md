@@ -32,7 +32,7 @@
 #Die Statusseite
 <img src="./_img/overview_blank.png" />
 
-!SLIDE center printonly
+!SLIDE printonly
 #Die Statusseite
 <center><img src="./_img/overview_blank.png" style="width:600px"/></center>
 
