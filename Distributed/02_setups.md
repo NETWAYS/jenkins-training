@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Architektur und Startup
+#~~~SECTION:MAJOR~~~ Architektur und Startup
 
 !SLIDE center
 #Was wir schon haben

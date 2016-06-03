@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Projekttypen
+#~~~SECTION:MAJOR~~~ Projekttypen
 
 !SLIDE center
 # Viele bunte Projektypen

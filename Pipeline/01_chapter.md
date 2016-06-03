@@ -1,9 +1,9 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Workflow/Pipeline
+# ~~~SECTION:MAJOR~~~ Komplexe Jobs
 
 !SLIDE bullets
-# Workflow/Pipeline
+# Komplexe Jobs
 Ziele dieses Kapitels:
 
+* Jobs verketten
 * Workflow/Pipline kennenlernen
-* Einen Workflow-Job erstellen

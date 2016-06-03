@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Konfiguration
+#~~~SECTION:MAJOR~~~ Konfiguration
 
 !SLIDE bullets
 # Konfiguration

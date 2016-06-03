@@ -1,5 +1,5 @@
 !SLIDE 
-# ~~~SECTION:MINOR~~~ Exkurs: Was heissen CI und CD?
+#Exkurs: Was heissen CI und CD?
 
 !SLIDE 
 #Was ist CI?

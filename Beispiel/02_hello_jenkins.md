@@ -1,5 +1,5 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Hello, Jenkins!
+!SLIDE
+#Hello, Jenkins!
 
 !SLIDE
 #Einen neuen Job erstellen
@@ -14,39 +14,39 @@
     echo "Hello Jenkins"
     exit 0 	  				 	 	 	   	 	  	   		  	 
 
-!SLIDE center printonly
+!SLIDE center
 #Die Statusseite
 <img src="./_img/overview_blank.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_overview.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_changes.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_workspace.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_build_now.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_delete.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_configure.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_history.png" />
 
-!SLIDE center printonly
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_trend.png" />
 

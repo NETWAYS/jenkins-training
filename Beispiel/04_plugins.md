@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Plugins
+#~~~SECTION:MAJOR~~~ Plugins
 
 !SLIDE
 # Jenkins und Plugins
@@ -37,7 +37,6 @@ es gibt einige 'Git Plugins' aber wir sollen das normale
 
 !SLIDE
 #Was sind gute Plugins?
-Ein paar essentielle Plugins, wie das git-plugin, verwenden wir hier in
-der Schulung.
+Wir werden in dieser Schulung viele hilfreiche oder essentielle Plugins kennen lernen.
 
-Am Ende gibt es nocht eine Liste mit Empfehlungen.
+

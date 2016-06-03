@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Credentials
+#~~~SECTION:MAJOR~~~ Credentials
 
 !SLIDE bullets
 #Crendentials

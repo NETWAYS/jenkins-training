@@ -1,5 +1,5 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Metriken generieren
+!SLIDE
+#Metriken generieren
 
 !SLIDE bullets
 #Vorbereitung

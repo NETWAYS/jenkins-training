@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Projekt erstellen
+#~~~SECTION:MAJOR~~~ Projekt erstellen
 
 !SLIDE bullets 
 #Vorbereitung

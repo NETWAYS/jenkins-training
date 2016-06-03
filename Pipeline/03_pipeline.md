@@ -1,8 +1,17 @@
+!SLIDE
+#Zuviele Plugins?
+Immer mehr Plugins führen zu immer mehr Abhängigkeiten. Die Übersicht leidet 
+und der Overhead alles zu verwalten steigt.
+
+Was tun?
+
+
 !SLIDE bullets
 #Workflow/Pipeline Plugin
 * 'Pipeline' Plugin installieren
   - Ehemals "Workflow Plugin"
   - Der empfohlene Weg Jobs zu erstellen
+  - Aber: Sehr komplex
 
 ~~~SECTION:notes~~~
 
@@ -62,3 +71,8 @@ Wir wollen unser Python Projekt zu einem Pipline Projekt umauben
   - `stage 'SCM'`
   - Stages sind aktiv bis eine neue Stage deklariert wird
 
+~~~SECTION:notes~~~
+
+Langsam ausklingen lassen, Extra teil ankündigen
+
+~~~ENDSECTION~~~

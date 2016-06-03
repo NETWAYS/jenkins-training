@@ -16,6 +16,18 @@ TODO: Jenkins Feature set?
 
 !SLIDE fullpage center noprint
 #Jenkins Timeline
+<img src="./_img/timeline4.svg" style="width:1000px" alt="jenkins timeline">
+
+~~~SECTION:notes~~~
+
+Kohsuke Kawaguchi (Sun)  
+Continous Integration software
+Mangel an CI software 
+
+~~~ENDSECTION~~~
+
+!SLIDE fullpage center noprint
+#Jenkins Timeline
 <img src="./_img/timeline3.svg" style="width:1000px" alt="jenkins timeline">
 
 ~~~SECTION:notes~~~
@@ -59,7 +71,7 @@ Kawaguchi sieht das als Sieg für Jenkins.
 
 ~~~ENDSECTION~~~
 
-!SLIDE fullpage center
+!SLIDE fullpage center noprint
 #Jenkins Timeline
 <img src="./_img/timeline-1.svg" style="width:1000px" alt="jenkins timeline">
 
@@ -72,6 +84,10 @@ Kawaguchi sieht das als Sieg für Jenkins.
 Hudson: ~30 Mitglieder/20 Repositories
 
 ~~~ENDSECTION~~~
+
+!SLIDE fullpage center
+#Jenkins Timeline
+<img src="./_img/timeline-1.svg" alt="jenkins timeline">
 
 !SLIDE bullets
 #Und was kommt noch?
@@ -87,18 +103,6 @@ Hudson: ~30 Mitglieder/20 Repositories
   - Konfiguration besteht im XML Format
 * Erweiterbar mit Plugins
 * Skalierbar dank verteilter Architektur
-
-!SLIDE fullpage center noprint
-#Jenkins Timeline
-<img src="./_img/timeline4.svg" style="width:1000px" alt="jenkins timeline">
-
-~~~SECTION:notes~~~
-
-Kohsuke Kawaguchi (Sun)  
-Continous Integration software
-Mangel an CI software 
-
-~~~ENDSECTION~~~
 
 !SLIDE bullets
 #Jenkins und andere CI/CD tools

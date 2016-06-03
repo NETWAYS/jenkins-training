@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~ Jenkins Agent erstellen
+#~~~SECTION:MAJOR~~~ Jenkins Agent erstellen
 
 !SLIDE center
 #Los gehts!

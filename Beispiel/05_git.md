@@ -1,4 +1,4 @@
-!SLIDE subsection
+!SLIDE
 #Exkurs: Git
 
 !SLIDE bullets
