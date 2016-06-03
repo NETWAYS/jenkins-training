@@ -1,10 +1,10 @@
 !SLIDE smbullets
 #Agenda
 * Geschichte und Stand des Jenkins-Projekts
-* Architektur
 * Installation einer Jenkins-Instanz
-* Erstellen eines Jobs
-* Hinzufügen eines Jenkins-Agenten
+* Jobs und Plugins
+* Verteilte Jenkins Installation
+* Das Pipeline-Plugin
 * Fragen und Extras
 
 !SLIDE bullets 
