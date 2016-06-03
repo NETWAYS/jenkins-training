@@ -1,13 +1,14 @@
-!SLIDE
+!SLIDE noprint
 #Elevator pitch
 > Jenkins is an open source automation server which enables developers around
 > the world to reliably build, test, and deploy their software.
 
-!SLIDE noprint
-
 <img src="./_img/jenkins.png" style="width:250px" alt="jenkins" align="right"/>
 
 !SLIDE printonly
+#Elevator pitch
+> Jenkins is an open source automation server which enables developers around
+> the world to reliably build, test, and deploy their software.
 
 <center><img src="./_img/jenkins.png" style="width:185px;height:256px" alt="jenkins" /></center>
 
