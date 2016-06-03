@@ -3,7 +3,7 @@
 > Jenkins is an open source automation server which enables developers around
 > the world to reliably build, test, and deploy their software.
 
-<img src="./_img/jenkins.png" style="width:250px" alt="jenkins" align="right"/>
+<center><img src="./_img/jenkins.png" style="width:250px" alt="jenkins" align="right"/></center>
 
 ~~~SECTION:notes~~~
 
