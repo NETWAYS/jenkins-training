@@ -72,6 +72,22 @@ Wir wollen unser Python Projekt zu einem Pipline Projekt umauben
 
 ~~~SECTION:notes~~~
 
+`$WORKSPACE` ist nicht mehr vorhanden aber der Job startet _immer_
+im worspace (pwd = $WORKSPACE)  
 Langsam ausklingen lassen, Extra teil ankündigen
 
+~~~ENDSECTION~~~
+
+!SLIDE bullets
+#Pipeline ist Code
+* Pipeline Scripts sind Code und sollten auch so behandelt werden:
+  - Anfälliger für Fehler als eien geklickte Konfiguration
+  - Möglichkeiten kaum begrenzt
+  - Schwer zu lernen
+  - SCM verwenden um Pipelien zu verwalten (`Pipeline Script from SCM`)
+
+~~~SECTION:notes~~~
+Für mehr reicht die Zeit nicht, Pipline ist eine Option die für kleine Installationen
+overkill ist  
+Wenn keine Fragen, dann Security + Best practise
 ~~~ENDSECTION~~~
