@@ -7,7 +7,15 @@
 * Komplexe Job
 * Fragen und Extras
 
-!SLIDE bullets 
+!SLIDE bullets noprint
+#Ziele des Trainings
+* Jenkins installieren
+* Konfiguration erstellen und verwalten
+* Projekte/Jobs einrichten und bauen
+* Jenkins-Plugins verwalten
+* Clusterbetrieb von Jenkins
+
+!SLIDE smbullets printonly
 #Ziele des Trainings
 * Jenkins installieren
 * Konfiguration erstellen und verwalten

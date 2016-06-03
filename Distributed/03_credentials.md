@@ -1,7 +1,7 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Credentials
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Crendentials
 * ... Haben eine Domain (Gruppe)
 * ... Ein Scope (Sichtbarkeit)
@@ -16,7 +16,7 @@ Gleich die Credentials eintragen lassen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Credentials eintragen
 * Domain 'Global credentials' wählen
  - Kind: 'SSH Usermane with private key'
@@ -27,7 +27,31 @@ Gleich die Credentials eintragen lassen
 ~~~SECTION:notes~~~
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE bullets noprint
+#Credentials eintragen
+* Auf den Agent (192.168.56.102) als `training` verbinden
+* id\_rsa.pub (vom master) in authorized\_keys eintragen
+
+
+
+
+
+!SLIDE smbullets printonly
+#Crendentials
+* ... Haben eine Domain (Gruppe)
+* ... Ein Scope (Sichtbarkeit)
+* ... Einen Typ  
+	(Name+Passwort, Zertifikat..)
+
+!SLIDE smbullets printonly
+#Credentials eintragen
+* Domain 'Global credentials' wählen
+ - Kind: 'SSH Usermane with private key'
+ - Username: `jenkins`
+ - `Private Key`: `From the Jenkins master ~/.ssh`
+ - ID und Description können frei gelassen werden
+
+!SLIDE smbullets printonly
 #Credentials eintragen
 * Auf den Agent (192.168.56.102) als `training` verbinden
 * id\_rsa.pub (vom master) in authorized\_keys eintragen

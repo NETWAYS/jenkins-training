@@ -1,7 +1,7 @@
 !SLIDE
 #Exkurs: Git
 
-!SLIDE bullets
+!SLIDE
 #Lokaler Git Server
 
 Für die folgenden Aufgaben benötigen wir einen git-server.
@@ -17,7 +17,7 @@ Einen ssh key für den jenkins-Benutzer erstellen
     $ sudo su jenkins -c 'ssh-keygen'
 
 
-!SLIDE bullets
+!SLIDE
 # Git User + SSH key
 
 Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis

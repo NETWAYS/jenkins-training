@@ -1,4 +1,4 @@
-!SLIDE bullets
+!SLIDE bullets noprint
 #Die Jenkins Community
 * MIT-Lizenz
 * Transparente Führung
@@ -13,7 +13,15 @@ SPI: Software in the Public Interest
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE smbullets printonly
+#Die Jenkins Community
+* MIT-Lizenz
+* Transparente Führung
+* SPI-Projekt (FFmpeg, Debian, PostgreSQL)
+* Vier Jenkins-User-Konferenzen in 2015  
+(USA, England, Israel)
+
+!SLIDE bullets noprint
 #Die Jenkins Community
 * Aktives [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Home)
 * [Mailinglisten](https://jenkins-ci.org/content/mailing-lists/)
@@ -24,6 +32,12 @@ SPI: Software in the Public Interest
 Erst im Wiki suchen (gut gepflegt), dann fragen
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Die Jenkins Community
+* Aktives [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Home)
+* [Mailinglisten](https://jenkins-ci.org/content/mailing-lists/)
+* IRC: #jenkins auf freenode
 
 !SLIDE bullets
 #Enterprise und Support
@@ -40,7 +54,7 @@ Ausserdem gibt es noch ein Buch von O'Reily.
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Enterprise und Support
 * Jenkins Enterprise
   - LTS Jenkins Version
@@ -54,3 +68,10 @@ Besonders nicht wenn Jenkins nicht schon ein wichtiger Bestandteil der
 Infrastruktur ist
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Enterprise und Support
+* Jenkins Enterprise
+  - LTS Jenkins Version
+  - Geeignet für Projekte in denen Jenkins von kritischer Bedeutung ist
+  - Cloudbees Software

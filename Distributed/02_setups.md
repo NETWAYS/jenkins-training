@@ -1,7 +1,7 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Architektur und Startup
 
-!SLIDE center
+!SLIDE center noprint
 #Was wir schon haben
 <img src="./_img/Jenkins_Server_Single.svg" alt="Single Server"/>
 
@@ -11,7 +11,11 @@ Eine Installation mit beliebig vielen Executoren
 
 ~~~ENDSECTION~~~
 
-!SLIDE center
+!SLIDE center printonly
+#Was wir schon haben
+<img src="./_img/Jenkins_Server_Single.svg" style="width:250" alt="Single Server"/>
+
+!SLIDE center noprint
 #Was wir wollen
 <img src="./_img/Jenkins_Server_Multi.svg" alt="Multi Server"/>
 
@@ -23,6 +27,10 @@ Agents werden vom master via ssh autmatisch installiert und gestartet.
 Kommunikation via tcp/ip.
 
 ~~~ENDSECTION~~~
+
+!SLIDE center noprint
+#Was wir wollen
+<img src="./_img/Jenkins_Server_Multi.svg" style="width:250" alt="Multi Server"/>
 
 !SLIDE
 #Agent via SSH
@@ -38,17 +46,12 @@ Tools sind schon vorinstalliert (ausser virtualenv, geplanter fehlschlag)
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Alternative Startmöglichkeiten
 * WMI und DOM auf Windows
 * JNLP (Grafisch)
 * Eigenes Script
  - Jenkins verwendet stdin/out zur Kommunikation.
-
-Beispiel:
-
-    @@@ Shell
-    ssh slave java -jar ~/bin/slave.jar
 
 ~~~SECTION:notes~~~
 
@@ -56,4 +59,11 @@ JNLP: Java Network Launch Protocol
 Eigenes Script: slave.jar kommuniziert nicht von selbst mit jenkins
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Alternative Startmöglichkeiten
+* WMI und DOM auf Windows
+* JNLP (Grafisch)
+* Eigenes Script
+ - Jenkins verwendet stdin/out zur Kommunikation.
 

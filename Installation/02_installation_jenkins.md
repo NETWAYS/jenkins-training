@@ -1,4 +1,4 @@
-!SLIDE bullets
+!SLIDE bullets noprint
 # Installation
 * Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
@@ -7,7 +7,16 @@
  - jenkins.war
 
 ~~~SECTION:notes~~~
+Tomcat wird nur gebruacht wenn man es manuel startet
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+# Installation
+* Java (JDK > 1.7)
+* Optional: Tomcat, Glassfish, ...
+* Entweder
+ - Paket
+ - jenkins.war
 
 !SLIDE
 # Installation

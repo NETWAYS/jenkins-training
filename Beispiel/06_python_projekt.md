@@ -1,7 +1,7 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Projekt erstellen
 
-!SLIDE bullets 
+!SLIDE bullets noprint
 #Vorbereitung
 * Plugin installieren:
  - Git plugin
@@ -18,7 +18,18 @@ Build tools sind schon vorinstalliert.
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets 
+!SLIDE smbullets printonly
+#Vorbereitung
+* Plugin installieren:
+ - Git plugin
+* Build tools installieren:
+ - Python 2.7
+ - Pip
+ - virtualenv
+* Credentials eintragen
+ - In unserem Fall nicht nötig
+
+!SLIDE bullets noprint
 #Einen neuen Job erstellen
 * Auf `New Item` klicken
 * Name eingeben und `Freestyle projekt` auswählen
@@ -36,7 +47,23 @@ Build triggers: Später
 
 ~~~ENDSECTION~~~
 
-!SLIDE code noprint
+!SLIDE bullets noprint
+#Einen neuen Job erstellen
+* Auf `New Item` klicken
+* Name eingeben und `Freestyle projekt` auswählen
+* `Source Code management`:
+ - Git Url: `git@localhost:/opt/git/training.git`
+* `Build` -> `Execute Shell`
+
+!SLIDE smbullets printonly
+#Einen neuen Job erstellen
+* Auf `New Item` klicken
+* Name eingeben und `Freestyle projekt` auswählen
+* `Source Code management`:
+ - Git Url: `git@localhost:/opt/git/training.git`
+* `Build` -> `Execute Shell`
+
+!SLIDE code
 #Execute Shell
 
     @@@ sh

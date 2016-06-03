@@ -43,7 +43,7 @@ Executoren wurden im "Architektur" Teil erklärt
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets printonly
+!SLIDE smbullets printonly
 # Die Weboberfläche
 
 * Dashboard zeigt Jobs und ihren Status an

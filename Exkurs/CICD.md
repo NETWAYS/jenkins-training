@@ -1,4 +1,4 @@
-!SLIDE 
+!SLIDE noprint
 #Exkurs: Was heissen CI und CD?
 
 !SLIDE 
@@ -34,7 +34,7 @@ Wikipedia (DE):
 
 Beispiel: Ein Jenkins der Pakete baut
 
-!SLIDE 
+!SLIDE bullets printonly
 #Und was ist der Unterschied?
 * Viele Überschneidungen
 * Beides sind andauernde Prozesse
@@ -46,3 +46,11 @@ CI nur Teilstücke oder Statistiken
 ~~~SECTION:notes~~~
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets noprint
+#Und was ist der Unterschied?
+* Viele Überschneidungen
+* Beides sind andauernde Prozesse
+* Aber:  
+CD hat immer ein greifbares Ergebnis,  
+CI nur Teilstücke oder Statistiken

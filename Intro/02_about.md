@@ -96,14 +96,21 @@ Hudson: ~30 Mitglieder/20 Repositories
 #Jenkins Timeline
 <img src="./_img/timeline-1.svg" alt="jenkins timeline">
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Und was kommt noch?
 * Jenkins 2.0
   - Eigendlich nur Jenkins 1.659
 * Blue Ocean
   - Bessere Visualisierung
 
-!SLIDE bullets
+!SLIDE smbullets printonly
+#Und was kommt noch?
+* Jenkins 2.0
+  - Eigendlich nur Jenkins 1.659
+* Blue Ocean
+  - Bessere Visualisierung
+
+!SLIDE bullets noprint
 #Feature Set
 * Einfach zu installieren
 * Konfiguration per Webinterface
@@ -111,7 +118,15 @@ Hudson: ~30 Mitglieder/20 Repositories
 * Erweiterbar mit Plugins
 * Skalierbar dank verteilter Architektur
 
-!SLIDE bullets
+!SLIDE smbullets printonly
+#Feature Set
+* Einfach zu installieren
+* Konfiguration per Webinterface
+  - Konfiguration besteht im XML Format
+* Erweiterbar mit Plugins
+* Skalierbar dank verteilter Architektur
+
+!SLIDE bullets noprint
 #Jenkins und andere CI/CD tools
 * Frei und kostenlos
 * Aktive Community und Enwicklung
@@ -124,3 +139,9 @@ Buildbot ist kompliziert, teamcity teuer und gitlab ci steckt noch in den Kinder
 
 ~~~ENDSECTION~~~
 
+!SLIDE smbullets printonly
+#Jenkins und andere CI/CD tools
+* Frei und kostenlos
+* Aktive Community und Enwicklung
+* Der de-facto Standard
+* Erweiterbar und einfach zu bedienen

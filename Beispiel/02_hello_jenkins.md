@@ -1,7 +1,7 @@
 !SLIDE
 #Hello, Jenkins!
 
-!SLIDE
+!SLIDE bullets noprint
 #Einen neuen Job erstellen
 
 * Auf `New Item` klicken
@@ -14,9 +14,27 @@
     echo "Hello Jenkins"
     exit 0 	  				 	 	 	   	 	  	   		  	 
 
-!SLIDE center
+!SLIDE smbullets printonly
+#Einen neuen Job erstellen
+
+* Auf `New Item` klicken
+* Name eingeben und Freestyle Projekt auswählen
+* `Build` -> `Execute Shell`
+
+## Code:
+
+    @@@ sh
+    echo "Hello Jenkins"
+    exit 0 	  				 	 	 	   	 	  	   		  	 
+
+
+!SLIDE center noprint
 #Die Statusseite
 <img src="./_img/overview_blank.png" />
+
+!SLIDE center printonly
+#Die Statusseite
+<center><img src="./_img/overview_blank.png" style="width:600px"/></center>
 
 !SLIDE center noprint
 #Die Statusseite
@@ -51,7 +69,7 @@
 <img src="./_img/overview_trend.png" />
 
 
-!SLIDE bullets  small
+!SLIDE bullets small noprint
 #Die Statusseite
 * Changes  
 Kann Changelog anzeigen (muss eingerichtet werden)
@@ -74,3 +92,17 @@ haben.
 Vergangene builds behalten auch die Ergebnise, nicht nur logs
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Die Statusseite
+* Changes  
+Kann Changelog anzeigen (muss eingerichtet werden)
+* Workspace  
+Enthält Dateien vom build gebraucht und erstellt werden
+
+> Achtung: Keine Garantie das Datein im Workspace erhalten bleiben.
+> Daten werden auch nicht aufgeräumt (Plugin dafür existiert)
+
+* Build History  
+Vergangene Builds, Anzahl konfigurierbar
+Enthält genauere Status und Ablaufsinformationen

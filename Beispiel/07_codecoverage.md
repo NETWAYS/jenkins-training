@@ -1,7 +1,7 @@
 !SLIDE
 #Metriken generieren
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Vorbereitung
 * Plugin installieren:
  - Violations
@@ -13,6 +13,12 @@ Teilnehmer sollen selbst addons installieren
 Kein Neustart erforderlich
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Vorbereitung
+* Plugin installieren:
+ - Violations
+ - Cobertura
 
 !SLIDE smbullets 
 #Den Job editieren

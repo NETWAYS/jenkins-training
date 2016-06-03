@@ -4,12 +4,17 @@ Das Ergebnis ist nicht gut genug!
 
 Verbesserter Code wird gepushed, Build soll automatisch starten
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Triggered Builds
 * Triggered Builds erlauben es Jenkins selbststädig builds anzustoßen
 * Senkt erfordete Interaktion
 
-!SLIDE bullets
+!SLIDE smbullets printonly
+#Triggered Builds
+* Triggered Builds erlauben es Jenkins selbststädig builds anzustoßen
+* Senkt erfordete Interaktion
+
+!SLIDE bullets noprint
 #Automatische builds (trigger)
 * `Build after other projects are built`
   - Erlaubt Aneinanderreihung von builds
@@ -25,7 +30,23 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE smbullets printonly
+#Automatische builds (trigger)
+* `Build after other projects are built`
+  - Erlaubt Aneinanderreihung von builds
+* `Build periodically`
+  - Startet Job nach einen Cron-like Plan
+* `Poll SCM`
+  - Startet Job nur wenn Änderungen im SCM gefunden werden
+
+!SLIDE bullets noprint
+#Trigger hinzufügen
+* `Poll SCM`
+* `Schedule`:
+ - `H/5 * * * *`
+ - 'Alle fünf Minuten'
+
+!SLIDE smbullets printonly
 #Trigger hinzufügen
 * `Poll SCM`
 * `Schedule`:

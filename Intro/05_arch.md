@@ -1,4 +1,4 @@
-!SLIDE center
+!SLIDE center noprint
 #Architektur
 <img src="./_img/Jenkins_System.svg" alt="Jenkins System"/>
 
@@ -10,10 +10,14 @@ Config: Als XML in $JENKINS\_HOME, z.B /var/lib/jenkins
 Executoren: Plätze auf denen Jobs laufen können.
 Es laufen maximal so viele Jobs parallel wie Executoren frei sind
 
-
 ~~~ENDSECTION~~~
 
-!SLIDE bullets printonly
+!SLIDE printonly
+#Architektur
+<center><img src="./_img/Jenkins_System.svg" style="width:600px" alt="Jenkins System"/></center>
+
+!SLIDE smbullets printonly
+#Architektur
 * Jenkins liegt in einem Container (Tomcat, Glasfish...)
 * Alle Konfiguration wird als XML im Jenkins Home gespeichert
 * Jenkins kann mit anderen Jenkins-Instanzen kommunizieren

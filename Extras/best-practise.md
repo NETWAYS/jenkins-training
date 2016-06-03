@@ -1,7 +1,13 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Best Practise
 
-!SLIDE bullets 
+!SLIDE bullets noprint
+#Backups, Backups, Backups
+* Jenkins Konfiguration mit Hilfe von SCM sichern
+* Tags für funktionierende Zustände
+* Testen in Branches
+
+!SLIDE smbullets printonly
 #Backups, Backups, Backups
 * Jenkins Konfiguration mit Hilfe von SCM sichern
 * Tags für funktionierende Zustände
@@ -28,7 +34,7 @@
 * Test-Agenten mit Docker o.ä. realisieren
 * Kann per Merge einfach in Produktion genommen werden
 
-!SLIDE bullets 
+!SLIDE bullets  noprint
 #Agilität durch Granularität
 * Jobs in Teilschritte aufteilen:
   - Erlaubt Wiederverwendung von Modulen
@@ -36,14 +42,14 @@
   - Schnellere Wiederaufnahme von fehlgeschlagenen Jobs
 * Workflow/Pipeline Plugin
 
-!SLIDE bullets 
+!SLIDE bullets  noprint
 #Agilität durch Granularität
 * Mehrere Teams - Mehrere Master
   - Lastverteilung
   - Vermindert Plugin Bloat
 * Unabhängige Projekte wenn möglich physisch trennen
 
-!SLIDE bullets 
+!SLIDE bullets noprint
 #Agilität durch Uniformität
 * Uniforme Agenten sind leicht zu ersetzen
 * Gleiche tools, gleiche Hardware
@@ -55,3 +61,25 @@ Auf diese Art können unter Last oder bei Ausfall einfach neu Agenten
 hinzugefügt werden. Auch skalierbar
 Auf Foreman, Ansible Schulung hinweisen.
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Agilität durch Granularität
+* Jobs in Teilschritte aufteilen:
+  - Erlaubt Wiederverwendung von Modulen
+  - Fehlerfindung/-behebung wird leichter
+  - Schnellere Wiederaufnahme von fehlgeschlagenen Jobs
+* Workflow/Pipeline Plugin
+
+!SLIDE smbullets printonly
+#Agilität durch Granularität
+* Mehrere Teams - Mehrere Master
+  - Lastverteilung
+  - Vermindert Plugin Bloat
+* Unabhängige Projekte wenn möglich physisch trennen
+
+!SLIDE smbullets printonly
+#Agilität durch Uniformität
+* Uniforme Agenten sind leicht zu ersetzen
+* Gleiche tools, gleiche Hardware
+  - Gleiches Dockerfile
+* Best Case: Agenten aus Foreman/Ansible etc.

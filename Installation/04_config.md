@@ -1,7 +1,7 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Konfiguration
 
-!SLIDE bullets
+!SLIDE bullets noprint
 # Konfiguration
 * Entweder im Webinterface ...
 * ... oder in Konfigdateien (XML-Format)
@@ -9,6 +9,11 @@
 ~~~SECTION:notes~~~
 Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+# Konfiguration
+* Entweder im Webinterface ...
+* ... oder in Konfigdateien (XML-Format)
 
 !SLIDE noprint
 #Anzahl Executors ändern
@@ -19,7 +24,14 @@ Einfache Übungsaufgabe:
 Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
 ~~~ENDSECTION~~~
 
-!SLIDE bullets 
+!SLIDE bullets noprint
+#Weboberfläche
+* "Manage Jenkins"
+* "Configure System"
+* "# of executors" : 5
+* Save
+
+!SLIDE smbullets printonly
 #Weboberfläche
 * "Manage Jenkins"
 * "Configure System"
@@ -34,7 +46,13 @@ Per SSH auf den jenkins-master verbinden
     ssh jenkins-master
     Password: netways
 
-!SLIDE bullets 
+!SLIDE bullets noprint
+#Konfigdateien
+* `cd /var/lib/jenkins`
+* `vim/emacs/ed config.xml`
+* `<numExecutors>3</numExecutors>`
+
+!SLIDE smbullets printonly
 #Konfigdateien
 * `cd /var/lib/jenkins`
 * `vim/emacs/ed config.xml`

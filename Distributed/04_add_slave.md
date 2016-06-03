@@ -1,11 +1,11 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Jenkins Agent erstellen
 
-!SLIDE center
+!SLIDE center noprint
 #Los gehts!
 Starten sie den Jenkins Agenten
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Einen Jenkins Agenten hinzufügen
 
 * `Manage Jenkins` -> `Manage Nodes`
@@ -23,6 +23,15 @@ Label restrictions: bsp windows
 Startet automatisch nach save
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Einen Jenkins Agenten hinzufügen
+
+* `Manage Jenkins` -> `Manage Nodes`
+* `Node Name` + 'Dumb Slave'
+* `Host` : '192.168.56.102'
+* `Credentials` auswählen
+* `Remote root directory`: '/home/jenkins'
 
 !SLIDE center noprint
 #Arbeit verteilen
@@ -43,7 +52,7 @@ Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 
 Dazu sollten labels verwendet werden.
 
-!SLIDE center norpint
+!SLIDE center noprint
 #Fehlschlag
 Was ging schief?
 
@@ -53,7 +62,7 @@ Teilnehmer fragen
 
 ~~~ENDSECTION~~~
 
-!SLIDE bullets
+!SLIDE bullets noprint
 #Fehlschlag
 * Der Agent hat keinen Zugriff auf das Repository am Master
 * `localhost` auf `192.168.56.101` ändern
@@ -64,3 +73,10 @@ Teilnehmer fragen
 Credentials werden vom master and Agenten weitergereicht
 
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+#Fehlschlag
+* Der Agent hat keinen Zugriff auf das Repository am Master
+* `localhost` auf `192.168.56.101` ändern
+* Credentials eintragen
+
