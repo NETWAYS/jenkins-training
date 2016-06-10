@@ -30,7 +30,7 @@ Kommunikation via tcp/ip.
 
 !SLIDE printonly
 #Was wir wollen
-<center><img src="./_img/Jenkins_Server_Multi.svg" style="width:200" alt="Multi Server"/></center>
+<center><img src="./_img/Jenkins_Server_Multi.svg" style="width:480;height:267px" alt="Multi Server"/></center>
 
 !SLIDE
 #Agent via SSH

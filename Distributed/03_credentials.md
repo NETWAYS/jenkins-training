@@ -25,15 +25,14 @@ Gleich die Credentials eintragen lassen
  - ID und Description können frei gelassen werden
 
 ~~~SECTION:notes~~~
+
+Credentials werden auf agenten übertragen
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
 #Credentials eintragen
 * Auf den Agent (192.168.56.102) als `training` verbinden
 * id\_rsa.pub (vom master) in authorized\_keys eintragen
-
-
-
 
 
 !SLIDE smbullets printonly

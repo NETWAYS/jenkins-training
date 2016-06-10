@@ -92,9 +92,9 @@ Hudson: ~30 Mitglieder/20 Repositories
 
 ~~~ENDSECTION~~~
 
-!SLIDE fullpage center
+!SLIDE printonly
 #Jenkins Timeline
-<img src="./_img/timeline-1.svg" alt="jenkins timeline">
+<center><img src="./_img/timeline-1.svg" style="width:480px;height:163px;" alt="jenkins timeline"></center>
 
 !SLIDE bullets noprint
 #Und was kommt noch?

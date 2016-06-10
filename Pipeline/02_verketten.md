@@ -19,6 +19,10 @@ tar xvf $name.tar
   - tar entpacken
   - `debuild --no-tgz-check` ausführen
 
+~~~SECTION:notes~~~
+import key gpg --import something.asc
+~~~ENDSECTION~~~
+
 !SLIDE bullets noprint
 #Jobs verketten
 * In Beispielprojekt `Post-Build Action`:
@@ -43,7 +47,7 @@ Schlägt fehl wegen mangelnder files
   - `Conifgure Jenkins`
   - `Global Security`  
   - `Access Control for Builds`
-  - `Run as User who Triggere Build`
+  - `Run as User who Triggered Build`
 
 ~~~SECTION:notes~~~
 Reines Sicherheits Feature.

@@ -14,7 +14,7 @@ Es laufen maximal so viele Jobs parallel wie Executoren frei sind
 
 !SLIDE printonly
 #Architektur
-<center><img src="./_img/Jenkins_System.svg" style="width:600px" alt="Jenkins System"/></center>
+<center><img src="./_img/Jenkins_System.svg" style="width:480px;height:210px;" alt="Jenkins System"/></center>
 
 !SLIDE smbullets printonly
 #Architektur

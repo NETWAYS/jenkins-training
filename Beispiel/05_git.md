@@ -30,6 +30,10 @@ Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis
     $ sudo su -c "cat /home/training/.ssh/id_rsa.pub \
          >> /home/git/.ssh/authorized_keys"
 
+!SLIDE
+# user = training?
+Das selbe muss für den user 'training' wiederholt werden.
+
 ### Verbindungstest
 
     @@@ Sh
@@ -58,6 +62,7 @@ Wir brauchen beide ssh keys im git auth keys
 ~~~SECTION:notes~~~
 
 Einen Satz zu jeder Zeile sagen
+suchmaschine.git !! .git passt nicht auf die folie
 
 ~~~ENDSECTION~~~
 
@@ -83,5 +88,8 @@ Einen Satz zu jeder Zeile sagen
 Einen Satz zu jeder Zeile sagen
 Der commit wurde schon vorbereitet
 sshkey training ist in /git/authrized keys
+
+KAPITEL ÜBERSPRINGEN, CREDENTIALS SIND NÖTIG
+DISTRIBUTED CREDENTIALS
 
 ~~~ENDSECTION~~~

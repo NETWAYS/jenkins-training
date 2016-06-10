@@ -10,7 +10,7 @@
  - Pip
  - virtualenv
 * Credentials eintragen
- - In unserem Fall nicht nötig
+ - jenkins
 
 ~~~SECTION:notes~~~
 

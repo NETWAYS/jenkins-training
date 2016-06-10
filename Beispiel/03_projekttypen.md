@@ -58,8 +58,7 @@ Letzten Satz irgendwie witzig machen, sonst Übelkeit
 #External Job
 * Verwandelt Jenkins in ein Monitoring-System
 * Nicht relevant für dieses Training
-* Ausserdem hat jeder schon Icinga fürs Monitoring
-
+ 
 !SLIDE noprint
 #Gibts noch mehr?
 Klar!
