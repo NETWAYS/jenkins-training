@@ -2,41 +2,39 @@
 # Installation
 * Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
-* Entweder
+* Two common ways
  - Paket
  - jenkins.war
 
 ~~~SECTION:notes~~~
-Tomcat wird nur gebruacht wenn man es manuel startet
+Tomcat wird nur gebaucht wenn man es manuel startet
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
 # Installation
 * Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
-* Entweder
+* Two common ways
  - Paket
  - jenkins.war
 
 !SLIDE
 # Installation
-Im Home-Verzeichnis des Nutzers (/home/training) liegt ein .deb file bereit.
-Installation via:
-
-    @@@ shell
-    $ sudo dpkg -i jenkins_1.644_all.deb
+Jenkins is already 'installed'
+* Jenkins version 2.7.2 in `/home/jenkins`
+* Unit file in `/etc/systemd/system`
 
 !SLIDE
-# Jenkins starten
-Via systemd/init
+# Starting Jenkins
+Start via systemctl
 
     @@@ shell
     $ sudo systemctl start jenkins
 
 !SLIDE
-# Jenkins läuft
+# Jenkins is now running
 
-Jenkins läuft auf Port 8080
+By default Jenkins runs on port 8080
 
     @@@ shell
     http://jenkins-master:8080
