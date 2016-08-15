@@ -40,18 +40,18 @@ Ant-style pfade
 !SLIDE small code
 #Execute Shell
     @@@ sh
-    PYENV_HOME=$WORKSPACE/.venv/    
-    if [ -d $PYENV_HOME ]; then
-        rm -rf $PYENV_HOME
+    PYENV_HOME="$WORKSPACE"/.venv/    
+    if [ -d "$PYENV_HOME" ]; then
+        rm -rf "$PYENV_HOME"
     fi  
-    virtualenv --no-site-packages $PYENV_HOME
-    . $PYENV_HOME/bin/activate
+    virtualenv --no-site-packages "$PYENV_HOME"
+    . "$PYENV_HOME"/bin/activate
     pip install --quiet pylint
     pip install --quiet nosexcover
-    pip install $WORKSPACE/
-    pylint -f parseable $WORKSPACE | tee pylint.out
+    pip install "$WORKSPACE/"
+    pylint -f parseable "$WORKSPACE" | tee pylint.out
     nosetests --with-xcoverage --with-xunit \
-      --cover-package=$WORKSPACE --cover-erase
+      --cover-package="$WORKSPACE" --cover-erase
 
 ~~~SECTION:notes~~~
 

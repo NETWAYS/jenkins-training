@@ -12,10 +12,11 @@ Starten sie den Jenkins Agenten
 * `Node Name` + 'Dumb Slave'
 * `Host` : '192.168.56.102'
 * `Credentials` auswählen
-* `Remote root directory`: '/home/jenkins'
+* `Remote root directory`: '/home/training'
 
 ~~~SECTION:notes~~~
 
+Vielleicht /home/jenkins statt training, TODO herausfinden
 Slave/Agent erklären
 Node: Master und Agenten sind Nodes
 Es gibt keine noch keine 'smart' slaves
@@ -31,7 +32,7 @@ Startet automatisch nach save
 * `Node Name` + 'Dumb Slave'
 * `Host` : '192.168.56.102'
 * `Credentials` auswählen
-* `Remote root directory`: '/home/jenkins'
+* `Remote root directory`: '/home/training'
 
 !SLIDE center noprint
 #Arbeit verteilen

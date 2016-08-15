@@ -25,7 +25,7 @@ Git braucht einen eigenen Benutzer und ein `.ssh` Verzeichnis
     @@@ Sh
     $ sudo adduser git
     $ sudo su git -c 'mkdir /home/git/.ssh'
-    $ sudo cp /home/jenkins/.ssh/id_rsa.pub \
+    $ sudo cp /home/training/.ssh/id_rsa.pub \
           /home/git/.ssh/authorized_keys
     $ sudo su -c "cat /home/training/.ssh/id_rsa.pub \
          >> /home/git/.ssh/authorized_keys"

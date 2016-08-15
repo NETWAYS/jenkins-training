@@ -67,13 +67,13 @@ Build triggers: Später
 #Execute Shell
 
     @@@ sh
-    PYENV_HOME=$WORKSPACE/.venv/    
-    if [ -d $PYENV_HOME ]; then
-        rm -rf $PYENV_HOME
-    fi  
-    virtualenv --no-site-packages $PYENV_HOME
-    . $PYENV_HOME/bin/activate
-    pip install $WORKSPACE/
+    PYENV_HOME="$WORKSPACE"/.venv/
+    if [ -d "$PYENV_HOME" ]; then
+        rm -rf "$PYENV_HOME"
+    fi
+    virtualenv --no-site-packages "$PYENV_HOME"
+    . "$PYENV_HOME"/bin/activate
+    pip install "$WORKSPACE/"
 
 ~~~SECTION:notes~~~
 

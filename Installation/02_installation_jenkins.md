@@ -20,18 +20,18 @@ Tomcat wird nur gebruacht wenn man es manuel startet
 
 !SLIDE
 # Installation
-Im Home-Verzeichnis des Nutzers (/home/jenkins) liegt ein .deb file bereit.
+Im Home-Verzeichnis des Nutzers (/home/training) liegt ein .deb file bereit.
 Installation via:
 
     @@@ shell
-    sudo dpkg -i jenkins_1.644_all.deb
+    $ sudo dpkg -i jenkins_1.644_all.deb
 
 !SLIDE
 # Jenkins starten
 Via systemd/init
 
     @@@ shell
-    systemctl start jenkins
+    $ sudo systemctl start jenkins
 
 !SLIDE
 # Jenkins läuft

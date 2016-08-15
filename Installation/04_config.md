@@ -65,11 +65,17 @@ Nach solchen Änderungen muss Jenkins neu geladen oder neu gestartet werden.
 Per Konsole:
 
     @@@ Shell
-    systemctl restart jenkins
+    sudo systemctl restart jenkins
 
 Per Webinterface:
 
+	`Manage Jenkins` -> `Reload Configuration from Disk`
+
+Per API:
+
     http://jenkins-master:8080/reload  
+
+
 
 ~~~SECTION:notes~~~
 Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.

@@ -44,13 +44,13 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 * `Poll SCM`
 * `Schedule`:
  - `H/5 * * * *`
- - 'Alle fünf Minuten'
+ - 'Jede Minute'
 
 !SLIDE smbullets printonly
 #Trigger hinzufügen
 * `Poll SCM`
 * `Schedule`:
- - `H/5 * * * *`
+ - `H/1 * * * *`
  - 'Alle fünf Minuten'
 
 !SLIDE noprint
