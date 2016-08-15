@@ -33,8 +33,20 @@ Start via systemctl
 
 !SLIDE
 # Jenkins is now running
-
 By default Jenkins runs on port 8080
 
     @@@ shell
     http://jenkins-master:8080
+
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting up Jenkins
+* Objective:
+ * Follow the Installation Instructions
+* Steps:
+ * Find the setup password and enter it
+ * Install the suggested plugins
+ * Wait for the installation to finish
+ * Create an initial user
+  * Remember the credentials, all fields need to be filled out
+
+
