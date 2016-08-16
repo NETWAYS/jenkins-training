@@ -1,24 +1,26 @@
 !SLIDE smbullets
-#Agenda
-* Geschichte und Stand des Jenkins-Projekts
-* Installation einer Jenkins-Instanz
-* Jobs und Plugins
-* Verteilte Jenkins Installation
-* Komplexe Job
-* Fragen und Extras
+# Agenda
+* History And General Information On Jenkins
+* Installation And Configuration
+* Jobs And Plugins
+* Distributed Setups
+* Komplex Job Types
+* Questions And Best Practice
 
 !SLIDE bullets noprint
-#Ziele des Trainings
-* Jenkins installieren
-* Konfiguration erstellen und verwalten
-* Projekte/Jobs einrichten und bauen
-* Jenkins-Plugins verwalten
+# What you will learn
+* Setting Up Jenkins
+* Creating And Managing Configuration
+* Project/Job Creation And Usage
+* Getting To Know Jenkins Plugins
+* Using Jenkins Agents
 * Clusterbetrieb von Jenkins
 
 !SLIDE smbullets printonly
-#Ziele des Trainings
-* Jenkins installieren
-* Konfiguration erstellen und verwalten
-* Projekte/Jobs einrichten und bauen
-* Jenkins-Plugins verwalten
+# What you will learn
+* Setting Up Jenkins
+* Creating And Managing Configuration
+* Project/Job Creation And Usage
+* Getting To Know Jenkins Plugins
+* Using Jenkins Agents
 * Clusterbetrieb von Jenkins

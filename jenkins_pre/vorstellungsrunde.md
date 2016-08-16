@@ -1,5 +1,5 @@
 !SLIDE noprint
-#Vorstellungsrunde
-* Wer sind sie?
-* Was ist ihr Aufgabenbereich?
-* Haben sie bereits Erfahrungen mit Jenkins?
+# Introductions
+* What is your name?
+* What's your remit?
+* Do you have any prior experiences with Jenkins?
