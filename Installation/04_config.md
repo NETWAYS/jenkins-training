@@ -60,7 +60,10 @@ Jenkins can be configured in two ways
 
 ## Webinterface:
 
- TODO: SCREENSHOTS
+<img src="./_img/manage_jenkins_button.png" style="width:800px">
+<img src="./_img/configure_system_button.png" style="width:800px">
+<img src="./_img/jenkins_change_exec.png" style="width:800px">
+
 
 ## Configuration Files:
 
@@ -71,64 +74,20 @@ Jenkins can be configured in two ways
 
   # sudo systemctl restart jenkins
 
-
-!SLIDE noprint
-#Anzahl Executors ändern
-Einfache Übungsaufgabe:
-  Ändern der Executoren über beide Wege
-
-~~~SECTION:notes~~~
-Executoren sind die "Arbeiter" einer Jenkins Instanz/Agents.
-~~~ENDSECTION~~~
-
-!SLIDE bullets noprint
-#Weboberfläche
-* "Manage Jenkins"
-* "Configure System"
-* "# of executors" : 5
-* Save
-
-!SLIDE smbullets printonly
-#Weboberfläche
-* "Manage Jenkins"
-* "Configure System"
-* "# of executors" : 5
-* Save
-
-!SLIDE center noprint
-#Konfigdateien
-Per SSH auf den jenkins-master verbinden
-
-    @@@ Shell
-    ssh jenkins-master
-    Password: netways
-
-!SLIDE bullets noprint
-#Konfigdateien
-* `cd /var/lib/jenkins`
-* `vim/emacs/ed config.xml`
-* `<numExecutors>3</numExecutors>`
-
-!SLIDE smbullets printonly
-#Konfigdateien
-* `cd /var/lib/jenkins`
-* `vim/emacs/ed config.xml`
-* `<numExecutors>3</numExecutors>`
-
 !SLIDE
-#Konfigänderungen sichtbar machen
-Nach solchen Änderungen muss Jenkins neu geladen oder neu gestartet werden.
+# Making Config Changes Visible
+After making changes to Jenkins' files, it needs to be made aware of these changes.
 
-Per Konsole:
+Either by restarting Jenkins from the console
 
     @@@ Shell
     sudo systemctl restart jenkins
 
-Per Webinterface:
+Or using the the right button
 
 	`Manage Jenkins` -> `Reload Configuration from Disk`
 
-Per API:
+Or using the API
 
     http://jenkins-master:8080/reload  
 
@@ -137,14 +96,22 @@ Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
 TODO: Add to cheatsheet
 ~~~ENDSECTION~~~
 
-!SLIDE
-#Backups von Jenkins
-Änderungen im Webfrontend werden gleich in Konfigdateien geschreiben.
-Auch Jobs haben jeweils ihre eigenen config.xml Dateien.
-
-Das komplette $JENKINS\_HOME Verzeichnis zu sichern kann aber zu sehr großen 
-Backupdateien führen, da sich dort auch Workspaces und build-Artefakte befinden.
+!SLIDE bullets noprint
+# Backing Up Your Jenkins
+* Changes made in the web front-end are immediately written into the config files
+* Everything is contained within $JENKINS\_HOME
+* Making a backup can be as easy as just copying the whole directory
+  - Leads to enormous backups (Workspaces etc. are also in $JENKINS\_HOME)
+* All that's needed are XLM files and their path
 
 ~~~SECTION:notes~~~
 https://gist.github.com/abayer/527063a4519f205efc74
 ~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+# Backing Up Your Jenkins
+* Changes made in the web front-end are immediately written into the config files
+* Everything is contained within $JENKINS\_HOME
+* Making a backup can be as easy as just copying the whole directory
+  - Leads to enormous backups (Workspaces etc. are also in $JENKINS\_HOME)
+* All that's needed are XLM files and their path
