@@ -1,13 +1,13 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Hands On: Ein Beispielprojekt
+# ~~~SECTION:MAJOR~~~ Hands On: An Example Project
 
 !SLIDE bullets noprint
-# Hands On: Ein Beispielprojekt
-Ziele dieses Kapitels
+# Hands On: An Example Project
+Topics in this chapter:
 
-* Jobs erstellen, konfigurieren und starten
-* Addons kennenlernen und installieren
-* Git mit Jenkins beobachten
+* Creating, configuring and starting Jobs
+* Searching for and installing addons
+* Using Git with Jenkins
 
 ~~~SECTION:notes~~~
 
@@ -16,9 +16,9 @@ Git mit Jenkins beobachten... und automatisch bauen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# Hands On: Ein Beispielprojekt
-Ziele dieses Kapitels
+# Hands On: An Example Project
+Topics in this chapter:
 
-* Jobs erstellen, konfigurieren und starten
-* Addons kennenlernen und installieren
-* Git mit Jenkins beobachten
+* Creating, configuring and starting Jobs
+* Searching for and installing addons
+* Using Git with Jenkins

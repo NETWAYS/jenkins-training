@@ -1,27 +1,27 @@
 !SLIDE noprint
-#Unzufrieden?
-Das Ergebnis ist nicht gut genug!
+# What A Bad Result
+The result was not to our liking.
 
-Verbesserter Code wird gepushed, Build soll automatisch starten
+But we don't want to push the build button again
 
 !SLIDE bullets noprint
-#Triggered Builds
-* Triggered Builds erlauben es Jenkins selbststädig builds anzustoßen
-* Senkt erfordete Interaktion
+# Triggered Builds
+* Triggered Builds allow Jenkins to start a build without our help
+* Greatly decreases the required interaction
 
 !SLIDE smbullets printonly
-#Triggered Builds
-* Triggered Builds erlauben es Jenkins selbststädig builds anzustoßen
-* Senkt erfordete Interaktion
+# Triggered Builds
+* Triggered Builds allow Jenkins to start a build without our help
+* Greatly decreases the required interaction
 
 !SLIDE bullets noprint
-#Automatische builds (trigger)
+# Automatic Builds (Trigger)
 * `Build after other projects are built`
-  - Erlaubt Aneinanderreihung von builds
+  - Allows to chain builds
 * `Build periodically`
-  - Startet Job nach einen Cron-like Plan
+  - Starts the job following a cron-like schedule
 * `Poll SCM`
-  - Startet Job nur wenn Änderungen im SCM gefunden werden
+  - Periodically polls a SCM and starts the build when there are changes
 
 ~~~SECTION:notes~~~
 
@@ -31,37 +31,35 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Automatische builds (trigger)
+# Automatic Builds (Trigger)
 * `Build after other projects are built`
-  - Erlaubt Aneinanderreihung von builds
+  - Allows to chain builds
 * `Build periodically`
-  - Startet Job nach einen Cron-like Plan
+  - Starts the job following a cron-like schedule
 * `Poll SCM`
-  - Startet Job nur wenn Änderungen im SCM gefunden werden
+  - Periodically polls a SCM and starts the build when there are changes
 
 !SLIDE bullets noprint
-#Trigger hinzufügen
-* `Poll SCM`
-* `Schedule`:
- - `H/5 * * * *`
- - 'Jede Minute'
-
-!SLIDE smbullets printonly
-#Trigger hinzufügen
+# Adding A Trigger
 * `Poll SCM`
 * `Schedule`:
  - `H/1 * * * *`
- - 'Alle fünf Minuten'
+ - 'Every Minute'
+
+!SLIDE smbullets printonly
+# Adding A Trigger
+* `Poll SCM`
+* `Schedule`:
+ - `H/1 * * * *`
+ - 'Every Minute'
 
 !SLIDE noprint
-#Projekt patchen
+# Fixing the Project
 
     @@@ Sh
     $ git config --global user.email "$some_mail"
     $ git config --global user.name "$some_name"
     git commit -a
-    # Commit Nachricht eingeben
+    # Enter some commit message
     git push
-    sleep 5m
-
 

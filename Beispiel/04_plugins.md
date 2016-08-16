@@ -2,13 +2,13 @@
 #~~~SECTION:MAJOR~~~ Plugins
 
 !SLIDE bullets noprint
-# Jenkins und Plugins
-Plugins machen einen großen Teil von Jenkins aus.
+# Jenkins And Plugins
+Plugins are a big selling point of Jenkins
 
-* Direkt aus der Weboberfläche installierbar
-  - Auch manuell möglich
-* Jedes Plugin hat eine Wikiseite zur dokumentation
-* Plugins sind in Java geschrieben
+* Can be installed directly from the web interface
+  - Can also be installed manualy 
+* Each Plugin is documented in the Wiki
+* Written in Java
 
 ~~~SECTION:notes~~~
 
@@ -17,13 +17,13 @@ Gute Developer Guidelines erwähnen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# Jenkins und Plugins
-Plugins machen einen großen Teil von Jenkins aus.
+# Jenkins And Plugins
+Plugins are a big selling point of Jenkins
 
-* Direkt aus der Weboberfläche installierbar
-  - Auch manuell möglich
-* Jedes Plugin hat eine Wikiseite zur dokumentation
-* Plugins sind in Java geschrieben
+* Can be installed directly from the web interface
+  - Can also be installed manualy 
+* Each Plugin is documented in the Wiki
+* Written in Java
 
 !SLIDE bullets noprint
 # Plugin Installation
@@ -33,7 +33,7 @@ Plugins machen einen großen Teil von Jenkins aus.
 
 !SLIDE smbullets printonly
 # Plugin Installation
-* `Filter`: 'git plugin'
+* `Filter`: 'Cobertura Plugin'
 * Tick `Install`
 * `Install without restart`
 * Tick `restart Jenkins`
@@ -46,7 +46,12 @@ es gibt einige 'Git Plugins' aber wir sollen das normale
 ~~~ENDSECTION~~~
 
 !SLIDE noprint center
-#Was sind gute Plugins?
-Wir werden in dieser Schulung viele hilfreiche oder essentielle Plugins kennen lernen.
+# Which Plugins Are Good?
+In the course of this training we will meet a few helpful or essential Plugins
 
+~~~SECTION:notes~~~
 
+Anhand gitplugin Wikiseite zeigen.
+es gibt einige 'Git Plugins' aber wir sollen das normale
+
+~~~ENDSECTION~~~

@@ -70,18 +70,18 @@
 
 
 !SLIDE bullets small noprint
-#Die Statusseite
+# The Statuspage
 * Changes  
-Kann Changelog anzeigen (muss eingerichtet werden)
+Can show a changelog (requires an addon)
 * Workspace  
-Enthält Dateien vom build gebraucht und erstellt werden
+Contains files used and created by a Build
 
-> Achtung: Keine Garantie das Datein im Workspace erhalten bleiben.
-> Daten werden auch nicht aufgeräumt (Plugin dafür existiert)
+> Note: No guarantee for files in the workspace to persist or be
+> cleaned up after a build (There's Plugins for that)
 
 * Build History  
-Vergangene Builds, Anzahl konfigurierbar
-Enthält genauere Status und Ablaufsinformationen
+Past Builds, number can be configured.
+Contains more detailes state and progress information
 
 ~~~SECTION:notes~~~
 
@@ -94,15 +94,15 @@ Vergangene builds behalten auch die Ergebnise, nicht nur logs
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Die Statusseite
+# The Statuspage
 * Changes  
-Kann Changelog anzeigen (muss eingerichtet werden)
+Can show a changelog (requires an addon)
 * Workspace  
-Enthält Dateien vom build gebraucht und erstellt werden
+Contains files used and created by a Build
 
-> Achtung: Keine Garantie das Datein im Workspace erhalten bleiben.
-> Daten werden auch nicht aufgeräumt (Plugin dafür existiert)
+> Note: No guarantee for files in the workspace to persist or be
+> cleaned up after a build (There's Plugins for that)
 
 * Build History  
-Vergangene Builds, Anzahl konfigurierbar
-Enthält genauere Status und Ablaufsinformationen
+Past Builds, number can be configured.
+Contains more detailes state and progress information

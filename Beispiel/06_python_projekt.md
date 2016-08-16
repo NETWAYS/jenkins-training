@@ -1,16 +1,14 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Projekt erstellen
+#~~~SECTION:MAJOR~~~ Creating A Project
 
 !SLIDE bullets noprint
-#Vorbereitung
-* Plugin installieren:
- - Git plugin
-* Build tools installieren:
+# Preparation
+* Install required plugins:
+ - Git Plugin
+* Install required build tools:
  - Python 2.7
  - Pip
  - virtualenv
-* Credentials eintragen
- - jenkins
 
 ~~~SECTION:notes~~~
 
@@ -19,18 +17,16 @@ Build tools sind schon vorinstalliert.
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Vorbereitung
-* Plugin installieren:
- - Git plugin
-* Build tools installieren:
+# Preparation
+* Install required plugins:
+ - Git Plugin
+* Install required build tools:
  - Python 2.7
  - Pip
  - virtualenv
-* Credentials eintragen
- - In unserem Fall nicht nötig
 
 !SLIDE bullets noprint
-#Einen neuen Job erstellen
+# Creating A New Job
 * Auf `New Item` klicken
 * Name eingeben und `Freestyle projekt` auswählen
 * `Source Code management`:
