@@ -1,5 +1,5 @@
 !SLIDE center noprint
-#Architektur
+# Architecture
 <img src="./_img/Jenkins_System.svg" alt="Jenkins System"/>
 
 ~~~SECTION:notes~~~
@@ -13,12 +13,12 @@ Es laufen maximal so viele Jobs parallel wie Executoren frei sind
 ~~~ENDSECTION~~~
 
 !SLIDE printonly
-#Architektur
+# Architecture
 <center><img src="./_img/Jenkins_System.svg" style="width:480px;height:210px;" alt="Jenkins System"/></center>
 
 !SLIDE smbullets printonly
-#Architektur
-* Jenkins liegt in einem Container (Tomcat, Glasfish...)
-* Alle Konfiguration wird als XML im Jenkins Home gespeichert
-* Jenkins kann mit anderen Jenkins-Instanzen kommunizieren
+# Architecture
+* Jenkins runs in a Container (Tomcat, Glasfish...)
+* All Configuration is saved in XML files in the Jenkins Home
+* Jenkins can communicate with other Jenkins instances
 

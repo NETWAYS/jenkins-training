@@ -97,51 +97,61 @@ Hudson: ~30 Mitglieder/20 Repositories
 <center><img src="./_img/timeline-1.svg" style="width:480px;height:163px;" alt="jenkins timeline"></center>
 
 !SLIDE bullets noprint
-#Und was kommt noch?
-* Jenkins 2.0
-  - Eigendlich nur Jenkins 1.659
-* Blue Ocean
-  - Bessere Visualisierung
-
-!SLIDE smbullets printonly
-#Und was kommt noch?
-* Jenkins 2.0
-  - Eigendlich nur Jenkins 1.659
-* Blue Ocean
-  - Bessere Visualisierung
-
-!SLIDE bullets noprint
-#Feature Set
-* Einfach zu installieren
-* Konfiguration per Webinterface
-  - Konfiguration besteht im XML Format
-* Erweiterbar mit Plugins
-* Skalierbar dank verteilter Architektur
-
-!SLIDE smbullets printonly
-#Feature Set
-* Einfach zu installieren
-* Konfiguration per Webinterface
-  - Konfiguration besteht im XML Format
-* Erweiterbar mit Plugins
-* Skalierbar dank verteilter Architektur
-
-!SLIDE bullets noprint
-#Jenkins und andere CI/CD tools
-* Frei und kostenlos
-* Aktive Community und Enwicklung
-* Der de-facto Standard
-* Erweiterbar und einfach zu bedienen
+# What Brings The Future?
+* Push for Piplines
+ - Jenkins 2.0 having Pipline as a default Plugin
+ - Blue Ocean as visualisation tool
+ - Change of Introductory Material
 
 ~~~SECTION:notes~~~
 
-Buildbot ist kompliziert, teamcity teuer und gitlab ci steckt noch in den Kinderschuhen
+Pipeline wird erwähnt wenn noch Zeit ist
+Default Plugins werden wir bei der Installation sehen
+Blue Ocean kommt nicht vor
 
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Jenkins und andere CI/CD tools
-* Frei und kostenlos
-* Aktive Community und Enwicklung
-* Der de-facto Standard
-* Erweiterbar und einfach zu bedienen
+# What Brings The Future?
+* Push for Piplines
+ - Jenkins 2.0 having Pipline as a default Plugin
+ - Blue Ocean as visualisation tool
+ - Change of Introductory Material
+
+!SLIDE bullets noprint
+#Feature Set
+* Easy to install
+* Configuration in a Webinterface
+  - Persists as XML files
+* Extendable with plugins
+* Supports a distributed architecture
+
+!SLIDE smbullets printonly
+#Feature Set
+* Easy to install
+* Configuration in a Webinterface
+  - Persists as XML files
+* Extendable with plugins
+* Supports a distributed architecture
+
+!SLIDE bullets noprint
+# Comparing Jenkins to other CI/CD tools
+* Free Software (Free Speech and free beer)
+* Active community and delopment
+* THE CI/CD software
+* Great features
+
+~~~SECTION:notes~~~
+
+Buildbot ist kompliziert, teamcity teuer und gitlab ci steckt noch in den Kinderschuhen
+Alle anderen tools müssen sich an Jenkins messen
+
+~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+# Comparing Jenkins to other CI/CD tools
+* Free Software (Free Speech and free beer)
+* Active community and delopment
+* THE CI/CD software
+* Great features
+

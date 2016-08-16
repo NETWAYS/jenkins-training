@@ -1,16 +1,18 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Geschichte und Idee
+# ~~~SECTION:MAJOR~~~ A Little Background Information
 
 !SLIDE bullets noprint
-# Geschichte und Idee
+# A Little Background Information 
+Topics in this chapter:
 Ziele dieses Kapitels:
 
-* Jenkins kennenlernen
-* Mögliche Use-Cases erfahren
+* Introducing Jenkins
+* Some Use-Cases
 
 !SLIDE smbullets printonly
-# Geschichte und Idee
+# A Little Background Information 
+Topics in this chapter:
 Ziele dieses Kapitels:
 
-* Jenkins kennenlernen
-* Mögliche Use-Cases erfahren
+* Introducing Jenkins
+* Some Use-Cases
