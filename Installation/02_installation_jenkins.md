@@ -20,9 +20,9 @@ Tomcat wird nur gebaucht wenn man es manuel startet
 
 !SLIDE
 # Installation
-Jenkins is already 'installed'
-* Jenkins version 2.7.2 in `/home/jenkins`
-* Unit file in `/etc/systemd/system`
+Jenkins 2.7.2 package ready to install
+* `/home/training/jenkins_2.7.2_all.deb`
+* `$ sudo dpkg -i jenkins_2.7.2_all.deb`
 
 !SLIDE
 # Starting Jenkins
@@ -39,7 +39,7 @@ By default Jenkins runs on port 8080
     http://jenkins-master:8080
 
 !SLIDE smbullets small
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting up Jenkins
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting Up Jenkins
 * Objective:
  * Follow the Installation Instructions
 * Steps:
@@ -47,6 +47,46 @@ By default Jenkins runs on port 8080
  * Install the suggested plugins
  * Wait for the installation to finish
  * Create an initial user
-  * Remember the credentials, all fields need to be filled out
+ * Remember the credentials, all fields need to be filled out
 
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting Up Jenkins
+
+## Objective:
+
+****
+
+* Follow the Installation Instructions
+
+## Steps:
+
+****
+
+* Find the setup password and enter it
+* Install the suggested plugins
+* Wait for the installation to finish
+* Create an initial user
+* Remember the credentials, all fields need to be filled out
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Setting Up Jenkins
+
+****
+
+## Finding The Password
+
+  # sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+## Install The Suggested Plugins
+
+<center><img src="./_img/install_suggested_plugins.png"/><center>
+
+## Create An Initial User
+
+<center><img src="./_img/create_user_jenkins.png"/><center>
 

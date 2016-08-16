@@ -46,13 +46,14 @@ Executoren wurden im "Architektur" Teil erklärt
 !SLIDE smbullets printonly
 # Die Weboberfläche
 
-* Dashboard zeigt Jobs und ihren Status an
-* `Build Queue` ist die Job-Warteschlange
-* Aktueller Job Fortschritt unter `Executor Status`
-* Administration über `Manage Jenkins` und andere Menüs
+* Dashboard shows jobs and their status
+* `Build Queue` shows pending jobs
+* Current job's progress shows as `Executor Status`
+* Administration can be accessed via `Manage Jenkins`
 
 ~~~SECTION:notes~~~
 
+Possessive 's No Man's sky did it and nobody complained!
 Oberfläche, Logo konfigurierbar (wie? link anbieten oder so).
 
 ~~~ENDSECTION~~~

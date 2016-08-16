@@ -1,23 +1,80 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Konfiguration
+#~~~SECTION:MAJOR~~~ Configuration
 
 !SLIDE bullets noprint
-# Konfiguration
-* Entweder im Webinterface ...
-* ... oder in Konfigdateien (XML-Format)
+# Configuration
+Jenkins can be configured in two ways
+* Through the web interface
+* By editing it's config files (XML-formated)
 
 ~~~SECTION:notes~~~
 Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# Konfiguration
-* Entweder im Webinterface ...
-* ... oder in Konfigdateien (XML-Format)
+# Configuration
+Jenkins can be configured in two ways
+* Through the web interface
+* By editing it's config files (XML-formated)
+
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
+
+* Objective:
+ * Change the number of executors
+* Steps:
+ * Navigate to the `Manage Jenkins`-menu
+ * `Configure System` to change the number of executors to 5
+ * shh into the jenkins master (`ssh jenkins-master, passwd 'netways'`)
+ * Find the 'Jenkins-Home' at `/var/lib/jenkins`
+ * Edit the `config.xml` and set the executors back to 3
+ * Reload Jenkins 
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
+
+## Objective:
+
+****
+
+* Change the number of executors
+
+## Steps:
+
+****
+
+* Navigate to the `Manage Jenkins`-menu
+* `Configure System` to change the number of executors to 5
+* shh into the jenkins master (`ssh jenkins-master, passwd 'netways'`)
+* Find the 'Jenkins-Home' at `/var/lib/jenkins`
+* Edit the `config.xml` and set the executors back to 3
+* Reload Jenkins 
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## The Two ways of Configuration
+
+****
+
+## Webinterface:
+
+ TODO: SCREENSHOTS
+
+## Configuration Files:
+
+  # cd /var/lib/jenkins
+  # vim config.xml
+
+    `<numExecutors>3</numExecutors>`
+
+  # sudo systemctl restart jenkins
+
 
 !SLIDE noprint
 #Anzahl Executors ändern
-Einfache Übungsaufgabe:  
+Einfache Übungsaufgabe:
   Ändern der Executoren über beide Wege
 
 ~~~SECTION:notes~~~
@@ -74,8 +131,6 @@ Per Webinterface:
 Per API:
 
     http://jenkins-master:8080/reload  
-
-
 
 ~~~SECTION:notes~~~
 Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.

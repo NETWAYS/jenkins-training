@@ -1,22 +1,20 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Installation und Konfiguration
+# ~~~SECTION:MAJOR~~~ Installation And Configuration
 
 !SLIDE bullets noprint
-# Installation und Konfiguration
-Ziele dieses Kapitels:
-
-* Jenkins installieren und starten
-* Konfiguration:
- - Weboberfläche
- - Konfigurationsdateien
-* Backups der Konfiguration
+# Installation And Configuratio
+Topics in this chapter:
+* Installing and launching Jenkins
+* Configuration:
+ - Webinterface
+ - Configuration files
+* Backing up a Jenkins Installation
 
 !SLIDE smbullets printonly
-# Installation und Konfiguration
-Ziele dieses Kapitels:
-
-* Jenkins installieren und starten
-* Konfiguration:
- - Weboberfläche
- - Konfigurationsdateien
-* Backups der Konfiguration
+# Installation And Configuration
+Topics in this chapter:
+* Installing and launching Jenkins
+* Configuration:
+ - Webinterface
+ - Configuration files
+* Backing up a Jenkins Installation
