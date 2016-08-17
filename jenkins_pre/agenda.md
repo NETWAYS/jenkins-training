@@ -14,7 +14,6 @@
 * Project/Job Creation And Usage
 * Getting To Know Jenkins Plugins
 * Using Jenkins Agents
-* Clusterbetrieb von Jenkins
 
 !SLIDE smbullets printonly
 # What you will learn
@@ -23,4 +22,3 @@
 * Project/Job Creation And Usage
 * Getting To Know Jenkins Plugins
 * Using Jenkins Agents
-* Clusterbetrieb von Jenkins
