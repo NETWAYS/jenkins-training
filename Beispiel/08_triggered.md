@@ -39,27 +39,62 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 * `Poll SCM`
   - Periodically polls a SCM and starts the build when there are changes
 
-!SLIDE bullets noprint
-# Adding A Trigger
-* `Poll SCM`
-* `Schedule`:
- - `H/1 * * * *`
- - 'Every Minute'
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A Trigger
+* Objective:
+ * Add a trigger and push an update
+* Steps:
+ * Navigate to the Projects configuration page
+ * Add a `Poll SCM` trigger
+ * Set the schedule to 'every minute'
+ * Apply the 'perfect patch'
+ * Push the changes
 
-!SLIDE smbullets printonly
-# Adding A Trigger
-* `Poll SCM`
-* `Schedule`:
- - `H/1 * * * *`
- - 'Every Minute'
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A trigger
 
-!SLIDE noprint
-# Fixing the Project
+## Objective:
+
+****
+
+* Add a trigger and push an update
+
+## Steps:
+
+****
+
+* Navigate to the Projects configuration page
+* Add a `Poll SCM` trigger
+* Set the schedule to 'every minute'
+* Apply the 'perfect patch'
+* Push the changes
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Add a trigger
+
+****
+
+## Navigate to the Projects configuration page
+[TODO: Screenshot]
+
+## Add a `Poll SCM` trigger
+[TODO: Screenshot]
+[TODO: add git url]
+
+## Set the schedule to 'every minute'
+[TODO: Screenshot]
+`H/1 * * * *`
+
+## Apply the 'perfect patch'
 
     @@@ Sh
-    $ git config --global user.email "$some_mail"
-    $ git config --global user.name "$some_name"
-    git commit -a
-    # Enter some commit message
-    git push
+	$ git am perfect.patch
 
+## Push the changes
+
+    @@@ Sh
+	git push
