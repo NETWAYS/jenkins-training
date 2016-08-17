@@ -1,14 +1,15 @@
 !SLIDE bullets noprint
-#Die Schulungsnotebooks
-Verwendungszwecke:
+# Your Training-Notebooks
+The notebooks you have in front of you are no super-computers,
+but they are fast enough to:
 
-* Verfolgen der Schulungsunterlagen
-* Ausführen der virtuellen Maschinen
+* Allow you to follow the presentation [TODO showoff follow erklären]
+* Run the virtual maschines we use for our exercises
 
-!SLIDE bullets  noprint
-#Virtualbox
-* Virtualbox starten
-* 'jenkins-master' starten
+!SLIDE bullets noprint
+# Virtualbox
+* Start Virtualbox
+* Run the 'jenkins-master'
 
 ~~~SECTION:notes~~~
 
@@ -17,22 +18,10 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets printonly
-#Die Schulungsnotebooks
-Verwendungszwecke:
-
-* Verfolgen der Schulungsunterlagen
-* Ausführen der virtuellen Maschinen
-
-!SLIDE smbullets printonly
-#Virtualbox
-* Virtualbox starten
-* 'jenkins-master' starten
-
 !SLIDE 
-#jenkins-master
-Entweder im VirtualBox-Fenster arbeiten . . .  
-. . . oder per SSH auf die Maschine verbinden
+# jenkins-master
+Either work in the VirtualBox windows . . .
+. . . or connect to the VM using ssh
 
     @@@ sh
     ssh 192.168.56.101
@@ -46,29 +35,14 @@ Wer im Fenster arbeiten möchte braucht auch training:netways
 ~~~ENDSECTION~~~
 
 !SLIDE bullets
-#root werden
-* Der Benutzer 'training' hat geringe Berechtigungen
-  - Wir brauchen ihn aber später noch
-* 'root' hat volle Kontrolle über die Box
-
-How to?
-
-    @@@ sh
-    sudo -i
+# On Permissions
+* The user 'training' is in the `sudo` group
+  - Either use `sudo $command`
+  - Or become `root`
+* Passwordless sudo is on
 
 ~~~SECTION:notes~~~
 
 Passwordless erklären
 
 ~~~ENDSECTION~~~
-
-!SLIDE smbullets
-#root werden
-* Der Benutzer 'training' hat geringe Berechtigungen
-  - Wir brauchen ihn aber später noch
-* 'root' hat volle Kontrolle über die Box
-
-How to?
-
-    @@@ sh
-    sudo -i

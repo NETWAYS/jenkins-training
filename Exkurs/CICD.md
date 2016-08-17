@@ -1,56 +1,44 @@
 !SLIDE noprint
-#Exkurs: Was heissen CI und CD?
+# Definition: What do CI and CD mean
 
 !SLIDE 
-#Was ist CI?
+# What Does CI Stand For?
 CI = "Continuous Integration"
 
 ...
 
 !SLIDE
-#Was ist CI?
-Wikipedia (DE):
-> Kontinuierliche Integration ist ein Begriff aus der Software-Entwicklung,
-> der den Prozess des fortlaufenden Zusammenfügens von Komponenten zu
-> einer Anwendung beschreibt.
+# What Does CI Mean?
+Wikipedia:
+> Continuous Integration is term in software development, describing the continuous
+> process of merging all developer working copies to a shared mainline several times a day.
 
-Beispiel: Ein Jenkins-Job der Software kompiliert
+Example: Software being build after any change to it's source
 
 ~~~SECTION:notes~~~
+Kontinuierliche Integration ist ein Begriff aus der Software-Entwicklung,
+der den Prozess des fortlaufenden Zusammenfügens von Komponenten zu
+einer Anwendung beschreibt.
 Ständiges Erstellen einer Gesamtaufnahme
-Schwer zu erklären
-
 ~~~ENDSECTION~~~
+
 !SLIDE
-#Was ist CD?
+# What Does CD stand for?
 CD = "Continuous Delivery"
 
 !SLIDE
-#Was ist CD?
+# What Does CD Mean?
 Wikipedia (DE):
-> Continuous Delivery (CD) bezeichnet eine Sammlung von Techniken, Prozessen
-> und Werkzeugen, die den Softwareauslieferungsprozess (englisch: Deployment)
-> verbessern.
+> Continuous Delivery describes a collection of processes, techniques and tools
+> which are supposed to ease software deployment
 
-Beispiel: Ein Jenkins der Pakete baut
-
-!SLIDE bullets printonly
-#Und was ist der Unterschied?
-* Viele Überschneidungen
-* Beides sind andauernde Prozesse
-* Aber:  
-CD hat immer ein greifbares Ergebnis,  
-CI nur Teilstücke oder Statistiken
-
+Example: Automated testing
 
 ~~~SECTION:notes~~~
 
-~~~ENDSECTION~~~
-
-!SLIDE smbullets noprint
-#Und was ist der Unterschied?
-* Viele Überschneidungen
-* Beides sind andauernde Prozesse
-* Aber:  
+Viele Überschneidungen
+Beides sind andauernde Prozesse
 CD hat immer ein greifbares Ergebnis,  
 CI nur Teilstücke oder Statistiken
+
+~~~ENDSECTION~~~
