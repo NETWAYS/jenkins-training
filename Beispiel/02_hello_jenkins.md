@@ -2,10 +2,10 @@
 #Hello, Jenkins!
 
 !SLIDE bullets noprint
-#Einen neuen Job erstellen
+# Job Creation
 
-* Auf `New Item` klicken
-* Name eingeben und Freestyle Projekt auswählen
+* `New Item`: Entrypoint for job creation
+* Choose a name and select 'Freestyle Project'
 * `Build` -> `Execute Shell`
 
 ## Code:
@@ -13,12 +13,18 @@
     @@@ sh
     echo "Hello Jenkins"
     exit 0 	  				 	 	 	   	 	  	   		  	 
+
+~~~SECTION:notes~~~
+
+Am Beamer Zeigen
+
+~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Einen neuen Job erstellen
+# Job Creation
 
-* Auf `New Item` klicken
-* Name eingeben und Freestyle Projekt auswählen
+* `New Item`: Entrypoint for job creation
+* Choose a name and select 'Freestyle Project'
 * `Build` -> `Execute Shell`
 
 ## Code:
@@ -26,7 +32,6 @@
     @@@ sh
     echo "Hello Jenkins"
     exit 0 	  				 	 	 	   	 	  	   		  	 
-
 
 !SLIDE center noprint
 #Die Statusseite

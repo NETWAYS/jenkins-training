@@ -40,6 +40,7 @@ Plugins are a big selling point of Jenkins
 
 ~~~SECTION:notes~~~
 
+Erwähnen: wir brauchen das Plugin später
 Anhand gitplugin Wikiseite zeigen.
 es gibt einige 'Git Plugins' aber wir sollen das normale
 

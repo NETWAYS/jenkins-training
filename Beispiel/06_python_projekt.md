@@ -10,58 +10,6 @@
  - Pip
  - virtualenv
 
-~~~SECTION:notes~~~
-
-Build tools sind schon vorinstalliert.
-
-~~~ENDSECTION~~~
-
-!SLIDE smbullets printonly
-# Preparation
-* Install required plugins:
- - Git Plugin
-* Install required build tools:
- - Python 2.7
- - Pip
- - virtualenv
-
-!SLIDE bullets noprint
-# Creating A New Job
-* Auf `New Item` klicken
-* Name eingeben und `Freestyle projekt` auswählen
-* `Source Code management`:
- - Git Url: `git@localhost:/opt/git/training.git`
-* `Build` -> `Execute Shell`
-
-~~~SECTION:notes~~~
-
-Keine Leerzeichen im Namen da sonst virtualenv spinnt.  
-Auch Optionen durchgehen und kurz ansprechen. (?) Erklären eig. alles  
-Advanced Options: Upstream und Downstream werden später erklärt.  
-Git: Alles lassen wie es ist.  
-Build triggers: Später  
-
-~~~ENDSECTION~~~
-
-!SLIDE bullets noprint
-#Einen neuen Job erstellen
-* Auf `New Item` klicken
-* Name eingeben und `Freestyle projekt` auswählen
-* `Source Code management`:
- - Git Url: `git@localhost:/opt/git/training.git`
-* `Build` -> `Execute Shell`
-
-!SLIDE smbullets printonly
-#Einen neuen Job erstellen
-* Auf `New Item` klicken
-* Name eingeben und `Freestyle projekt` auswählen
-* `Source Code management`:
- - Git Url: `git@localhost:/opt/git/training.git`
-* `Build` -> `Execute Shell`
-
-!SLIDE code
-#Execute Shell
-
     @@@ sh
     PYENV_HOME="$WORKSPACE"/.venv/
     if [ -d "$PYENV_HOME" ]; then
@@ -93,6 +41,74 @@ Build triggers: Später
 
 Live Konsolen output ist zu sehen, interessant zum debuggen
 
-
 ~~~ENDSECTION~~~
 
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Project
+* Objective:
+ * Set up the example project and start it
+* Steps:
+ * Create a new Freestyle Project
+ * Set up Source Code Management
+ * Copy the Build Step
+ * Save the Project
+ * Build it!
+
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Project
+
+## Objective:
+
+****
+
+* Set up the example project and start it
+
+## Steps:
+
+****
+
+* Create a new Freestyle Project
+* Set up Source Code Management
+* Copy the Build Step
+* Save the Project
+* Build it!
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Creating Your First Project
+
+****
+
+## Create a new Freestyle Project
+
+[TODO: Screenshot]
+`Create New Project` -> `Freestyle Project + name`
+
+## Set up Source Code Management
+[TODP: Screenshot]
+git@localhost:/opt/git/training.git
+
+## Copy the Build Step
+
+Execute Shell
+
+    @@@ sh
+    PYENV_HOME="$WORKSPACE"/.venv/
+    if [ -d "$PYENV_HOME" ]; then
+        rm -rf "$PYENV_HOME"
+    fi
+    virtualenv --no-site-packages "$PYENV_HOME"
+    . "$PYENV_HOME"/bin/activate
+    pip install "$WORKSPACE/"
+
+## Save the Project
+
+[TODO: Screenshot]
+
+## Build it!
+
+[TODO: Screenshot]

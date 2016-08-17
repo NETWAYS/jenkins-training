@@ -13,7 +13,7 @@
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Freestyle
+# Freestyle
 * Most simple kind of Project
 * Simple Process management possible through chaining
 
@@ -26,19 +26,19 @@ TODO: Extra Teil über pipeline projekte
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Freestyle
+# Freestyle
 * Most simple kind of Project
 * Simple Process management possible through chaining
 
 !SLIDE bullets noprint
-#Multi-configuration project
+# Multi-configuration project
 <img src="./_img/multi_conf_icinga.png" align="right"/>
 * Useful for jobs with many parameters
 * Axes allow starting many builds with preconfigured parameters at the same time
 * Used in the Icinga project to run Builds on on all Architecture-OS combinations
 
 !SLIDE smbullets printonly
-#Multi-configuration project
+# Multi-configuration project
 <img src="./_img/multi_conf_icinga.png" align="right"/>
 * Useful for jobs with many parameters
 * Axes allow starting many builds with preconfigured parameters at the same time
