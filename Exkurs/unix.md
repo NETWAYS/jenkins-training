@@ -3,7 +3,7 @@
 The notebooks you have in front of you are no super-computers,
 but they are fast enough to:
 
-* Allow you to follow the presentation [TODO showoff follow erklären]
+* Allow you to follow the presentation [TODO Add showoff url]
 * Run the virtual maschines we use for our exercises
 
 !SLIDE bullets noprint
@@ -20,7 +20,7 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 !SLIDE 
 # jenkins-master
-Either work in the VirtualBox windows . . .
+Either work in the VirtualBox windows . . .  
 . . . or connect to the VM using ssh
 
     @@@ sh
@@ -39,7 +39,7 @@ Wer im Fenster arbeiten möchte braucht auch training:netways
 * The user 'training' is in the `sudo` group
   - Either use `sudo $command`
   - Or become `root`
-* Passwordless sudo is on
+* Passwordless `sudo` is enabled
 
 ~~~SECTION:notes~~~
 
