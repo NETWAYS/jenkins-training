@@ -21,6 +21,7 @@ Tomcat wird nur gebaucht wenn man es manuel startet
 !SLIDE
 # Installation
 Jenkins 2.7.2 package ready to install
+
 * `/home/training/jenkins_2.7.2_all.deb`
 * `$ sudo dpkg -i jenkins_2.7.2_all.deb`
 

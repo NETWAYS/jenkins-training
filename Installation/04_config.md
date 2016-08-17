@@ -1,9 +1,11 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Configuration
+TODO: REDO THIS. Lab and order are weird
 
 !SLIDE bullets noprint
 # Configuration
 Jenkins can be configured in two ways
+
 * Through the web interface
 * By editing it's config files (XML-formated)
 
@@ -13,7 +15,8 @@ Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
 
 !SLIDE smbullets printonly
 # Configuration
-Jenkins can be configured in two ways
+Jenkins can be configured in two ways:
+
 * Through the web interface
 * By editing it's config files (XML-formated)
 

@@ -2,8 +2,9 @@
 # ~~~SECTION:MAJOR~~~ Installation And Configuration
 
 !SLIDE bullets noprint
-# Installation And Configuratio
+# Installation And Configuration
 Topics in this chapter:
+
 * Installing and launching Jenkins
 * Configuration:
  - Webinterface
@@ -12,6 +13,7 @@ Topics in this chapter:
 
 !SLIDE smbullets printonly
 # Installation And Configuration
+
 Topics in this chapter:
 * Installing and launching Jenkins
 * Configuration:
