@@ -9,7 +9,7 @@ CI = "Continuous Integration"
 
 !SLIDE
 # What Does CI Mean?
-Wikipedia:
+
 > Continuous Integration is term in software development, describing the continuous
 > process of merging all developer working copies to a shared mainline several times a day.
 
@@ -28,9 +28,9 @@ CD = "Continuous Delivery"
 
 !SLIDE
 # What Does CD Mean?
-Wikipedia (DE):
+
 > Continuous Delivery describes a collection of processes, techniques and tools
-> which are supposed to ease software deployment
+> which are supposed to ease software deployment.
 
 Example: Automated testing
 
