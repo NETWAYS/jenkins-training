@@ -1,22 +1,16 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Verteilte Setups
+# ~~~SECTION:MAJOR~~~ Distributed Setups
 
 !SLIDE bullets noprint
-# Verteilte Setups
-Ziele dieses Kapitels
+# Distributed Setups
+Topics in this chapter
 
-* Ein genauerer Blick die Jenkins Architektur werfen
-* Einen Agenten hinzufügen
-
-~~~SECTION:notes~~~
-
-Git mit Jenkins beobachten... und automatisch bauen
-
-~~~ENDSECTION~~~
+* Further investigation of Jenkins Achitecture
+* Adding an agent
 
 !SLIDE smbullets printonly
-# Verteilte Setups
-Ziele dieses Kapitels
+# Distributed Setups
+Topics in this chapter
 
-* Ein genauerer Blick die Jenkins Architektur werfen
-* Einen Agenten hinzufügen
+* Further investigation of Jenkins Achitecture
+* Adding an agent

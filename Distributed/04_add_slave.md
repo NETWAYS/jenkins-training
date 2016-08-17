@@ -1,17 +1,12 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Jenkins Agent erstellen
-
-!SLIDE center noprint
-#Los gehts!
-Starten sie den Jenkins Agenten
+#~~~SECTION:MAJOR~~~ Creating A Jenkins Agent
 
 !SLIDE bullets noprint
-#Einen Jenkins Agenten hinzufügen
-
+# Adding The Jenkins Agent
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
 * `Host` : '192.168.56.102'
-* `Credentials` auswählen
+* Choose Credentials `Credentials`
 * `Remote root directory`: '/home/training'
 
 ~~~SECTION:notes~~~
@@ -26,16 +21,15 @@ Startet automatisch nach save
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Einen Jenkins Agenten hinzufügen
-
+# Adding The Jenkins Agent
 * `Manage Jenkins` -> `Manage Nodes`
 * `Node Name` + 'Dumb Slave'
 * `Host` : '192.168.56.102'
-* `Credentials` auswählen
+* Choose Credentials `Credentials`
 * `Remote root directory`: '/home/training'
 
 !SLIDE center noprint
-#Arbeit verteilen
+# Reassigning The Work
 Das Beispielprojekt soll nur auf dem Agenten gebaut werden
 
 ~~~SECTION:notes~~~

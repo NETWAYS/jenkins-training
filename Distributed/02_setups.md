@@ -1,8 +1,8 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Architektur und Startup
+#~~~SECTION:MAJOR~~~ Architecture and Startup
 
 !SLIDE center noprint
-#Was wir schon haben
+# This Is What We Have
 <img src="./_img/Jenkins_Server_Single.svg" alt="Single Server"/>
 
 ~~~SECTION:notes~~~
@@ -12,11 +12,11 @@ Eine Installation mit beliebig vielen Executoren
 ~~~ENDSECTION~~~
 
 !SLIDE printonly
-#Was wir schon haben
+# This Is What We Have
 <center><img src="./_img/Jenkins_Server_Single.svg" style="width:600" alt="Single Server"/><center>
 
 !SLIDE center noprint
-#Was wir wollen
+# This Is What We Want
 <img src="./_img/Jenkins_Server_Multi.svg" alt="Multi Server"/>
 
 ~~~SECTION:notes~~~
@@ -29,16 +29,14 @@ Kommunikation via tcp/ip.
 ~~~ENDSECTION~~~
 
 !SLIDE printonly
-#Was wir wollen
+# This Is What We Want
 <center><img src="./_img/Jenkins_Server_Multi.svg" style="width:480;height:267px" alt="Multi Server"/></center>
 
-!SLIDE
-#Agent via SSH
-Master benötigt nur SSH-Zugangsdaten zum Server des Agenten, der Rest
-geschieht automatisch.
-
-Eventuelle Tools (python, virtualenv...) die zum ausführen von Jobs gebraucht
-werden, müssen selbst installiert werden.
+!SLIDE bullets noprint
+# The SSH-Agent
+* Master needs SSH-access to the agents maschine
+  - Everything else is done by Jenkins
+* Required tool (python, virtualenv, ...) need to be installed by the user
 
 ~~~SECTION:notes~~~
 
@@ -46,12 +44,18 @@ Tools sind schon vorinstalliert (ausser virtualenv, geplanter fehlschlag)
 
 ~~~ENDSECTION~~~
 
+!SLIDE smbullets printonly
+# The SSH-Agent
+* Master needs SSH-access to the agents maschine
+  - Everything else is done by Jenkins
+* Required tool (python, virtualenv, ...) need to be installed by the user
+
 !SLIDE bullets noprint
-#Alternative Startmöglichkeiten
-* WMI und DOM auf Windows
-* JNLP (Grafisch)
-* Eigenes Script
- - Jenkins verwendet stdin/out zur Kommunikation.
+# Alternative Agents
+* WMI and DOM on Windows
+* JNLP (graphical)
+* Your own script
+ - Jenkins uses stdin/out for communication.
 
 ~~~SECTION:notes~~~
 
@@ -61,9 +65,8 @@ Eigenes Script: slave.jar kommuniziert nicht von selbst mit jenkins
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Alternative Startmöglichkeiten
-* WMI und DOM auf Windows
-* JNLP (Grafisch)
-* Eigenes Script
- - Jenkins verwendet stdin/out zur Kommunikation.
-
+# Alternative Agents
+* WMI and DOM on Windows
+* JNLP (graphical)
+* Your own script
+ - Jenkins uses stdin/out for communication.
