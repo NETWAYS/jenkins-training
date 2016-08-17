@@ -48,7 +48,7 @@ es gibt einige 'Git Plugins' aber wir sollen das normale
 
 !SLIDE noprint center
 # Which Plugins Are Good?
-In the course of this training we will meet a few helpful or essential Plugins
+In the course of this training we will meet a few helpful or essential Plugins.
 
 ~~~SECTION:notes~~~
 

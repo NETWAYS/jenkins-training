@@ -1,9 +1,9 @@
 !SLIDE
-#Metriken generieren
+# Generating Metrics
 
 !SLIDE bullets noprint
-#Vorbereitung
-* Plugin installieren:
+# Preparation
+* Make sure the two plugins are installed
  - Violations
  - Cobertura
 
@@ -15,14 +15,14 @@ Kein Neustart erforderlich
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Vorbereitung
-* Plugin installieren:
+# Preparation
+* Make sure the two plugins are installed
  - Violations
  - Cobertura
 
 !SLIDE smbullets 
-#Den Job editieren
-* Job konfigurieren
+# Edit The Job
+* Configure job
 * `Post-build Actions` -> `Publish Cobertura Report`  
  -> '\*\*/covarage.xml'  
 <img src="./_img/Cobertura.png" alt="cobertura" />
@@ -38,7 +38,7 @@ Ant-style pfade
 ~~~ENDSECTION~~~
 
 !SLIDE small code
-#Execute Shell
+# Execute Shell
     @@@ sh
     PYENV_HOME="$WORKSPACE"/.venv/    
     if [ -d "$PYENV_HOME" ]; then
@@ -62,7 +62,7 @@ Ant-style pfade
 ~~~ENDSECTION~~~
 
 !SLIDE noprint
-#Das Ergebnis
+# The Result
 <img src="./_img/output_bad.png" alt="Schlechtes Ergebnis" />
 
 ~~~SECTION:notes~~~
