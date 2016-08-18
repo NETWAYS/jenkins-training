@@ -66,8 +66,7 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 * Navigate to the Projects configuration page
 * Add a `Poll SCM` trigger
 * Set the schedule to 'every minute'
-* Apply the 'perfect patch'
-* Push the changes
+* Apply and push the 'perfect patch'
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -79,22 +78,24 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 ****
 
 ## Navigate to the Projects configuration page
-[TODO: Screenshot]
+
+You can do this by yourself
 
 ## Add a `Poll SCM` trigger
-[TODO: Screenshot]
-[TODO: add git url]
+
+* 'Build Triggers'
+* Tick 'Poll SCM'
 
 ## Set the schedule to 'every minute'
-[TODO: Screenshot]
-`H/1 * * * *`
 
-## Apply the 'perfect patch'
+<img src="./_img/every_minute.png" />
+
+> You can click the '?' to see the documentation of the scheduling format
+
+## Apply and push the 'perfect patch'
 
     @@@ Sh
+	$ cd suchmaschine
 	$ git am perfect.patch
+	$ git push
 
-## Push the changes
-
-    @@@ Sh
-	git push

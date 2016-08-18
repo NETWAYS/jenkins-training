@@ -66,6 +66,12 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 * Save the Project
 * Build it!
 
+~~~SECTION:notes~~~
+
+Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
+
+~~~ENDSECTION~~~
+
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
 
@@ -77,11 +83,13 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 
 ## Create a new Freestyle Project
 
-[TODO: Screenshot]
-`Create New Project` -> `Freestyle Project + name`
+* Create a new project
+* Enter a name
+* Select 'Freestyle Project'
 
 ## Set up Source Code Management
-[TODP: Screenshot]
+<img src="./_img/scm_added.png"/>
+
 git@localhost:/opt/git/training.git
 
 ## Copy the Build Step
@@ -99,8 +107,8 @@ Execute Shell
 
 ## Save the Project
 
-[TODO: Screenshot]
+<img src="./_img/save_project.png"/>
 
 ## Build it!
 
-[TODO: Screenshot]
+<img src="./_img/build_now.png"/>

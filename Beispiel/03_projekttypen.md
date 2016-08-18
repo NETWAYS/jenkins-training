@@ -14,8 +14,8 @@
 
 !SLIDE bullets noprint
 # Freestyle
-* Most simple kind of Project
-* Simple Process management possible through chaining
+* Most simple kind of project
+* Simple process possible through chaining
 
 ~~~SECTION:notes~~~
 
@@ -27,8 +27,8 @@ TODO: Extra Teil über pipeline projekte
 
 !SLIDE smbullets printonly
 # Freestyle
-* Most simple kind of Project
-* Simple Process management possible through chaining
+* Most simple kind of project
+* Simple process possible through chaining
 
 !SLIDE smbullets
 # Multi-configuration project
@@ -42,7 +42,7 @@ TODO: Extra Teil über pipeline projekte
 # External Job
 * Use Jenkins to monitor program execution
 * Useful for process management
-* Not part of this Training
+* Not part of this training
 
 !SLIDE smbullets printonly
 # External Job
