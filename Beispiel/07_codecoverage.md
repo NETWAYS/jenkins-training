@@ -1,8 +1,8 @@
-!SLIDE
+!SLIDE smbullets noprint
 # Generating Metrics
 
-!SLIDE bullets noprint
-# Preparation
+## Preparation
+
 * Make sure the two plugins are installed
  - Violations
  - Cobertura
@@ -15,7 +15,10 @@ Kein Neustart erforderlich
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# Preparation
+# Generating Metrics
+
+## Preparation
+
 * Make sure the two plugins are installed
  - Violations
  - Cobertura

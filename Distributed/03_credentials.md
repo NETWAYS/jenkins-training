@@ -3,6 +3,7 @@
 
 !SLIDE bullets noprint
 # Crendentials have ...
+
 * ... a domain (Group),
 * ... a scope (Visibility),
 * ... and a type (Name+Password, Certificate, etc.)
@@ -18,6 +19,7 @@ Gleich die Credentials eintragen lassen
 
 !SLIDE smbullets printonly
 # Crendentials have ...
+
 * ... a domain (Group),
 * ... a scope (Visibility),
 * ... and a type (Name+Password, Certificate, etc.)

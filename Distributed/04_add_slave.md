@@ -49,6 +49,9 @@ Dazu sollten labels verwendet werden.
 
 !SLIDE center noprint
 #Fehlschlag
+
+TODO: Diesen Teil rausnehmen, in dem VMs richtigen Key eintragen
+
 Was ging schief?
 
 ~~~SECTION:notes~~~

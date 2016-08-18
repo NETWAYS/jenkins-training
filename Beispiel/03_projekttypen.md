@@ -4,7 +4,7 @@
 !SLIDE center noprint
 # Many different types exist
 
-<img src="./_img/project_types_many.png" alt="Default Projekte + einige Plugins" />
+<img src="./_img/project_typesv2.png" alt="Default Projekte + einige Plugins" />
 
 ~~~SECTION:notes~~~
 
@@ -30,19 +30,13 @@ TODO: Extra Teil über pipeline projekte
 * Most simple kind of Project
 * Simple Process management possible through chaining
 
-!SLIDE bullets noprint
+!SLIDE smbullets
 # Multi-configuration project
 <img src="./_img/multi_conf_icinga.png" align="right"/>
-* Useful for jobs with many parameters
-* Axes allow starting many builds with preconfigured parameters at the same time
-* Used in the Icinga project to run Builds on on all Architecture-OS combinations
 
-!SLIDE smbullets printonly
-# Multi-configuration project
-<img src="./_img/multi_conf_icinga.png" align="right"/>
 * Useful for jobs with many parameters
 * Axes allow starting many builds with preconfigured parameters at the same time
-* Used in the Icinga project to run Builds on on all Architecture-OS combinations
+* Used in the Icinga project to run Builds on on all Architecture-OS-combinations
 
 !SLIDE bullets noprint
 # External Job

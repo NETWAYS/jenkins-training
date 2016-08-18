@@ -1,5 +1,4 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Architecture and Startup
+# Architecture and Startup
 
 !SLIDE center noprint
 # This Is What We Have

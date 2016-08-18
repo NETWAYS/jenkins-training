@@ -3,21 +3,13 @@
 
 !SLIDE bullets noprint
 # Preparation
+
 * Install required plugins:
  - Git Plugin
 * Install required build tools:
  - Python 2.7
  - Pip
  - virtualenv
-
-    @@@ sh
-    PYENV_HOME="$WORKSPACE"/.venv/
-    if [ -d "$PYENV_HOME" ]; then
-        rm -rf "$PYENV_HOME"
-    fi
-    virtualenv --no-site-packages "$PYENV_HOME"
-    . "$PYENV_HOME"/bin/activate
-    pip install "$WORKSPACE/"
 
 ~~~SECTION:notes~~~
 

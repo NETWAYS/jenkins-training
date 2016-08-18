@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE center
 # On Git
 
 Git will be used in the course of this training, but it will not be explained in detail.
