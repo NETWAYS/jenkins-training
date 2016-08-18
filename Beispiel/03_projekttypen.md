@@ -2,7 +2,7 @@
 #~~~SECTION:MAJOR~~~ Project types
 
 !SLIDE center noprint
-# Many differnt types exist
+# Many different types exist
 
 <img src="./_img/project_types_many.png" alt="Default Projekte + einige Plugins" />
 
@@ -57,9 +57,9 @@ TODO: Extra Teil über pipeline projekte
 * Not part of this Training
 
 !SLIDE bullets noprint
-# Pipeline/Multibranch Pipeline
+# Pipeline/Multi-branch Pipeline
 * Once knows as 'Workflow'
-* Uses a script language to allow extremly sophisticated processes
+* Uses a script language to allow extremely sophisticated processes
 * Can be integrated with 'Blue Ocean'
 
 ~~~SECTION:notes~~~
@@ -69,7 +69,7 @@ Ist ein Extra Thema, kann bei Intresse und genug Zeit noch nachgeschoben werden
 ~~~ENDSECTION~~~
 
 !SLIDE bullets printonly
-# Pipeline/Multibranch Pipeline
+# Pipeline/Multi-branch Pipeline
 * Once knows as 'Workflow'
-* Uses a script language to allow extremly sophisticated processes
+* Uses a script language to allow extremely sophisticated processes
 * Can be integrated with 'Blue Ocean'

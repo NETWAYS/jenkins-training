@@ -1,10 +1,7 @@
-!SLIDE
-#Hello, Jenkins!
-
 !SLIDE bullets noprint
-# Job Creation
+# Hello Jenkins!
 
-* `New Item`: Entrypoint for job creation
+* `New Item`: Entry point for job creation
 * Choose a name and select 'Freestyle Project'
 * `Build` -> `Execute Shell`
 
@@ -23,7 +20,7 @@ Am Beamer Zeigen
 !SLIDE smbullets printonly
 # Job Creation
 
-* `New Item`: Entrypoint for job creation
+* `New Item`: Entry point for job creation
 * Choose a name and select 'Freestyle Project'
 * `Build` -> `Execute Shell`
 
@@ -77,7 +74,7 @@ Am Beamer Zeigen
 !SLIDE bullets small noprint
 # The Statuspage
 * Changes  
-Can show a changelog (requires an addon)
+Can show a change log (requires an add-on)
 * Workspace  
 Contains files used and created by a Build
 
@@ -86,7 +83,7 @@ Contains files used and created by a Build
 
 * Build History  
 Past Builds, number can be configured.
-Contains more detailes state and progress information
+Contains more detailed state and progress information
 
 ~~~SECTION:notes~~~
 
@@ -99,9 +96,9 @@ Vergangene builds behalten auch die Ergebnise, nicht nur logs
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# The Statuspage
+# The Status page
 * Changes  
-Can show a changelog (requires an addon)
+Can show a change log (requires an add-on)
 * Workspace  
 Contains files used and created by a Build
 
@@ -110,4 +107,4 @@ Contains files used and created by a Build
 
 * Build History  
 Past Builds, number can be configured.
-Contains more detailes state and progress information
+Contains more detailed state and progress information

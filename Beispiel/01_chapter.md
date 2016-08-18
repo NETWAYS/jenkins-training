@@ -6,7 +6,7 @@
 Topics in this chapter:
 
 * Creating, configuring and starting Jobs
-* Searching for and installing addons
+* Searching for and installing add-ons
 * Using Git with Jenkins
 
 ~~~SECTION:notes~~~

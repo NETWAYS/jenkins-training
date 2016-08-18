@@ -27,7 +27,7 @@ Jenkins can be configured in two ways:
 * Steps:
  * Navigate to the `Manage Jenkins`-menu
  * `Configure System` to change the number of executors to 5
- * shh into the jenkins master (`ssh jenkins-master, passwd 'netways'`)
+ * shh into the jenkins master (`ssh 192.168.56.101, passwd 'netways'`)
  * Find the 'Jenkins-Home' at `/var/lib/jenkins`
  * Edit the `config.xml` and set the executors back to 3
  * Reload Jenkins 
@@ -88,7 +88,8 @@ Either by restarting Jenkins from the console
 
 Or using the the right button
 
-	`Manage Jenkins` -> `Reload Configuration from Disk`
+	`Manage Jenkins` ->  
+	`Reload Configuration from Disk`
 
 Or using the API
 
@@ -99,7 +100,7 @@ Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
 TODO: Add to cheatsheet
 ~~~ENDSECTION~~~
 
-!SLIDE bullets noprint
+!SLIDE smbullets
 # Backing Up Your Jenkins
 * Changes made in the web front-end are immediately written into the config files
 * Everything is contained within $JENKINS\_HOME
@@ -111,10 +112,3 @@ TODO: Add to cheatsheet
 https://gist.github.com/abayer/527063a4519f205efc74
 ~~~ENDSECTION~~~
 
-!SLIDE smbullets printonly
-# Backing Up Your Jenkins
-* Changes made in the web front-end are immediately written into the config files
-* Everything is contained within $JENKINS\_HOME
-* Making a backup can be as easy as just copying the whole directory
-  - Leads to enormous backups (Workspaces etc. are also in $JENKINS\_HOME)
-* All that's needed are XLM files and their path

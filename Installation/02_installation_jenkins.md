@@ -3,8 +3,8 @@
 * Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
 * Two common ways
- - Paket
- - jenkins.war
+ - Package
+ - Container + jenkins.war
 
 ~~~SECTION:notes~~~
 Tomcat wird nur gebaucht wenn man es manuel startet
@@ -15,8 +15,8 @@ Tomcat wird nur gebaucht wenn man es manuel startet
 * Java (JDK > 1.7)
 * Optional: Tomcat, Glassfish, ...
 * Two common ways
- - Paket
- - jenkins.war
+ - Package
+ - Container + jenkins.war
 
 !SLIDE
 # Installation
@@ -37,7 +37,7 @@ Start via systemctl
 By default Jenkins runs on port 8080
 
     @@@ shell
-    http://jenkins-master:8080
+    http://192.168.56.101:8080
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting Up Jenkins

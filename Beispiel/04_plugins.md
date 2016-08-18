@@ -6,8 +6,8 @@
 Plugins are a big selling point of Jenkins
 
 * Can be installed directly from the web interface
-  - Can also be installed manualy 
-* Each Plugin is documented in the Wiki
+  - Can also be installed manually
+* Each plugin is documented in the Wiki
 * Written in Java
 
 ~~~SECTION:notes~~~
@@ -21,8 +21,8 @@ Gute Developer Guidelines erwähnen
 Plugins are a big selling point of Jenkins
 
 * Can be installed directly from the web interface
-  - Can also be installed manualy 
-* Each Plugin is documented in the Wiki
+  - Can also be installed manually 
+* Each plugin is documented in the Wiki
 * Written in Java
 
 !SLIDE bullets noprint

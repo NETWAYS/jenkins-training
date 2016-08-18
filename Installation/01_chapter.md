@@ -7,7 +7,7 @@ Topics in this chapter:
 
 * Installing and launching Jenkins
 * Configuration:
- - Webinterface
+ - Web interface
  - Configuration files
 * Backing up a Jenkins Installation
 
@@ -17,6 +17,6 @@ Topics in this chapter:
 Topics in this chapter:
 * Installing and launching Jenkins
 * Configuration:
- - Webinterface
+ - Web interface
  - Configuration files
 * Backing up a Jenkins Installation
