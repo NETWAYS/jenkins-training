@@ -46,7 +46,7 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 * Steps:
  * Navigate to the Projects configuration page
  * Add a `Poll SCM` trigger
- * Set the schedule to 'every minute'
+ * Set the schedule to 'every two minutes'
  * Apply the 'perfect patch'
  * Push the changes
 
@@ -65,7 +65,7 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 
 * Navigate to the Projects configuration page
 * Add a `Poll SCM` trigger
-* Set the schedule to 'every minute'
+* Set the schedule to 'every two minutes'
 * Apply and push the 'perfect patch'
 
 !SLIDE supplemental solutions
@@ -86,9 +86,9 @@ You can do this by yourself
 * 'Build Triggers'
 * Tick 'Poll SCM'
 
-## Set the schedule to 'every minute'
+## Set the schedule to 'every two minutes'
 
-<img src="./_img/every_minute.png" />
+<img src="./_img/every_minutes.png" />
 
 > You can click the '?' to see the documentation of the scheduling format
 

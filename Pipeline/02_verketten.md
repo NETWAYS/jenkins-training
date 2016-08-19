@@ -1,5 +1,46 @@
 !SLIDE bullets noprint
-#Pakete bauen
+# Creating Process
+* Single step jobs have limited usabilty
+* Jobs can be chained together using conditions
+* Allows to represent a multi-step proccess
+
+
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Automate The Package Building Proccess
+* Objective:
+ * Follow up your project with a job that builds a package for it
+* Steps:
+ * Extract the `suchmaschine_build_files.tar` archive
+
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Automate The Package Building Proccess
+
+## Objective:
+
+****
+
+* Automate The Package Building Process
+
+## Steps:
+
+****
+
+* Extract the `suchmaschine_build_files.tar` archive
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Automate The Package Building Proccess
+
+****
+
+## Extract the `suchmaschine_build_files.tar` archive
+
+
+# Pakete bauen
 * `suchmaschine_build_files.tar` Beispielprojekt einpflegen
 * Job erstellen:
   - Repository klonen

@@ -32,7 +32,7 @@ Gleich die Credentials eintragen lassen
 * Steps:
  * Navigate to the `Credentials` page
  * Add an SSH key to the jenkins user
- * Copy the key over to the agents maschine
+ * Copy the key over to the agents machine
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding Credentials
@@ -63,17 +63,19 @@ Gleich die Credentials eintragen lassen
 
 ## Navigate to the `Credentials` Page
 
-  [TODO IMAGE]
+* Click the `Credentials` link in the leftside menu
 
 ## Add an SSH key to the jenkins user
   
-  [TODO]
- - Kind: 'SSH Usermane with private key'
- - Username: `jenkins`
- - `Private Key`: `From the Jenkins master ~/.ssh`
- - ID and Description can be ignored safely
+* Kind: 'SSH Usermane with private key'
+* Username: `jenkins`
+* `Private Key`: `From the Jenkins master ~/.ssh`
+* ID and Description can be ignored, ID will be autofilled
 
-## Copy the key over to the agents maschine
+## Copy the key over to the agents machine
 
- # ssh-copy-id TODO 192.168.56.102
+    @@@ Sh
+    sudo su jenkins
+    ssh-copy-id 192.168.56.102
+    Password? "icinga"
 

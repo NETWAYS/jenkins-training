@@ -1,16 +1,16 @@
 !SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Komplexe Jobs
+# ~~~SECTION:MAJOR~~~ Complex Jobs
 
 !SLIDE smbullets printonly
-# Komplexe Jobs
-Ziele dieses Kapitels:
+# Complex Jobs
+Topics in this chapter:
 
-* Jobs verketten
-* Workflow/Pipline kennenlernen
+* Chaining Jobs
+* Learn About Pipeline
 
 !SLIDE bullets noprint
-# Komplexe Jobs
-Ziele dieses Kapitels:
+# Complex Jobs
+Topics in this chapter:
 
-* Jobs verketten
-* Workflow/Pipline kennenlernen
+* Chaining Jobs
+* Learn About Pipeline

@@ -69,3 +69,17 @@ Eigenes Script: slave.jar kommuniziert nicht von selbst mit jenkins
 * JNLP (graphical)
 * Your own script
  - Jenkins uses stdin/out for communication.
+
+!SLIDE bullets noprint
+# Agents, Nodes, Master?!
+
+* Jenkins(-Master): A full Jenkins installation.
+* Agent: Not a full installation, controlled and configured on a master. Can run jobs.
+* Node: A Jenkins(-Master) or an agent
+
+!SLIDE smbullets printonly
+# Agents, Nodes, Master?!
+
+* Jenkins(-Master): A full Jenkins installation.
+* Agent: Not a full installation, controlled and configured on a master. Can run jobs.
+* Node: A Jenkins(-Master) or an agent

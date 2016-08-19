@@ -1,80 +1,50 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Creating A Jenkins Agent
 
-!SLIDE bullets noprint
-# Adding The Jenkins Agent
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
+
+## Objective:
+
+****
+
+* Add an agent and build your project on it
+
+## Steps:
+
+****
+
+* Add the agent using the credentials
+* Configure the project so it runs on the agent only
+* Use the information from the log to fix build errors
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Add an agent and build your project on it
+
+****
+
+## Add the agent using the credentials
+
 * `Manage Jenkins` -> `Manage Nodes`
-* `Node Name` + 'Dumb Slave'
+* `Node Name` + 'Permanent Agent'
 * `Host` : '192.168.56.102'
-* Choose Credentials `Credentials`
+* Choose Credentials
 * `Remote root directory`: '/home/training'
 
-~~~SECTION:notes~~~
+## Configure the project so it runs on the agent only
+  
+* Set a label for the node
+* Go to the projects settings
+ - 'Restrict where this project can be run'
+ - Enter the nodes label
 
-Vielleicht /home/jenkins statt training, TODO herausfinden
-Slave/Agent erklären
-Node: Master und Agenten sind Nodes
-Es gibt keine noch keine 'smart' slaves
-Label restrictions: bsp windows
-Startet automatisch nach save
+## Use the information from the log to fix build errors
 
-~~~ENDSECTION~~~
-
-!SLIDE smbullets printonly
-# Adding The Jenkins Agent
-* `Manage Jenkins` -> `Manage Nodes`
-* `Node Name` + 'Dumb Slave'
-* `Host` : '192.168.56.102'
-* Choose Credentials `Credentials`
-* `Remote root directory`: '/home/training'
-
-!SLIDE center noprint
-# Reassigning The Work
-Das Beispielprojekt soll nur auf dem Agenten gebaut werden
-
-~~~SECTION:notes~~~
-
-Die Teilnehmer können das selbst versuchen.
-Lösungen:
-Master executoren wegnehmen
-Agenten label hinzufügen und bei Projekt eintragen
-
-~~~ENDSECTION~~~
-
-!SLIDE bullets printonly
-#Arbeit verteilen
-Das Beispielprojekt soll nur auf dem Agenten gebaut werden
-
-Dazu sollten labels verwendet werden.
-
-!SLIDE center noprint
-#Fehlschlag
-
-TODO: Diesen Teil rausnehmen, in dem VMs richtigen Key eintragen
-
-Was ging schief?
-
-~~~SECTION:notes~~~
-
-Teilnehmer fragen
-
-~~~ENDSECTION~~~
-
-!SLIDE bullets noprint
-#Fehlschlag
-* Der Agent hat keinen Zugriff auf das Repository am Master
-* `localhost` auf `192.168.56.101` ändern
-* Credentials eintragen
-
-~~~SECTION:notes~~~
-
-Credentials werden vom master and Agenten weitergereicht
-
-~~~ENDSECTION~~~
-
-!SLIDE smbullets printonly
-#Fehlschlag
-* Der Agent hat keinen Zugriff auf das Repository am Master
-* `localhost` auf `192.168.56.101` ändern
-* Credentials eintragen
+* The SCM part of your project needs to be updated
+* URL: "git@192.168.56.101"
+* Credentials: jenkins
 
