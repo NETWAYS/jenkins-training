@@ -5,8 +5,14 @@ IMAGE=local/showoff
 CNAME=showoff
 
 cd "$DIR"
+
 docker build -t $IMAGE "$DIR"
-docker rm -f $CNAME
+
+if [ -n $(docker ps -aq -f name=$CNAME) ]
+then
+  docker rm -f $CNAME
+fi
+
 docker run \
   -it \
   --name=$CNAME \
@@ -17,3 +23,5 @@ docker run \
   -e "LC_ALL=$CANG" \
   $IMAGE \
   showoff serve --review --verbose
+
+exit $?
