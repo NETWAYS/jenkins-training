@@ -3,16 +3,16 @@
 
 !SLIDE bullets noprint
 #Userauth
-* Jenkins eigene Datenbank (Mit signup)
+* Own Jenkins database (also Signup)
 * LDAP
-* Unix bassiert
+* Unix
 * AD (Windows)
-* Per Webserver
+* HTTP AUTH (Webserver)
 
 !SLIDE bullets noprint
-#Rechte Management
-* Nur Read/Write
-* Per matrix
+#Right Management
+* Read/write only
+* Matrix
 
 ~~~SECTION:notes~~~
 
@@ -22,24 +22,24 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Zusätzliche Tipps
-* Jenkins hat im Zweifel totale Kontrolle über alle Slaves
- - Auf Slaves extra Jenkins User verwenden (mit eigenem ssh key)
-* Offene Jenkins Installationen sind nicht unüblich
- - Keine Passwörter o.Ä. in Job-Skripten verwenden
+#Pro tips
+* Use a dedicated user with SSH key on every slave
+ - Reduce security issues that somebody gains control on every slave
+* No passwords in job scripts
+  - Even less when Jenkins is public
 
 !SLIDE smbullets printonly
 #Userauth
-* Jenkins eigene Datenbank (Mit signup)
+* Own Jenkins database (also Signup)
 * LDAP
-* Unix bassiert
+* Unix
 * AD (Windows)
-* Per Webserver
+* HTTP AUTH (Webserver)
 
 !SLIDE smbullets printonly
-#Rechte Management
-* Nur Read/Write
-* Per matrix
+#Right Management
+* Read/write only
+* Matrix
 
 ~~~SECTION:notes~~~
 
@@ -49,9 +49,8 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Zusätzliche Tipps
-* Jenkins hat im Zweifel totale Kontrolle über alle Slaves
- - Auf Slaves extra Jenkins User verwenden (mit eigenem ssh key)
-* Offene Jenkins Installationen sind nicht unüblich
- - Keine Passwörter o.Ä. in Job-Skripten verwenden
-
+#Pro tips
+* Use a dedicated user with SSH key on every slave
+ - Reduce security issues that somebody gains control on every slave
+* No passwords in job scripts
+  - Even less when Jenkins is public

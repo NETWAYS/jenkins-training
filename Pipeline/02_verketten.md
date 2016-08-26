@@ -41,11 +41,11 @@
 
 
 # Pakete bauen
-* `suchmaschine_build_files.tar` Beispielprojekt einpflegen
-* Job erstellen:
-  - Repository klonen
-  - tar entpacken
-  - `debuild --no-tgz-check` ausführen
+* `suchmaschine_build_files.tar` Create example project
+* Create job:
+  - Clone repository
+  - Extract tar archibe
+  - Run `debuild --no-tgz-check`
 
 ~~~SECTION:notes~~~
 tar xvf $name.tar
@@ -53,22 +53,22 @@ tar xvf $name.tar
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Pakete bauen
-* `suchmaschine_build_files.tar` Beispielprojekt einpflegen
-* Job erstellen:
-  - Repository klonen
-  - tar entpacken
-  - `debuild --no-tgz-check` ausführen
+#Build package
+* `suchmaschine_build_files.tar` Create example project
+* Create job:
+  - Clone repository
+  - Extract tar archibe
+  - Run `debuild --no-tgz-check`
 
 ~~~SECTION:notes~~~
 import key gpg --import something.asc
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Jobs verketten
-* In Beispielprojekt `Post-Build Action`:
-  - 'Build other project'
-  - Anderes Projekt eintragen
+#Chaining
+* In our example project `Post-Build Action`:
+  - 'Build other projects'
+  - Enter an other project
 
 ~~~SECTION:notes~~~
 Schlägt fehl wegen mangelnder files
@@ -76,10 +76,10 @@ Schlägt fehl wegen mangelnder files
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Jobs verketten
-* In Beispielprojekt `Post-Build Action`:
-  - 'Build other project'
-  - Anderes Projekt eintragen
+#Chaining
+* In our example project `Post-Build Action`:
+  - 'Build other projects'
+  - Enter an other project
 
 !SLIDE bullets noprint
 #Access Control
@@ -110,7 +110,7 @@ zu wechseln
   - `Run as User who Triggere Build`
 
 !SLIDE bullets noprint
-#Jobs verketten
+#Chaining
 * `Clone Workspace SCM Plug-in`
 * `Multiple SCMs plugin`
 
@@ -119,17 +119,16 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Jobs verketten
+#Chaining^
 * `Clone Workspace SCM Plug-in`
 * `Multiple SCMs plugin`
 
 !SLIDE bullets noprint
-#Komplexe Ketten
+#Complex build chains
 * `conditional-buildstep` Plugin
-* Erlaubt boolsche Kontrollstrukturen
+* Build steps executed on bool conditions
 
 !SLIDE smbullets printonly
 #Komplexe Ketten
 * `conditional-buildstep` Plugin
-* Erlaubt boolsche Kontrollstrukturen
-
+* Build steps executed on bool conditions

@@ -12,7 +12,8 @@ RUN apt-get update \
       zlib1g \
       zlib1g-dev \
       libssl1.0.0 \
-      libssl-dev
+      libssl-dev \
+      wkhtmltopdf
 
 # RUN rm -f /etc/alternatives/ruby \
 #   && ln -s /usr/bin/ruby1.9.3 /etc/alternatives/ruby \

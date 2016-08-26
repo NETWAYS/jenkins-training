@@ -1,16 +1,16 @@
 !SLIDE
-#Zuviele Plugins?
-Immer mehr Plugins führen zu immer mehr Abhängigkeiten. Die Übersicht leidet 
-und der Overhead alles zu verwalten steigt.
+#Too many plugins
 
-Was tun?
+Using too many plugns results into dependencies and performance issues.
+
+What can we do?
 
 !SLIDE bullets noprint
 #Workflow/Pipeline Plugin
-* 'Pipeline' Plugin installieren
-  - Ehemals "Workflow Plugin"
-  - Der empfohlene Weg Jobs zu erstellen
-  - Aber: Sehr komplex
+* install 'Pipeline' plugin
+  - Aka "Workflow Plugin"
+  - Official recommendation to build jobs
+  - Very complex
 
 ~~~SECTION:notes~~~
 
@@ -23,14 +23,14 @@ Erklärung nächste Folie
 
 !SLIDE smbullets printonly
 #Workflow/Pipeline Plugin
-* 'Pipeline' Plugin installieren
-  - Ehemals "Workflow Plugin"
-  - Der empfohlene Weg Jobs zu erstellen
-  - Aber: Sehr komplex
+* install 'Pipeline' plugin
+  - Aka "Workflow Plugin"
+  - Official recommendation to build jobs
+  - Very complex
 
 !SLIDE center
 #Workflow/Pipeline Plugin
-Neues (Pipeline) Projekt erstellen
+Create new (Pipeline) project
 
 !SLIDE center
 #Pipeline Script
@@ -45,24 +45,24 @@ Definition per Hand oder aus SCM
 
 !SLIDE bullets noprint
 #Pipeline Script
-* Eigendlich Groovey Script
-* Jenkins Spezifische Deklarationen
+* Script language is Groovy
+* Included Jenkins api
 * 'Pipeline Syntax': Snippet Editor
 
 !SLIDE smbullets printonly
 #Pipeline Script
-* Eigendlich Groovey Script
-* Jenkins Spezifische Deklarationen
+* Script language is Groovy
+* Included Jenkins api
 * 'Pipeline Syntax': Snippet Editor
 
 !SLIDE bullets noprint
 #Pipeline Syntax
 * `Stage`
-  - Logische Einheit zur Visualisierung
+  - Logically distinct part of the execution of any task
 * `Node`
-  - Mehrere Steps mit flüchtigem Workspace
+  - Contain multiple steps and create workspaces (not permanet)
 * `Step`
-  - Einzelner Schritt in einem Job
+  - A single part of the sequence
 
 ~~~SECTION:notes~~~
 Node: Mehrere Steps da Workspace erstellen und löschen ein Schritt ist
@@ -71,37 +71,38 @@ Node: Mehrere Steps da Workspace erstellen und löschen ein Schritt ist
 !SLIDE smbullets printonly
 #Pipeline Syntax
 * `Stage`
-  - Logische Einheit zur Visualisierung
+  - Logically distinct part of the execution of any task
 * `Node`
-  - Mehrere Steps mit flüchtigem Workspace
+  - Contain multiple steps and create workspaces (not permanet)
 * `Step`
-  - Einzelner Schritt in einem Job
+  - A single part of the sequence
+
 !SLIDE bullets
 
 !SLIDE bullets noprint
-#Freestyle zu Pipleine
-Wir wollen unser Python Projekt zu einem Pipline Projekt umauben
+#Freestyle to Pipleine
+Convert our Python project to Pipeline.
 
 * `Pipeline Syntax`
 * `checkout: General SCM`
-* Ausfüllen
+* Enter configuration
 * `Generate Groovy`
 
 !SLIDE smbullets printonly
-#Freestyle zu Pipleine
-Wir wollen unser Python Projekt zu einem Pipline Projekt umauben
+#Freestyle to Pipeline
+Convert our Python project to Pipeline.
 
 * `Pipeline Syntax`
 * `checkout: General SCM`
-* Ausfüllen
+* Enter configuration
 * `Generate Groovy`
 
 !SLIDE bullets noprint
-#Freestyle zu Pipleine
-* Der checkout muss mit einem `node { }` umschlossen werden
-* Stages sind optional:
+#Freestyle to Pipeline
+* Enclose checkout with`node { }`
+* Optional stages:
   - `stage 'SCM'`
-  - Stages sind aktiv bis eine neue Stage deklariert wird
+  - The stage is active until a new stage is created
 
 ~~~SECTION:notes~~~
 
@@ -113,18 +114,18 @@ Langsam ausklingen lassen, Extra teil ankündigen
 
 !SLIDE smbullets printonly
 #Freestyle zu Pipleine
-* Der checkout muss mit einem `node { }` umschlossen werden
-* Stages sind optional:
+* Enclose checkout with`node { }`
+* Optional stages:
   - `stage 'SCM'`
-  - Stages sind aktiv bis eine neue Stage deklariert wird
+  - The stage is active until a new stage is created
 
 !SLIDE bullets noprint
-#Pipeline ist Code
-* Pipeline Scripts sind Code und sollten auch so behandelt werden:
-  - Anfälliger für Fehler als eien geklickte Konfiguration
-  - Möglichkeiten kaum begrenzt
-  - Schwer zu lernen
-  - SCM verwenden um Pipelien zu verwalten (`Pipeline Script from SCM`)
+#Pipeline as code
+* Pipeline scripts are code and should be handled like that:
+  - Less tolerant when using templates or wizards
+  - Unlimited features
+  - Hard to learn
+  - Use a SCM to maintain your configuration (`Pipeline Script from SCM`)
 
 ~~~SECTION:notes~~~
 Für mehr reicht die Zeit nicht, Pipline ist eine Option die für kleine Installationen
@@ -134,9 +135,9 @@ Wenn keine Fragen, dann Security + Best practise
 
 !SLIDE smbullets printonly
 #Pipeline ist Code
-* Pipeline Scripts sind Code und sollten auch so behandelt werden:
-  - Anfälliger für Fehler als eien geklickte Konfiguration
-  - Möglichkeiten kaum begrenzt
-  - Schwer zu lernen
-  - SCM verwenden um Pipelien zu verwalten (`Pipeline Script from SCM`)
-
+#Pipeline as code
+* Pipeline scripts are code and should be handled like that:
+  - Less tolerant when using templates or wizards
+  - Unlimited features
+  - Hard to learn
+  - Use a SCM to maintain your configuration (`Pipeline Script from SCM`)

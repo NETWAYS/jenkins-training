@@ -66,7 +66,7 @@ Gleich die Credentials eintragen lassen
 * Click the `Credentials` link in the leftside menu
 
 ## Add an SSH key to the jenkins user
-  
+
 * Kind: 'SSH Usermane with private key'
 * Username: `jenkins`
 * `Private Key`: `From the Jenkins master ~/.ssh`
@@ -78,4 +78,3 @@ Gleich die Credentials eintragen lassen
     sudo su jenkins
     ssh-copy-id 192.168.56.102
     Password? "icinga"
-

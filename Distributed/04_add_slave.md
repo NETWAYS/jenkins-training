@@ -36,7 +36,7 @@
 * `Remote root directory`: '/home/training'
 
 ## Configure the project so it runs on the agent only
-  
+
 * Set a label for the node
 * Go to the projects settings
  - 'Restrict where this project can be run'
@@ -47,4 +47,3 @@
 * The SCM part of your project needs to be updated
 * URL: "git@192.168.56.101"
 * Credentials: jenkins
-

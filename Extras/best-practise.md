@@ -3,18 +3,18 @@
 
 !SLIDE bullets noprint
 #Backups, Backups, Backups
-* Jenkins Konfiguration mit Hilfe von SCM sichern
-* Tags für funktionierende Zustände
-* Testen in Branches
+* Use SCM to maintain your configuration
+* Tags for successors
+* Test in Branches
 
 !SLIDE smbullets printonly
 #Backups, Backups, Backups
-* Jenkins Konfiguration mit Hilfe von SCM sichern
-* Tags für funktionierende Zustände
-* Testen in Branches
+* Use SCM to maintain your configuration
+* Tags for successors
+* Test in Branches
 
 !SLIDE smbullets
-#Was soll man sichern?
+#What to backup?
 
 * `$JENKINS_HOME/*.xml`
 * `$JENKINS_HOME/jobs/*/*.xml`
@@ -22,39 +22,40 @@
 * `$JENKINS_HOME/plugins/*.jpi`
 * `$JENKINS_HOME/users/*`
 
-* .gitignore hilft
+* .gitignore may help
 
-!SLIDE smbullets 
-#Die Testinstanz
-* Ein sperater Jenkins-Test-Master erspaart viel kummer
-  - Hardware muss nicht equivalent sein
-* $JENKINS\_HOME in git einpflegen
-  - Nur relevante Konfigurationsdateien in die Versionskontrolle
-  - Artefakte, Logs etc. nicht
-* Test-Agenten mit Docker o.ä. realisieren
-* Kann per Merge einfach in Produktion genommen werden
+!SLIDE smbullets
+# Test machine
+* Easier testing on dediacted machines
+  - Also on different Hardware
+* Commit $JENKINS\_HOME to git
+  - Only included config that you really need
+  - Don't commit artefacts, logs
+  - Test agents could be build with docker
+  - Just merge and go productive
 
 !SLIDE bullets  noprint
-#Agilität durch Granularität
-* Jobs in Teilschritte aufteilen:
-  - Erlaubt Wiederverwendung von Modulen
-  - Fehlerfindung/-behebung wird leichter
-  - Schnellere Wiederaufnahme von fehlgeschlagenen Jobs
+#Granularity: Keep things simple
+* Use dedicated build steps:
+  - Reusing parts
+  - Smaller parts to debug
+  - Get back running error prone jobs
+
 * Workflow/Pipeline Plugin
 
 !SLIDE bullets  noprint
-#Agilität durch Granularität
-* Mehrere Teams - Mehrere Master
-  - Lastverteilung
-  - Vermindert Plugin Bloat
-* Unabhängige Projekte wenn möglich physisch trennen
+#Granularity: Keep things simple
+* Multiple teams - multiple masters
+  - Loadbalancing
+  - Less plugin bloat
+* Different projects on different servers
 
 !SLIDE bullets noprint
-#Agilität durch Uniformität
-* Uniforme Agenten sind leicht zu ersetzen
-* Gleiche tools, gleiche Hardware
-  - Gleiches Dockerfile
-* Best Case: Agenten aus Foreman/Ansible etc.
+#To be uniform
+* Easy replacement of uniform agents
+* Same tools, same platform
+  - Same Dockerfile
+* Best Case: Agent provision via Foreman/Ansible etc.
 
 ~~~SECTION:notes~~~
 Auf diese Art können unter Last oder bei Ausfall einfach neu Agenten
@@ -63,23 +64,24 @@ Auf Foreman, Ansible Schulung hinweisen.
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Agilität durch Granularität
-* Jobs in Teilschritte aufteilen:
-  - Erlaubt Wiederverwendung von Modulen
-  - Fehlerfindung/-behebung wird leichter
-  - Schnellere Wiederaufnahme von fehlgeschlagenen Jobs
+#Granularity: Keep things simple
+* Use dedicated build steps:
+  - Reusing parts
+  - Smaller parts to debug
+  - Get back running error prone jobs
+
 * Workflow/Pipeline Plugin
 
 !SLIDE smbullets printonly
-#Agilität durch Granularität
-* Mehrere Teams - Mehrere Master
-  - Lastverteilung
-  - Vermindert Plugin Bloat
-* Unabhängige Projekte wenn möglich physisch trennen
+#Granularity: Keep things simple
+* Multiple teams - multiple masters
+  - Loadbalancing
+  - Less plugin bloat
+* Different projects on different servers
 
 !SLIDE smbullets printonly
-#Agilität durch Uniformität
-* Uniforme Agenten sind leicht zu ersetzen
-* Gleiche tools, gleiche Hardware
-  - Gleiches Dockerfile
-* Best Case: Agenten aus Foreman/Ansible etc.
+#To be uniform
+* Easy replacement of uniform agents
+* Same tools, same platform
+  - Same Dockerfile
+* Best Case: Agent provision via Foreman/Ansible etc.
