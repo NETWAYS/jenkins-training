@@ -113,7 +113,7 @@ Langsam ausklingen lassen, Extra teil ankündigen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Freestyle zu Pipleine
+#Freestyle to Pipleine
 * Enclose checkout with`node { }`
 * Optional stages:
   - `stage 'SCM'`
@@ -134,7 +134,6 @@ Wenn keine Fragen, dann Security + Best practise
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Pipeline ist Code
 #Pipeline as code
 * Pipeline scripts are code and should be handled like that:
   - Less tolerant when using templates or wizards
