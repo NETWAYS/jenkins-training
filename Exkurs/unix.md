@@ -3,7 +3,7 @@
 The notebooks you have in front of you are no super-computers,
 but they are fast enough to:
 
-* Allow you to follow the presentation [TODO Add showoff url]
+* Allow you to follow the presentation
 * Run the virtual maschines we use for our exercises
 
 !SLIDE bullets noprint
@@ -18,7 +18,7 @@ TODO: Bild von virtualbox mit den 2 maschinen
 
 ~~~ENDSECTION~~~
 
-!SLIDE 
+!SLIDE
 # jenkins-master
 Either work in the VirtualBox windows . . .  
 . . . or connect to the VM using ssh
