@@ -14,28 +14,27 @@
 * Test in Branches
 
 !SLIDE smbullets
-#What to backup?
+#What To Backup?
 
 * `$JENKINS_HOME/*.xml`
 * `$JENKINS_HOME/jobs/*/*.xml`
 * `$JENKINS_HOME/nodes/*`
 * `$JENKINS_HOME/plugins/*.jpi`
 * `$JENKINS_HOME/users/*`
-
-* .gitignore may help
+* gitignore helps
 
 !SLIDE smbullets
-# Test machine
-* Easier testing on dediacted machines
+# Test Machine
+* Easier testing on dedicated machines
   - Also on different Hardware
 * Commit $JENKINS\_HOME to git
   - Only included config that you really need
-  - Don't commit artefacts, logs
+  - Don't commit artifacts or logs
   - Test agents could be build with docker
   - Just merge and go productive
 
 !SLIDE bullets  noprint
-#Granularity: Keep things simple
+#Granularity: Keep Things Simple
 * Use dedicated build steps:
   - Reusing parts
   - Smaller parts to debug
@@ -46,7 +45,7 @@
 !SLIDE bullets  noprint
 #Granularity: Keep things simple
 * Multiple teams - multiple masters
-  - Loadbalancing
+  - Load balancing
   - Less plugin bloat
 * Different projects on different servers
 
@@ -75,7 +74,7 @@ Auf Foreman, Ansible Schulung hinweisen.
 !SLIDE smbullets printonly
 #Granularity: Keep things simple
 * Multiple teams - multiple masters
-  - Loadbalancing
+  - Load balancing
   - Less plugin bloat
 * Different projects on different servers
 
