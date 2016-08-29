@@ -3,14 +3,14 @@
 
 !SLIDE bullets noprint
 #Userauth
-* Own Jenkins database (also Signup)
+* Own Jenkins database (does signup)
 * LDAP
 * Unix
 * AD (Windows)
 * HTTP AUTH (Webserver)
 
 !SLIDE bullets noprint
-#Right Management
+#Permission Management
 * Read/write only
 * Matrix
 
@@ -22,14 +22,14 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Pro tips
+#Pro-tips
 * Use a dedicated user with SSH key on every slave
  - Reduce security issues that somebody gains control on every slave
 * No passwords in job scripts
   - Even less when Jenkins is public
 
 !SLIDE smbullets printonly
-#Userauth
+# Userauth
 * Own Jenkins database (also Signup)
 * LDAP
 * Unix
@@ -37,8 +37,8 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 * HTTP AUTH (Webserver)
 
 !SLIDE smbullets printonly
-#Right Management
-* Read/write only
+# Permission Management
+* Read/Write only
 * Matrix
 
 ~~~SECTION:notes~~~
@@ -49,7 +49,7 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Pro tips
+#Pro-tips
 * Use a dedicated user with SSH key on every slave
  - Reduce security issues that somebody gains control on every slave
 * No passwords in job scripts
