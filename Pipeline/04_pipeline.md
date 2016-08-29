@@ -30,7 +30,7 @@ Erklärung nächste Folie
 
 !SLIDE center
 #Workflow/Pipeline Plugin
-Create new (Pipeline) project
+Create a new (Pipeline) project
 
 !SLIDE center
 #Pipeline Script
@@ -46,13 +46,13 @@ Definition per Hand oder aus SCM
 !SLIDE bullets noprint
 #Pipeline Script
 * Script language is Groovy
-* Included Jenkins api
+* Includes Jenkins API
 * 'Pipeline Syntax': Snippet Editor
 
 !SLIDE smbullets printonly
 #Pipeline Script
 * Script language is Groovy
-* Included Jenkins api
+* Includes Jenkins API
 * 'Pipeline Syntax': Snippet Editor
 
 !SLIDE bullets noprint
@@ -80,7 +80,7 @@ Node: Mehrere Steps da Workspace erstellen und löschen ein Schritt ist
 !SLIDE bullets
 
 !SLIDE bullets noprint
-#Freestyle to Pipleine
+#Freestyle To Pipleine
 Convert our Python project to Pipeline.
 
 * `Pipeline Syntax`
@@ -89,7 +89,7 @@ Convert our Python project to Pipeline.
 * `Generate Groovy`
 
 !SLIDE smbullets printonly
-#Freestyle to Pipeline
+#Freestyle To Pipeline
 Convert our Python project to Pipeline.
 
 * `Pipeline Syntax`
@@ -98,7 +98,7 @@ Convert our Python project to Pipeline.
 * `Generate Groovy`
 
 !SLIDE bullets noprint
-#Freestyle to Pipeline
+#Freestyle To Pipeline
 * Enclose checkout with`node { }`
 * Optional stages:
   - `stage 'SCM'`
@@ -113,14 +113,14 @@ Langsam ausklingen lassen, Extra teil ankündigen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Freestyle to Pipleine
+#Freestyle To Pipleine
 * Enclose checkout with`node { }`
 * Optional stages:
   - `stage 'SCM'`
   - The stage is active until a new stage is created
 
 !SLIDE bullets noprint
-#Pipeline as code
+#Pipeline As Code
 * Pipeline scripts are code and should be handled like that:
   - Less tolerant when using templates or wizards
   - Unlimited features
@@ -134,7 +134,7 @@ Wenn keine Fragen, dann Security + Best practise
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Pipeline as code
+#Pipeline As Code
 * Pipeline scripts are code and should be handled like that:
   - Less tolerant when using templates or wizards
   - Unlimited features
