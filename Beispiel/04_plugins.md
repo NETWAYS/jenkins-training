@@ -31,6 +31,13 @@ Plugins are a big selling point of Jenkins
 * `Manage Plugins`
 * `Available`
 
+!SLIDE bullets noprint
+# Plugin Installation
+* `Filter`: 'Cobertura Plugin'
+* Tick `Install`
+* `Install without restart`
+* Tick `restart Jenkins`
+
 !SLIDE smbullets printonly
 # Plugin Installation
 * `Filter`: 'Cobertura Plugin'

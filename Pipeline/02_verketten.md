@@ -26,6 +26,23 @@ Schlägt fehl wegen mangelnder files
   - Enter an other project
 
 !SLIDE bullets noprint
+# Why We Don't Use A Build Trigger
+* 'Build after other projects are built' is not a good choice in this case
+* Traceability suffers
+* Useful for downstream and cleanup jobs
+
+~~~SECTION:notes~~~
+Nachverfolgbarkeit von Fehlern leidet
+Daher nicht zu empfehlen bei upstream jobs
+~~~ENDSECTION~~~
+
+!SLIDE smbullets printonly
+# Why We Don't Use A Build Trigger
+* 'Build after other projects are built' is not a good choice in this case
+* Traceability suffers
+* Useful for downstream and cleanup jobs
+
+!SLIDE bullets noprint
 #Chaining
 * `Clone Workspace SCM Plug-in`
 * `Multiple SCMs plugin`

@@ -1,7 +1,7 @@
 !SLIDE
 #Too many plugins
 
-Using too many plugns results into dependencies and performance issues.
+Using too many plugins results into dependencies and performance issues.
 
 What can we do?
 
