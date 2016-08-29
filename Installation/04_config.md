@@ -1,6 +1,5 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Configuration
-TODO: REDO THIS. Lab and order are weird
 
 !SLIDE bullets noprint
 # Configuration
@@ -30,7 +29,7 @@ Jenkins can be configured in two ways:
  * shh into the jenkins master (`ssh 192.168.56.101, passwd 'netways'`)
  * Find the 'Jenkins-Home' at `/var/lib/jenkins`
  * Edit the `config.xml` and set the executors back to 3
- * Reload Jenkins 
+ * Reload Jenkins
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
@@ -50,7 +49,7 @@ Jenkins can be configured in two ways:
 * shh into the jenkins master (`ssh jenkins-master, passwd 'netways'`)
 * Find the 'Jenkins-Home' at `/var/lib/jenkins`
 * Edit the `config.xml` and set the executors back to 3
-* Reload Jenkins 
+* Reload Jenkins
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -111,4 +110,3 @@ TODO: Add to cheatsheet
 ~~~SECTION:notes~~~
 https://gist.github.com/abayer/527063a4519f205efc74
 ~~~ENDSECTION~~~
-
