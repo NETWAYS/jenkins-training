@@ -90,8 +90,6 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 ## Set up Source Code Management
 <img src="./_img/scm_added.png"/>
 
-git@localhost:/opt/git/training.git
-
 ~~~PAGEBREAK~~~
 
 ## Copy the Build Step
