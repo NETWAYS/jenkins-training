@@ -1,6 +1,15 @@
 !SLIDE subsection
 #~~~SECTION:MAJOR~~~ Creating A Jenkins Agent
 
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
+* Objective:
+ * Add an agent and build your project on it
+* Steps:
+ * Add the agent using the credentials
+ * Configure the project so it runs on the agent only
+ * Use the information from the log to fix build errors
+
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
 
