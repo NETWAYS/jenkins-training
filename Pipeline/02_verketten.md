@@ -119,7 +119,7 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Chaining^
+#Chaining
 * `Clone Workspace SCM Plug-in`
 * `Multiple SCMs plugin`
 
@@ -129,6 +129,6 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 * Build steps executed on bool conditions
 
 !SLIDE smbullets printonly
-#Komplexe Ketten
+#Complex build chains
 * `conditional-buildstep` Plugin
 * Build steps executed on bool conditions
