@@ -87,7 +87,8 @@ By default Jenkins runs on port 8080
 
 <center><img src="./_img/install_suggested_plugins.png"/><center>
 
+~~~PAGEBREAK~~~
+
 ## Create An Initial User
 
 <center><img src="./_img/create_user_jenkins.png"/><center>
-

@@ -92,10 +92,11 @@ You can do this by yourself
 
 > You can click the '?' to see the documentation of the scheduling format
 
+~~~PAGEBREAK~~~
+
 ## Apply and push the 'perfect patch'
 
     @@@ Sh
 	$ cd suchmaschine
 	$ git am perfect.patch
 	$ git push
-
