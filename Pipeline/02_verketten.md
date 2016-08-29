@@ -44,7 +44,7 @@
 * `suchmaschine_build_files.tar` Create example project
 * Create job:
   - Clone repository
-  - Extract tar archibe
+  - Extract tar archive
   - Run `debuild --no-tgz-check`
 
 ~~~SECTION:notes~~~
