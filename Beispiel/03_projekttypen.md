@@ -51,10 +51,10 @@ TODO: Extra Teil über pipeline projekte
 * Not part of this Training
 
 !SLIDE bullets noprint
-# Pipeline/Multi-branch Pipeline
+# Pipeline
 * Once knows as 'Workflow'
-* Uses a script language to allow extremely sophisticated processes
-* Can be integrated with 'Blue Ocean'
+* Uses a declarative Domain Specific Lanugage (DSL)
+* 'Blue Ocean', a special pipeline UI
 
 ~~~SECTION:notes~~~
 
@@ -63,7 +63,8 @@ Ist ein Extra Thema, kann bei Intresse und genug Zeit noch nachgeschoben werden
 ~~~ENDSECTION~~~
 
 !SLIDE bullets printonly
-# Pipeline/Multi-branch Pipeline
+# Pipeline
 * Once knows as 'Workflow'
-* Uses a script language to allow extremely sophisticated processes
+* Uses a declarative Domain Specific Language (DSL)
 * Can be integrated with 'Blue Ocean'
+  - Pipeline specific UI

@@ -9,6 +9,7 @@ Plugins are a big selling point of Jenkins
   - Can also be installed manually
 * Each plugin is documented in the Wiki
 * Written in Java
+* 'Dependency Hell' can be an issue
 
 ~~~SECTION:notes~~~
 
@@ -24,26 +25,51 @@ Plugins are a big selling point of Jenkins
   - Can also be installed manually 
 * Each plugin is documented in the Wiki
 * Written in Java
+* Often highly dependent on each other
 
-!SLIDE bullets noprint
-# Plugin Installation
-* `Manage Jenkins`
+
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Installing A Plugin
+* Objective:
+  * Install the 'Cobertura' Plugin
+* Steps:
+  * Navigate to the Plugin Manager
+  * Search for and install the 'Cobertura' Plugin
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Installing A Plugin
+
+## Objective:
+
+****
+
+* Install the 'Cobertura' Plugin
+
+## Steps:
+
+****
+
+* Navigate to the Plugin Manager
+* Search for and install the 'Cobertura' Plugin
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Install the 'Cobertura' Plugin
+
+****
+
+## Navigate to the Plugin Manager
+
+* `Manage Jenkins` ->
 * `Manage Plugins`
-* `Available`
 
-!SLIDE bullets noprint
-# Plugin Installation
-* `Filter`: 'Cobertura Plugin'
-* Tick `Install`
-* `Install without restart`
-* Tick `restart Jenkins`
+## Search for and install the 'Cobertura' Plugin
+<img src="./_img/get_plugin.png" />
+<img src="./_img/get_plugin2.png" />
 
-!SLIDE smbullets printonly
-# Plugin Installation
-* `Filter`: 'Cobertura Plugin'
-* Tick `Install`
-* `Install without restart`
-* Tick `restart Jenkins`
 
 ~~~SECTION:notes~~~
 
@@ -53,9 +79,11 @@ es gibt einige 'Git Plugins' aber wir sollen das normale
 
 ~~~ENDSECTION~~~
 
-!SLIDE noprint center
-# Which Plugins Are Good?
-In the course of this training we will meet a few helpful or essential Plugins.
+!SLIDE bullets noprint
+# Worthwhile Plugins?
+* During the course of this training we will meet a few helpful or essential Plugins.
+* In the end there is a list of plugins we found useful
+* Often plugins are highly specifc or extension of other plugins
 
 ~~~SECTION:notes~~~
 

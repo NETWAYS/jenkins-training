@@ -1,6 +1,7 @@
 !SLIDE bullets noprint
 # Hello Jenkins!
 
+* TODO: Rework this introduction
 * `New Item`: Entry point for job creation
 * Choose a name and select 'Freestyle Project'
 * `Build` -> `Execute Shell`
@@ -28,51 +29,101 @@ Am Beamer Zeigen
 
     @@@ sh
     echo "Hello Jenkins"
-    exit 0 	  				 	 	 	   	 	  	   		  	 
+    exit 0
+
+###TODO: Explain job types here, after explain exit codes
+See https://wiki.jenkins-ci.org/pages/viewpage.action?pageId=74876543
+
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Job
+* Objective:
+  * Create a Jenkins Job
+* Steps:
+  * Create a 'Freestyle Project'
+  * Add a 'Execute shell'-build step
+  * Start the Job and check its output
+
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Job
+
+## Objective:
+
+****
+
+* Create a Jenkins job
+
+## Steps:
+
+****
+
+* Create a 'Freestyle Project'
+* Add a 'Execute shell'-build step
+* Start the Job and check its output
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Create a Jenkins job
+
+****
+
+## Create a 'Freesyle Project'
+
+<img src="./_img/create_build.png" />
+<img src="./_img/create_build2.png" />
+
+## Add a 'Execute shell'-build step
+<img src="./_img/create_build3.png" />
+
+## Start the Job and check its output
+<img src="./_img/create_build4.png" />
+<img src="./_img/create_build5.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_blank.png" />
 
 !SLIDE printonly
-#Die Statusseite
+#Job Status Page
 <center><img src="./_img/overview_blank.png" style="width:600px"/></center>
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_overview.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_changes.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_workspace.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_build_now.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_delete.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_configure.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_history.png" />
 
 !SLIDE center noprint
-#Die Statusseite
+#Job Status Page
 <img src="./_img/overview_trend.png" />
 
 
 !SLIDE bullets small noprint
-# The Statuspage
+# Job Status Page
 * Changes  
 Can show a change log (requires an add-on)
 * Workspace  
@@ -96,7 +147,7 @@ Vergangene builds behalten auch die Ergebnise, nicht nur logs
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# The Status page
+# Job Status Page
 * Changes  
 Can show a change log (requires an add-on)
 * Workspace  

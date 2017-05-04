@@ -1,15 +1,19 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Creating A Project
+#~~~SECTION:MAJOR~~~ A Proper Project
 
 !SLIDE bullets noprint
-# Preparation
+#A Proper Project
+* The "Hello Jenkins" Job shows basic usage of Jobs
+* Next we will create a job that does a bit more
 
-* Install required plugins:
- - Git Plugin
-* Install required build tools:
- - Python 2.7
- - Pip
- - virtualenv
+!SLIDE smbullets noprint
+# Preparation
+Things to consider when before creating a new Job:
+* Are all required Plugins installed?
+  - We will only be needing the Git Plugin (Preinstalled)
+* Are all my required build tools installed?
+  - We will need: Python 2.7, python-pip and virtualenv
+  - They're all already installed in this case
 
 ~~~SECTION:notes~~~
 
@@ -21,14 +25,6 @@
 
 ~~~ENDSECTION~~~
 
-!SLIDE noprint
-#Build it!
-<img src="./_img/build_now.png" alt="Build Now!" />
-
-!SLIDE noprint
-#Build it!
-<img src="./_img/build_running.png" />
-
 ~~~SECTION:notes~~~
 
 Live Konsolen output ist zu sehen, interessant zum debuggen
@@ -36,25 +32,24 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets small
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Project
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: A Proper Project
 * Objective:
- * Set up the example project and start it
+  * Set up the python build job
 * Steps:
- * Create a new Freestyle Project
- * Set up Source Code Management
- * Copy the Build Step
- * Save the Project
- * Build it!
+  * Create a new Freestyle Project
+  * Set up Source Code Management
+  * Add the Build Step
+  * Build it!
 
 
 !SLIDE supplemental exercises
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Project
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: A Proper Project
 
 ## Objective:
 
 ****
 
-* Set up the example project and start it
+* Set up the python build job
 
 ## Steps:
 
@@ -62,8 +57,7 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 
 * Create a new Freestyle Project
 * Set up Source Code Management
-* Copy the Build Step
-* Save the Project
+* Add the Build Step
 * Build it!
 
 ~~~SECTION:notes~~~
@@ -77,7 +71,7 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 
 ****
 
-## Creating Your First Project
+## Set up the python build job
 
 ****
 
@@ -92,7 +86,7 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 
 ~~~PAGEBREAK~~~
 
-## Copy the Build Step
+## Add the Build Step
 
 Execute Shell
 
@@ -104,12 +98,6 @@ Execute Shell
     virtualenv --no-site-packages "$PYENV_HOME"
     . "$PYENV_HOME"/bin/activate
     pip install "$WORKSPACE/"
-
-## Save the Project
-
-<img src="./_img/save_project.png"/>
-
-~~~PAGEBREAK~~~
 
 ## Build it!
 

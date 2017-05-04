@@ -1,8 +1,7 @@
-!SLIDE center
-# On Git
-
-Git will be used in the course of this training, but it will not be explained in detail.  
-If you are interested in learning more about Git: NETWAYS also offers Git training
+!SLIDE smbullets noprint
+# About Git
+* Git will be used in the course of this training, but it will not be explained in detail.  
+* If you are interested in learning more about Git: NETWAYS also offers Git training
 
 !SLIDE bullets noprint
 # Using The Local Git Server
