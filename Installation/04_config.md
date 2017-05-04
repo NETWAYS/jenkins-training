@@ -5,7 +5,7 @@
 # Configuration
 Jenkins can be configured in two ways
 
-* Through the web interface
+* On the fly through the web interface
 * By editing it's config files (XML-formated)
 
 ~~~SECTION:notes~~~
@@ -16,7 +16,7 @@ Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
 # Configuration
 Jenkins can be configured in two ways:
 
-* Through the web interface
+* On the fly through the web interface
 * By editing it's config files (XML-formated)
 
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
@@ -73,15 +73,16 @@ Jenkins can be configured in two ways:
 
 ## Configuration Files:
 
-  # cd /var/lib/jenkins
-  # vim config.xml
+    @@@ Shell
+    $ cd /var/lib/jenkins
+    $ sudo vim config.xml
 
-    `<numExecutors>3</numExecutors>`
+        <numExecutors>3</numExecutors>
 
-  # sudo systemctl restart jenkins
+    $ sudo systemctl restart jenkins
 
 !SLIDE
-# Making Config Changes Visible
+# Applying config changes
 After making changes to Jenkins' files, it needs to be made aware of these changes.
 
 Either by restarting Jenkins from the console
@@ -89,13 +90,15 @@ Either by restarting Jenkins from the console
     @@@ Shell
     sudo systemctl restart jenkins
 
-Or using the the right button
+Or by clicking the the correct button
 
-	`Manage Jenkins` ->  
-	`Reload Configuration from Disk`
+    @@@ Shell
+	'Manage Jenkins' ->  
+	'Reload Configuration from Disk'
 
 Or using the API
 
+	@@@ Shell
     http://jenkins-master:8080/reload  
 
 ~~~SECTION:notes~~~

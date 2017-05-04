@@ -5,6 +5,7 @@
 * Two common ways
  - Package
  - Container + jenkins.war
+* Dependencies preinstalled, Repository included
 
 ~~~SECTION:notes~~~
 Tomcat wird nur gebaucht wenn man es manuel startet
@@ -13,31 +14,87 @@ Tomcat wird nur gebaucht wenn man es manuel startet
 !SLIDE smbullets printonly
 # Installation
 * Java (JDK > 1.7)
-* Optional: Tomcat, Glassfish, ...
-* Two common ways
- - Package
- - Container + jenkins.war
+* Optional container: Tomcat, Glassfish, ...
+* Jenkins offers package repositories. See `https://jenkins.io/download/`
 
-!SLIDE
-# Installation
-Jenkins 2.7.2 package ready to install
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Jenkins Installation
+* Objective:
+ * Install and start Jenkins
+* Steps:
+ * Install Jenkins using the repository or local package
+ * Start the Jenkins service
+ * Check Jenkins' status
 
-* `/home/training/jenkins_2.7.2_all.deb`
-* `$ sudo dpkg -i jenkins_2.7.2_all.deb`
+!SLIDE supplemental exercises
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Jenkins Installation
 
-!SLIDE
-# Starting Jenkins
-Start via systemctl
+## Objective:
+
+****
+
+* Install and start Jenkins
+
+## Steps:
+
+****
+
+* Install Jenkins
+* Start the Jenkins service
+* Check Jenkins' status
+
+!SLIDE supplemental solutions
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+
+****
+
+## Jenkins Installation
+
+****
+
+## Install Jenkins
+
+Run either
+
+    @@@ shell
+    $ sudo yum install -y jenkins
+
+Or 
+
+    @@@ shell
+    $ sudo rpm -ihv ~/jenkins-2.7.4-1.1.noarch.rpm
+
+## Start the Jenkins service
 
     @@@ shell
     $ sudo systemctl start jenkins
 
-!SLIDE
-# Jenkins is now running
-By default Jenkins runs on port 8080
+## Check Jenkins' status
+
+    @@@ shell
+    $ sytemctl status jenkins
+
+
+!SLIDE bullets noprint
+# Up and running
+* Default port for Jenkins is `8080`
+* Can be configured in `/etc/sysconfig/jenkins`
+* Also allows for further Jenkins/Java configurations
+* You should be able to reach Jenkins form your Browser now:
 
     @@@ shell
     http://192.168.56.101:8080
+
+!SLIDE smbullets printonly
+# Up and running
+* Default port for Jenkins is `8080`
+* Jenkins/Java configuration in `/etc/sysconfig/jenkins`
+* Firewall may need to be configured
+
+    @@@ Shell
+	firewall-cmd --zone=public --add-port=8080/tcp --permanent
+	firewall-cmd --reload
+
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Setting Up Jenkins
@@ -46,9 +103,7 @@ By default Jenkins runs on port 8080
 * Steps:
  * Find the setup password and enter it
  * Install the suggested plugins
- * Wait for the installation to finish
  * Create an initial user
- * Remember the credentials, all fields need to be filled out
 
 
 !SLIDE supplemental exercises
@@ -66,9 +121,7 @@ By default Jenkins runs on port 8080
 
 * Find the setup password and enter it
 * Install the suggested plugins
-* Wait for the installation to finish
 * Create an initial user
-* Remember the credentials, all fields need to be filled out
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -79,16 +132,17 @@ By default Jenkins runs on port 8080
 
 ****
 
-## Finding The Password
+## Find the setup password and enter it
 
-  # sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    @@@ Shell
+    $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-## Install The Suggested Plugins
+## Install the suggested plugins
 
 <center><img src="./_img/install_suggested_plugins.png"/><center>
 
 ~~~PAGEBREAK~~~
 
-## Create An Initial User
+## Create an initial user
 
 <center><img src="./_img/create_user_jenkins.png"/><center>
