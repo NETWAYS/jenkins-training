@@ -17,7 +17,7 @@ SPI: Software in the Public Interest
 # The Jenkins Community
 * MIT license
 * Transparent leadership
-* SPI-Project (FFmpeg, Debian, PostgreSQL)
+* SPI-Project (Software in the Public Interest)
 * Four Jenkins-User conferences in 2015
 (USA, England, Israel)
 

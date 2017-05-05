@@ -97,7 +97,7 @@ Hudson: ~30 Mitglieder/20 Repositories
 <center><img src="./_img/timeline-1.svg" style="width:480px;height:163px;" alt="jenkins timeline"></center>
 
 !SLIDE bullets noprint
-# What Brings The Future?
+# Future Development
 * Push for Piplines
  - Jenkins 2.0 having Pipline as a default Plugin
  - Blue Ocean as visualisation tool
@@ -112,7 +112,7 @@ Blue Ocean kommt nicht vor
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# What Brings The Future?
+# Future Development
 * Push for Piplines
  - Jenkins 2.0 having Pipline as a default Plugin
  - Blue Ocean as visualisation tool
@@ -135,11 +135,10 @@ Blue Ocean kommt nicht vor
 * Supports a distributed architecture
 
 !SLIDE bullets noprint
-# Comparing Jenkins to other CI/CD tools
+# Comparing Jenkins To Other CI/CD Tools
 * Free Software (Free Speech and free beer)
 * Active community and delopment
 * THE CI/CD software
-* Great features
 
 ~~~SECTION:notes~~~
 
@@ -149,9 +148,8 @@ Alle anderen tools müssen sich an Jenkins messen
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-# Comparing Jenkins to other CI/CD tools
+# Comparing Jenkins To Other CI/CD Tools
 * Free Software (Free Speech and free beer)
 * Active community and delopment
 * THE CI/CD software
-* Great features
 
