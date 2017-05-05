@@ -34,7 +34,8 @@ Plugins are a big selling point of Jenkins
   * Install the 'Cobertura' Plugin
 * Steps:
   * Navigate to the Plugin Manager
-  * Search for and install the 'Cobertura' Plugin
+  * Search for and install the 'Cobertura' and 'Violations' plugin
+  * Restart Jenkins
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Installing A Plugin
@@ -50,14 +51,15 @@ Plugins are a big selling point of Jenkins
 ****
 
 * Navigate to the Plugin Manager
-* Search for and install the 'Cobertura' Plugin
+* Search for and install the 'Cobertura' and 'Violations' plugins
+* Restart Jenkins
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
 
 ****
 
-## Install the 'Cobertura' Plugin
+## Install the 'Cobertura' and 'Violations' plugins
 
 ****
 
@@ -66,9 +68,13 @@ Plugins are a big selling point of Jenkins
 * `Manage Jenkins` ->
 * `Manage Plugins`
 
-## Search for and install the 'Cobertura' Plugin
+## Search for and install the 'Cobertura' and Violations plugins
 <img src="./_img/get_plugin.png" />
 <img src="./_img/get_plugin2.png" />
+<img src="./_img/get_plugin3.png" />
+
+## Restart Jenkins
+<img src="./_img/get_plugin4.png" />
 
 
 ~~~SECTION:notes~~~
