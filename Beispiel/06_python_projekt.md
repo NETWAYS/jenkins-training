@@ -11,8 +11,9 @@
 Things to consider when before creating a new Job:
 * Are all required Plugins installed?
   - We will only be needing the Git Plugin (Preinstalled)
+  - More about plugins next
 * Are all my required build tools installed?
-  - We will need: Python 2.7, python-pip and virtualenv
+  - We will need: Python 2.X, python-pip and python-virtualenv
   - They're all already installed in this case
 
 ~~~SECTION:notes~~~
@@ -36,6 +37,7 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 * Objective:
   * Set up the python build job
 * Steps:
+  * Add the ssh key
   * Create a new Freestyle Project
   * Set up Source Code Management
   * Add the Build Step
@@ -55,6 +57,7 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
 
 ****
 
+* Add the ssh key
 * Create a new Freestyle Project
 * Set up Source Code Management
 * Add the Build Step
@@ -74,6 +77,11 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 ## Set up the python build job
 
 ****
+
+## Add the ssh key
+
+    @@@ Shell
+	sudo cp -r ~/jenkinsk
 
 ## Create a new Freestyle Project
 
@@ -102,3 +110,5 @@ Execute Shell
 ## Build it!
 
 <img src="./_img/build_now.png"/>
+
+!SLIDE 
