@@ -1,27 +1,6 @@
-!SLIDE smbullets noprint
+!SLIDE bullets noprint
 # Generating Metrics
-
-## Preparation
-
-* Make sure the two plugins are installed
- - Violations
- - Cobertura
-
-~~~SECTION:notes~~~
-
-Teilnehmer sollen selbst addons installieren
-Kein Neustart erforderlich
-
-~~~ENDSECTION~~~
-
-!SLIDE smbullets printonly
-# Generating Metrics
-
-## Preparation
-
-* Make sure the two plugins are installed
- - Violations
- - Cobertura
+* We can now extend our job to collect and display metrics
 
 !SLIDE smbullets 
 # Edit The Job

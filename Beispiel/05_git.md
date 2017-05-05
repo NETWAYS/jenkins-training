@@ -20,6 +20,6 @@ Alles Themen die im Git training vorkommen
 
     @@@ Shell
 	sudo cp -r /home/training/jenkins-ssh/* /var/lib/jenkins/.ssh
-	sudo chown jenkins:jenkins /var/lib/jenkins/.ssh/*
+	sudo chown -R jenkins:jenkins /var/lib/jenkins/.ssh
 
 * Why? The Jenkins user didn't exist before the installation but it needs to trust our Git

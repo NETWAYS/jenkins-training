@@ -27,7 +27,6 @@ Plugins are a big selling point of Jenkins
 * Written in Java
 * Often highly dependent on each other
 
-
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Installing A Plugin
 * Objective:
