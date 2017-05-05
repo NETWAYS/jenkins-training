@@ -2,33 +2,27 @@
 #~~~SECTION:MAJOR~~~ Credentials
 
 !SLIDE bullets noprint
-# Crendentials have ...
-
-* ... a domain (Group),
-* ... a scope (Visibility),
-* ... and a type (Name+Password, Certificate, etc.)
-
-~~~SECTION:notes~~~
-
-Besser Erklären?
-Domains zur Übersicht, keine neue Erstellen
-Scope: System?
-Gleich die Credentials eintragen lassen
-
-~~~ENDSECTION~~~
+#Credentials
+* Not used by a user but Jenkins itself
+* Jenkins has its own 'password-manager'
+* Credentials are used in various places e.g:
+  - Authenticating with a Git server
+  - Bindings (withing jobs)
+  - Controlling Agents with SSH
 
 !SLIDE smbullets printonly
-# Crendentials have ...
-
-* ... a domain (Group),
-* ... a scope (Visibility),
-* ... and a type (Name+Password, Certificate, etc.)
+#Credentials
+* Not used by a user but Jenkins itself
+* Jenkins has its own 'password-manager'
+* Credentials are used in various places e.g:
+  - Authenticating with a Git server
+  - Bindings (withing jobs)
+  - Controlling Agents with SSH
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding Credentials
 * Objective:
- * Add a set of Credentials in the web interface
- * Copy the masters SSH key over to the slave
+ * Allow the jenkins user to ssh' into the Agent machine
 * Steps:
  * Navigate to the `Credentials` page
  * Add an SSH key to the jenkins user
@@ -41,8 +35,7 @@ Gleich die Credentials eintragen lassen
 
 ****
 
-* Add a set of Credentials in the web interface
-* Copy the masters SSH key over to the slave
+* Allow the jenkins user to ssh' into the Agent machine
 
 ## Steps:
 
@@ -57,7 +50,7 @@ Gleich die Credentials eintragen lassen
 
 ****
 
-## Adding Credentials
+## Allow the jenkins user to ssh' into the Agent machine
 
 ****
 
@@ -75,6 +68,5 @@ Gleich die Credentials eintragen lassen
 ## Copy the key over to the agents machine
 
     @@@ Sh
-    sudo su jenkins
-    ssh-copy-id 192.168.56.102
-    Password? "icinga"
+	sudo ssh-copy-id -i /var/lib/jenkins/.ssh/id_rsa.pub jenkins@192.168.56.111
+    Password? "jenkins"
