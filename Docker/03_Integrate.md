@@ -32,10 +32,9 @@ Common use-cases for Docker in Jenkins are:
 * Objective:
  * Run your project in a Docker container
 * Steps:
- * Install the required Plugins
- * Create job that builds your Docker container
- * Configure the Python job to run within that container
- * Start the build
+ * Install the required Plugin
+ * Configure the job to run within Docker
+ * Check the result
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Docker Integration
