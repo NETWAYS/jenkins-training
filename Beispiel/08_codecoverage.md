@@ -61,14 +61,15 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 * Configure job
 * `Post-build Actions` -> `Publish Cobertura Report`  
  -> '\*\*/covarage.xml'  
-<img src="./_img/Cobertura.png" alt="cobertura" />
+<img src="./_img/Cobertura.png" style="width:600px" />
 * `Post-build Actions` -> `Report Violations`  
  -> '\*\*/pylint.out'  
-<img src="./_img/Violations.png" alt="violations" />
+<img src="./_img/Violations.png" style="width:600px" />
 
 ## Update the build step
 
 * Execute Shell:
+
 
     @@@ sh
     PYENV_HOME="$WORKSPACE"/.venv/    
@@ -84,8 +85,9 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
     nosetests --with-xcoverage --with-xunit \
       --cover-package="$WORKSPACE" --cover-erase
 
+
 ## Check out your results
 * Run your job
 * Got on the jobs detail page
 
-<img src="./_img/output_bad.png" />
+<img src="./_img/output_bad.png" style="width:600px" />

@@ -38,7 +38,8 @@
 
 ## Add the agent using the credentials
 
-<img src="./_img/add_node.png" />
+<img src="./_img/add_node.png" style="width:600px" />
+
 * Host Key Verification is currently broken
 
 ## Configure the project so it runs on the agent only

@@ -65,7 +65,7 @@ Common use-cases for Docker in Jenkins are:
 * Configure the Job to run within Docker
 
 ## Configure the Job to run within Docker
-<img src="./_img/run_in_docker.png" >
+<img src="./_img/run_in_docker.png" style="width:600px" >
 
 ## Check the result
 * Run the job again and observe its output

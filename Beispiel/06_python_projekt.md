@@ -80,13 +80,16 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 ## Add the ssh key
 
     @@@ Shell
-	sudo cp -r ~/jenkinsk
+	sudo cp ~/jenkins-ssh/* /var/lib/jenkins/.ssh
+	sudo chown -R jenkins:jenkisn /var/lib/jenkins/.ssh
 
 ## Create a new Freestyle Project
 
 * Create a new project
 * Enter a name
 * Select 'Freestyle Project'
+
+<img src="./_img/create_new_job.png"/>
 
 ## Set up Source Code Management
 <img src="./_img/scm_added.png"/>
@@ -108,6 +111,4 @@ Execute Shell
 
 ## Build it!
 
-<img src="./_img/build_now.png"/>
-
-!SLIDE 
+<img src="./_img/build_now.png" style="width:600px" />

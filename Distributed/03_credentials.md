@@ -60,7 +60,8 @@
 
 ## Add an SSH key to the jenkins user
 
-<img src="./_img/add_credentials.png" />
+<img src="./_img/add_credentials.png" style="width:600px" />
+
 * ID will be autofilled
 
 ## Copy the key over to the agents machine
