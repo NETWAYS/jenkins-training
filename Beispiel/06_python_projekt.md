@@ -43,7 +43,6 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
   * Add the Build Step
   * Build it!
 
-
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: A Proper Project
 
