@@ -38,11 +38,8 @@
 
 ## Add the agent using the credentials
 
-* `Manage Jenkins` -> `Manage Nodes`
-* `Node Name` + 'Permanent Agent'
-* `Host` : '192.168.56.102'
-* Choose Credentials
-* `Remote root directory`: '/home/training'
+<img src="./_img/add_node.png" />
+* Host Key Verification is currently broken
 
 ## Configure the project so it runs on the agent only
 

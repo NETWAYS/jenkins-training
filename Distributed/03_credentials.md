@@ -43,7 +43,7 @@
 
 * Navigate to the `Credentials` page
 * Add an SSH key to the jenkins user
-* Copy the key over to the agents maschine
+* Copy the key over to the agents machine
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -60,10 +60,8 @@
 
 ## Add an SSH key to the jenkins user
 
-* Kind: 'SSH Usermane with private key'
-* Username: `jenkins`
-* `Private Key`: `From the Jenkins master ~/.ssh`
-* ID and Description can be ignored, ID will be autofilled
+<img src="./_img/add_credentials.png" />
+* ID will be autofilled
 
 ## Copy the key over to the agents machine
 
