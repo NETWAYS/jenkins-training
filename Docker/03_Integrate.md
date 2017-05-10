@@ -28,16 +28,17 @@ Common use-cases for Docker in Jenkins are:
   - Especially with Kubernetes
 
 !SLIDE smbullets small
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Using Docker To Run Jobs
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Docker Integration
 * Objective:
  * Run your project in a Docker container
 * Steps:
- * Install "CloudBees Docker Custom Build Environment Plugin"
- * Configure the Job to run within Docker
+ * Install the required Plugins
+ * Create job that builds your Docker container
+ * Configure the Python job to run within that container
  * Start the build
 
 !SLIDE supplemental exercises
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Using Docker To Run Jobs
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Docker Integration
 
 ## Objective:
 
@@ -49,9 +50,23 @@ Common use-cases for Docker in Jenkins are:
 
 ****
 
-* Install "CloudBees Docker Custom Build Environment Plugin"
+* Install the required Plugin
 * Configure the Job to run within Docker
-* Start the build
+* Check the result
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
+## Install the required Plugin
+* Install:
+  - "CloudBees Docker Custom Build Environment Plugin"
+* See Lab TODO about Jenkins Plguins
+
+## Create job that builds your Docker container
+* See Lab TODO about job creation
+* Configure the Job to run within Docker
+
+## Configure the Job to run within Docker
+<img src="./_img/run_in_docker.png" >
+
+## Check the result
+* Run the job again and observe its output
