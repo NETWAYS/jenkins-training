@@ -33,16 +33,3 @@ TODO: Richtige Daten eintragen
 Wer im Fenster arbeiten möchte braucht auch training:netways
 
 ~~~ENDSECTION~~~
-
-!SLIDE bullets
-# On Permissions
-* The user 'training' is in the `sudo` group
-  - Either use `sudo $command`
-  - Or become `root`
-* Passwordless `sudo` is enabled
-
-~~~SECTION:notes~~~
-
-Passwordless erklären
-
-~~~ENDSECTION~~~
