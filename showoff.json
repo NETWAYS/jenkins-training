@@ -22,12 +22,13 @@
 
     "jenkins_pre",
 
-	"Exkurs/CICD.md",
+//	"Exkurs/CICD.md",
     "Intro",
 	"Exkurs/unix.md",
     "Installation",
     "Beispiel",
     "Distributed",
+	"Docker",
     "Pipeline",
 
     "Extras/sicherheit.md",

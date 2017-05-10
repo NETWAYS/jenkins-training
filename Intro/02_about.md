@@ -137,7 +137,7 @@ Blue Ocean kommt nicht vor
 !SLIDE bullets noprint
 # Comparing Jenkins To Other CI/CD Tools
 * Free Software (Free Speech and free beer)
-* Active community and delopment
+* Active community and development
 * THE CI/CD software
 
 ~~~SECTION:notes~~~
@@ -149,7 +149,6 @@ Alle anderen tools müssen sich an Jenkins messen
 
 !SLIDE smbullets printonly
 # Comparing Jenkins To Other CI/CD Tools
-* Free Software (Free Speech and free beer)
-* Active community and delopment
-* THE CI/CD software
-
+* Free Software
+* Active community and development
+* Most prominent and CI/CD tool
