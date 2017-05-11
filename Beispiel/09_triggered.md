@@ -46,9 +46,8 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 * Steps:
  * Navigate to the Projects configuration page
  * Add a `Poll SCM` trigger
- * Set the schedule to 'every two minutes'
- * Apply the 'perfect patch'
- * Push the changes
+ * Set the schedule to 'every minute'
+ * Apply and push the patch
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A trigger
@@ -65,8 +64,8 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 
 * Navigate to the Projects configuration page
 * Add a `Poll SCM` trigger
-* Set the schedule to 'every two minutes'
-* Apply and push the 'perfect patch'
+* Set the schedule to 'every minute'
+* Apply and push the patch
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -94,9 +93,9 @@ You can do this by yourself
 
 ~~~PAGEBREAK~~~
 
-## Apply and push the 'perfect patch'
+## Apply and push the patch
 
     @@@ Sh
-	$ cd suchmaschine
-	$ git am perfect.patch
+	$ cd searchengine
+	$ git am 0001-Fix-syntax.patch
 	$ git push
