@@ -5,12 +5,12 @@
 # Complex Jobs
 Topics in this chapter:
 
-* Chaining Jobs
-* Learn About Pipeline
+* Chaining jobs
+* Touching on pipeline
 
 !SLIDE bullets noprint
 # Complex Jobs
 Topics in this chapter:
 
 * Chaining Jobs
-* Learn About Pipeline
+* Touching on pipeline

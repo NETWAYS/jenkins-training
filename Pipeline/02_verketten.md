@@ -1,5 +1,5 @@
 !SLIDE bullets noprint
-# Creating Process
+# Creating a Process
 * Single step jobs have limited usabilty
 * Jobs can be chained together using conditions
 * Allows to represent a multi-step proccess
@@ -10,9 +10,8 @@ import key gpg --import something.asc
 
 !SLIDE bullets noprint
 #Chaining
-* In our example project `Post-Build Action`:
-  - 'Build other projects'
-  - Enter an other project
+* The Python job now requires the docker job to be build first
+* There are multiple ways to model this dependency with Jenkins
 
 ~~~SECTION:notes~~~
 Schlägt fehl wegen mangelnder files
@@ -21,9 +20,8 @@ Schlägt fehl wegen mangelnder files
 
 !SLIDE smbullets printonly
 #Chaining
-* In our example project `Post-Build Action`:
-  - 'Build other projects'
-  - Enter an other project
+* The Python job now requires the docker job to be build first
+* There are multiple ways to model this dependency with Jenkins
 
 !SLIDE bullets noprint
 # Why We Don't Use A Build Trigger
@@ -115,5 +113,4 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 
 ## Create the package
 
-* `debuild --no-tgz-check` should work if everything is in the rigth place
-* You may have to import the gpg key
+* `debuild --no-tgz-check -uc -us` should work if everything is in the right place

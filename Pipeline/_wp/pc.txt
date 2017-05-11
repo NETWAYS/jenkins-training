@@ -1,0 +1,16 @@
+node {
+    stage 'SCM'
+    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'dc95ddf3-8c15-40ce-a05c-4e901cd27b6a', url: 'git@192.168.56.101:/opt/git/suchmaschine']]])
+    stage 'Build'
+sh '''    PYENV_HOME=`pwd`/.venv/    
+    if [ -d $PYENV_HOME ]; then
+        rm -rf $PYENV_HOME
+    fi  
+    virtualenv --no-site-packages $PYENV_HOME
+    . $PYENV_HOME/bin/activate
+    pip install --quiet pylint
+    pip install --quiet nosexcover
+    pip install `pwd`/
+    pylint -f parseable $WORKSPACE | tee pylint.out
+    nosetests --with-xcoverage --with-xunit --cover-package=$WORKSPACE --cover-erase'''
+}
