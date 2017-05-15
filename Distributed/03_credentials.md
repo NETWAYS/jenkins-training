@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Credentials
-
 !SLIDE bullets noprint
 #Credentials
 * Not used by a user but Jenkins itself
