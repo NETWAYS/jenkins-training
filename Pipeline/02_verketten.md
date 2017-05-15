@@ -9,7 +9,7 @@ import key gpg --import something.asc
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Chaining
+# Chaining
 * The Python job now requires the docker job to be build first
 * There are multiple ways to model this dependency with Jenkins
 
@@ -19,7 +19,7 @@ Schlägt fehl wegen mangelnder files
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Chaining
+# Chaining
 * The Python job now requires the docker job to be build first
 * There are multiple ways to model this dependency with Jenkins
 
@@ -43,7 +43,8 @@ Daher nicht zu empfehlen bei upstream jobs
 !SLIDE bullets noprint
 #Chaining
 * `Clone Workspace SCM Plug-in`
-* `Multiple SCMs plugin`
+  - Since jenkins 2.1 multiple SCM can be used
+* Alternatively: Use Artifacts
 
 ~~~SECTION:notes~~~
 Im 1. job als post built action archivieren, im 2. job als scm holen
@@ -51,22 +52,27 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 
 !SLIDE bullets noprint
 #Complex build chains
-* `conditional-buildstep` Plugin
-* Build steps executed on bool conditions
+* `conditional-buildstep` plugin
+ - Build steps executed on bool conditions
+* `Multi-job` plugin
+ - Allows running jobs in parallel
+ - Looks fancy
 
 !SLIDE smbullets printonly
 #Complex build chains
-* `conditional-buildstep` Plugin
-* Build steps executed on bool conditions
+* `conditional-buildstep` plugin
+ - Build steps executed on bool conditions
+* `Multi-job` plugin
+ - Allows running jobs in parallel
+ - Looks fancy
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Automating The Package Building Process
 * Objective:
  * Build a deb package of your project
 * Steps:
- * Create a new job that is run after the first
- * Include the `suchmaschine_build_files.tar`
- * Create the package
+ * Create a new job
+ * Chain the jobs
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Automating The Package Building Process
@@ -81,10 +87,8 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 
 ****
 
-* Create a new job that is run after the first
-* Include the `suchmaschine_build_files.tar`
-* Make sure all required files are in the right place
-* Create the package
+* Create a new job
+* Chain the jobs
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -95,22 +99,33 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 
 ****
 
-## Create a new job that is run after the first
+## Create a new job
 
-* You should be able to create jobs by now
-* Add this second job to the first 'Post-Build Actions'
+* TODO: More details, step-by-step
+* You know how to do this!
+* For building this job needs the contents of both the `searchengine` and the `searchengine_build_files`
+* Intended directory structure:
 
-## Include the `suchmaschine_build_files.tar`
+    @@@ Shell
+	$Workplace
+	  \__init__.py 
+	  \searchengine.py 
+	  \setup.py
+	  \debian
+	    \changelog
+		\compat
+		\control
+		\copyright
+		\rules
 
-* Extract them with `tar xzvf suchmaschine_build_files.tar`
-* Either create an additional repository
-* Or add them to the first repository
+* The buildstep only needs to run
 
-## Make sure all required files are in the right place
+    @@@ Shell
+    debuild --no-tgz-check -uc -us
 
-* The build files need to be inside the 'suchumaschine' directory
-* You need most files from the 'suchmaschine'-project
 
-## Create the package
+## Chain the jobs
 
-* `debuild --no-tgz-check -uc -us` should work if everything is in the right place
+* Use a post-build action in the Python project to make sure the packaging job runs after it
+* TODO Screenshot
+
