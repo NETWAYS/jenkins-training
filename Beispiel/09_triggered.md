@@ -25,8 +25,7 @@ But we don't want to push the build button again
 
 ~~~SECTION:notes~~~
 
-Schedule TODO: Irgendetwas das nicht so lange dauert wie der nächste Abschnitt
-damit der build fertig ist wenn man dazu zurückkehrt.
+SCM: Source Control Management aussprechen, erklären: Versionskontrolle
 
 ~~~ENDSECTION~~~
 
