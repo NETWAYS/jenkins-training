@@ -1,5 +1,3 @@
-# Architecture and Startup
-
 !SLIDE center noprint
 # Current State
 <img src="./_img/Jenkins_Server_Single.svg" alt="Single Server"/>
