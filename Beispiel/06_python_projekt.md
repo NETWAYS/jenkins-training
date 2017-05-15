@@ -40,6 +40,12 @@ Live Konsolen output ist zu sehen, interessant zum debuggen
   * Add the Build Step
   * Build it!
 
+~~~SECTION:notes~~~
+
+virtualenv erklären
+
+~~~ENDSECTION~~~
+
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: A Proper Project
 
