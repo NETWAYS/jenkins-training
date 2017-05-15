@@ -49,10 +49,12 @@
 
 ## Configure the project so it runs on the agent only
 
-* Set a label for the node
+* Set a label for the node (In the nodes config)
+<img src="./_img/add_label.png" />
 * Go to the projects settings
  - 'Restrict where this project can be run'
  - Enter the nodes label
+<img src="./_img/restrict.png" />
 
 ## Use the information from the log to fix build errors
 
