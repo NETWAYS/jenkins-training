@@ -1,8 +1,5 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ A Proper Project
-
 !SLIDE bullets noprint
-#A Proper Project
+#A Real Project
 * The "Hello Jenkins" Job shows basic usage of Jobs
 * Next we will create a job that does a bit more
 
