@@ -26,7 +26,6 @@
 * Steps:
  * Navigate to the `Credentials` page
  * Add an SSH key to the jenkins user
- * Copy the key over to the agents machine
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding Credentials
@@ -43,7 +42,6 @@
 
 * Navigate to the `Credentials` page
 * Add an SSH key to the jenkins user
-* Copy the key over to the agents machine
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -61,11 +59,6 @@
 ## Add an SSH key to the jenkins user
 
 <img src="./_img/add_credentials.png" style="width:600px" />
+<img src="./_img/add_credentials2.png" style="width:600px" />
 
 * ID will be autofilled
-
-## Copy the key over to the agents machine
-
-    @@@ Sh
-	sudo ssh-copy-id -i /var/lib/jenkins/.ssh/id_rsa.pub jenkins@192.168.56.111
-    Password? "jenkins"

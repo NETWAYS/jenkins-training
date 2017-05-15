@@ -38,6 +38,11 @@
 
 ## Add the agent using the credentials
 
+* Manage Jenkins ->
+* Manage Nodes ->
+* New Node
+
+<img src="./_img/add_node2.png" style="width:600px" />
 <img src="./_img/add_node.png" style="width:600px" />
 
 * Host Key Verification is currently broken
