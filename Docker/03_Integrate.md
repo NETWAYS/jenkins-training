@@ -75,11 +75,13 @@ Start the docker service and the registry
   - "CloudBees Docker Custom Build Environment Plugin"
   - "CloudBees Docker Build and Publish"
 
-* See Lab TODO about Jenkins Plguins
+* See Lab about Jenkins Plguins
 
 ## Create a new job that builds a container
-* See Lab TODO about creating jobs
+* See Lab about creating jobs
 <img src="./_img/build_docker.png" style="width:600px" >
+
+~~~PAGEBREAK~~~
 
 ## Configure the Python-job to run within Docker
 <img src="./_img/run_in_docker.png" style="width:600px" >

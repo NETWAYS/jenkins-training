@@ -10,7 +10,6 @@
 * Steps:
  * Add the agent using the credentials
  * Configure the project so it runs on the agent only
- * Use the information from the log to fix build errors
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
@@ -27,7 +26,6 @@
 
 * Add the agent using the credentials
 * Configure the project so it runs on the agent only
-* Use the information from the log to fix build errors
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -49,6 +47,8 @@
 
 * Host Key Verification is currently broken
 
+~~~PAGEBREAK~~~
+
 ## Configure the project so it runs on the agent only
 
 * Set a label for the node (In the nodes config)
@@ -58,8 +58,3 @@
  - Enter the nodes label
 <img src="./_img/restrict.png" />
 
-## Use the information from the log to fix build errors
-
-* The SCM part of your project needs to be updated
-* URL: "git@192.168.56.101"
-* Credentials: jenkins

@@ -88,7 +88,11 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 ****
 
 * Create a new job
-* Chain the jobs
+* Multiple SCMs
+* Build inside Docker
+* Buildstep
+* Archive artifacts
+* Build dependencies
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -101,31 +105,43 @@ Im 1. job als post built action archivieren, im 2. job als scm holen
 
 ## Create a new job
 
-* TODO: More details, step-by-step
 * You know how to do this!
-* For building this job needs the contents of both the `searchengine` and the `searchengine_build_files`
-* Intended directory structure:
+* See earlier Labs for more info
+
+## Multiple SCMs
+
+* You can define as many Repositories as you want
+
+<img src="./_img/2scm.png" style="width:600px">
+
+## Build inside Docker
+
+See Docker Lab for further information
 
     @@@ Shell
-	$Workplace
-	  \__init__.py 
-	  \searchengine.py 
-	  \setup.py
-	  \debian
-	    \changelog
-		\compat
-		\control
-		\copyright
-		\rules
+	192.168.56.101:5000/build:ubuntu
 
-* The buildstep only needs to run
+
+~~~PAGEBREAK~~~
+
+## Archive artifacts
+* Archiving artifacts makes Jenkins keep them across builds
+* It also saves them from being destroyed along with the Docker container
+<img src="./_img/post_build.png" style="width:600px">
+
+## Buildstep
 
     @@@ Shell
+	# Build the package
     debuild --no-tgz-check -uc -us
 
+	# Move the package back into the workspace (debuild is weird)
+	mv ../*.deb .
 
-## Chain the jobs
+
+## Model the build dependencies
 
 * Use a post-build action in the Python project to make sure the packaging job runs after it
-* TODO Screenshot
+<img src="./_img/build_package.png" style="width:600px">
+
 

@@ -95,10 +95,10 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 
 <img src="./_img/create_new_job.png"/>
 
+~~~PAGEBREAK~~~
+
 ## Set up Source Code Management
 <img src="./_img/scm_added.png"/>
-
-~~~PAGEBREAK~~~
 
 ## Add the Build Step
 

@@ -47,6 +47,7 @@ SCM: Source Control Management aussprechen, erklären: Versionskontrolle
  * Add a `Poll SCM` trigger
  * Set the schedule to 'every minute'
  * Apply and push the patch
+ * Wait for Jenkins to start the build itself
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A trigger
@@ -65,6 +66,7 @@ SCM: Source Control Management aussprechen, erklären: Versionskontrolle
 * Add a `Poll SCM` trigger
 * Set the schedule to 'every minute'
 * Apply and push the patch
+* Wait for Jenkins to start the build itself
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -98,3 +100,5 @@ SCM: Source Control Management aussprechen, erklären: Versionskontrolle
 	$ cd ~/searchengine
 	$ git am 0001-Fix-syntax.patch
 	$ git push
+
+## Wait for Jenkins to start the build itself

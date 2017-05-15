@@ -62,14 +62,12 @@ Jenkins can be configured in two ways:
 
 ## Webinterface:
 
-<img src="./_img/manage_jenkins_button.png" style="width:600px">
-<img src="./_img/configure_system_button.png" style="width:600px">
+<center><img src="./_img/manage_jenkins_button.png" style="width:600px"></center>
+<center><img src="./_img/configure_system_button.png" style="width:600px"></center>
 
-~~~PAGEBREAK~~~
 
-<img src="./_img/jenkins_change_exec.png" style="width:600px">
+<center><img src="./_img/jenkins_change_exec.png" ></center>
 
-~~~PAGEBREAK~~~
 
 ## Configuration Files:
 

@@ -141,8 +141,6 @@ Or
 
 <center><img src="./_img/install_suggested_plugins.png"/><center>
 
-~~~PAGEBREAK~~~
-
 ## Create an initial user
 
 <center><img src="./_img/create_user_jenkins.png"/><center>
