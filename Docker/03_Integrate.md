@@ -60,14 +60,14 @@ Common use-cases for Docker in Jenkins are:
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
 ## Prepare the Jenkins-master
-* Start the docker service and the registry
+Start the docker service and the registry
 
-   @@@ Shell
-   sudo usermod -a -G docker jenkins
-   sudo sytemctl restart jenkins
-   sudosetenforce permissive
-   sudo systemctl start docker
-   docker run -d -p 5000:5000 --name registry registry:2
+    @@@ sh
+    $ sudo usermod -a -G docker jenkins
+    $ sudo systemctl restart jenkins
+    $ sudo setenforce permissive
+    $ sudo systemctl start docker
+    $ docker run -d -p 5000:5000 --name registry registry:2
 
 ## Install the required Plugins
 * Install:
