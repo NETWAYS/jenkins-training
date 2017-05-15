@@ -1,8 +1,5 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Project types
-
 !SLIDE center noprint
-# Many different types exist
+# Project-types
 
 <img src="./_img/project_typesv2.png" alt="Default Projekte + einige Plugins" />
 
@@ -10,6 +7,16 @@
 
 (Auf new Project klicken um Typen zu zeigen)
 
+~~~ENDSECTION~~~
+
+!SLIDE smbullets
+# Project-types
+* Many different types exists
+* More come as plugins
+* Types are not 'defualt-sets' but very much different from each other
+
+~~~SECTION:notes~~~
+Das heißt: Man kann ein Multi conf project nicht mit einem freestyle nachbauen
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
