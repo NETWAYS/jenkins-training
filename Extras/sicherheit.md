@@ -1,6 +1,3 @@
-!SLIDE subsection
-# ~~~SECTION:MAJOR~~~ Security
-
 !SLIDE bullets noprint
 #Userauth
 * Own Jenkins database (does signup)
