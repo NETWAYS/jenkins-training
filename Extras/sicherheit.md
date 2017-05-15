@@ -1,10 +1,11 @@
 !SLIDE bullets noprint
 #Userauth
-* Own Jenkins database (does signup)
+* Jenkins own database (does signup)
 * LDAP
 * Unix
 * AD (Windows)
 * HTTP AUTH (Webserver)
+  - No public Jenkins possible
 
 !SLIDE bullets noprint
 #Permission Management
@@ -12,7 +13,8 @@
 * Simple
  - Anybody/Loggied in can do everything
 * Matrix
- - Project or User/Group baes
+ - Project or User/Group base
+ - Can't inherit from userauth
 
 ~~~SECTION:notes~~~
 
@@ -35,6 +37,7 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 * Unix
 * AD (Windows)
 * HTTP AUTH (Webserver)
+  - No public Jenkins possible
 
 !SLIDE smbullets printonly
 # Permission Management
@@ -42,7 +45,9 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 * Simple
  - Anybody/Loggied in can do everything
 * Matrix
- - Project or User/Group baes
+ - Project or User/Group base
+ - Can't inherit from userauth
+
 
 ~~~SECTION:notes~~~
 
