@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Best Practise
-
 !SLIDE bullets noprint
 #Backups, Backups, Backups
 * Use SCM to maintain your configuration
