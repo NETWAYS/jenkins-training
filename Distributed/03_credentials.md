@@ -1,19 +1,10 @@
-!SLIDE bullets noprint
+!SLIDE smbullets
 #Credentials
 * Not used by a user but Jenkins itself
 * Jenkins has its own 'password-manager'
 * Credentials are used in various places e.g:
   - Authenticating with a Git server
-  - Bindings (withing jobs)
-  - Controlling Agents with SSH
-
-!SLIDE smbullets printonly
-#Credentials
-* Not used by a user but Jenkins itself
-* Jenkins has its own 'password-manager'
-* Credentials are used in various places e.g:
-  - Authenticating with a Git server
-  - Bindings (withing jobs)
+  - Bindings (within jobs)
   - Controlling Agents with SSH
 
 !SLIDE smbullets small

@@ -14,7 +14,7 @@ But we don't want to push the build button again
 * Triggered Builds allow Jenkins to start a build without our help
 * Greatly decreases the required interaction
 
-!SLIDE bullets noprint
+!SLIDE smbullets noprint
 # Automatic Builds (Trigger)
 * `Build after other projects are built`
   - Allows to chain builds

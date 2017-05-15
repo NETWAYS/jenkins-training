@@ -4,6 +4,7 @@
 !SLIDE smbullets noprint
 # Docker And Jenkins
 Common use-cases for Docker in Jenkins are:
+
 * Building Docker containers with Jenkins
 * Using Docker containers to run jobs
 * Having a Docker container as a Jenkins agent

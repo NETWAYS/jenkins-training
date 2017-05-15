@@ -1,4 +1,4 @@
-!SLIDE bullets noprint
+!SLIDE smbullets noprint
 #Userauth
 * Jenkins own database (does signup)
 * LDAP

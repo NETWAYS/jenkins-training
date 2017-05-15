@@ -2,9 +2,8 @@
 # About Docker
 
 * Container software
-* Totally hyped
-* Actually useful
-* Todo: write something that's not bullshit
+* Works well with Jenkins
+* Currently broken in Pipeline
 
 ~~~SECTION:notes~~~
 

@@ -6,6 +6,7 @@
 !SLIDE smbullets noprint
 # Preparation
 Things to consider when before creating a new Job:
+
 * Are all required Plugins installed?
   - We will only be needing the Git Plugin (Preinstalled)
   - More about plugins next

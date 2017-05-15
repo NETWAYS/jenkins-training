@@ -1,3 +1,8 @@
+!SLIDE bullets noprint
+# All Set!
+* You are now ready to add your Agent
+* Start the Jenkins-Agent VM if you have not done so already
+
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
 * Objective:
