@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Creating A Jenkins Agent
-
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
 * Objective:
