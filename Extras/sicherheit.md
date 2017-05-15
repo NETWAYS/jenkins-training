@@ -8,8 +8,11 @@
 
 !SLIDE bullets noprint
 #Permission Management
-* Read/write only
+* Applies to users within Jenkins
+* Simple
+ - Anybody/Loggied in can do everything
 * Matrix
+ - Project or User/Group baes
 
 ~~~SECTION:notes~~~
 
@@ -20,10 +23,10 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 
 !SLIDE bullets noprint
 #Pro-tips
-* Use a dedicated user with SSH key on every slave
+* Use a dedicated user with their own SSH key on every slave
  - Reduce security issues that somebody gains control on every slave
 * No passwords in job scripts
-  - Even less when Jenkins is public
+ - Even less when Jenkins is public
 
 !SLIDE smbullets printonly
 # Userauth
@@ -35,8 +38,11 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 
 !SLIDE smbullets printonly
 # Permission Management
-* Read/Write only
+* Applies to users within Jenkins
+* Simple
+ - Anybody/Loggied in can do everything
 * Matrix
+ - Project or User/Group baes
 
 ~~~SECTION:notes~~~
 
@@ -47,7 +53,7 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 
 !SLIDE smbullets printonly
 #Pro-tips
-* Use a dedicated user with SSH key on every slave
+* Use a dedicated user with their own SSH key on every slave
  - Reduce security issues that somebody gains control on every slave
 * No passwords in job scripts
   - Even less when Jenkins is public
