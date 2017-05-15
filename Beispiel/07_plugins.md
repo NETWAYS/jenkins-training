@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Plugins
-
 !SLIDE bullets noprint
 # Jenkins And Plugins
 Plugins are a big selling point of Jenkins
