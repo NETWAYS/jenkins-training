@@ -19,7 +19,7 @@ SPI: Software in the Public Interest
 * Transparent leadership
 * SPI-Project (Software in the Public Interest)
 * Four Jenkins-User conferences in 2015
-(USA, England, Israel)
+(2x USA, England, Israel)
 
 !SLIDE bullets noprint
 # The Jenkins Community
