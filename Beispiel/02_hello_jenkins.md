@@ -94,39 +94,6 @@ Enter:
 #Job Status Page
 <center><img src="./_img/overview_blank.png" style="width:600px"/></center>
 
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_overview.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_changes.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_workspace.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_build_now.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_delete.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_configure.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_history.png" />
-
-!SLIDE center noprint
-#Job Status Page
-<img src="./_img/overview_trend.png" />
-
-
 !SLIDE bullets small noprint
 # Job Status Page
 * Changes  
