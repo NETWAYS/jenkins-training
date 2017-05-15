@@ -60,7 +60,7 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 
 * Configure job
 * `Post-build Actions` -> `Publish Cobertura Report`  
- -> '\*\*/covarage.xml'  
+ -> '\*\*/coverage.xml'  
 <img src="./_img/Cobertura.png" style="width:600px" />
 * `Post-build Actions` -> `Report Violations`  
  -> '\*\*/pylint.out'  
@@ -68,23 +68,21 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 
 ## Update the build step
 
-* Execute Shell:
-
+Execute Shell:
 
     @@@ sh
-    PYENV_HOME="$WORKSPACE"/.venv/    
+    PYENV_HOME="$WORKSPACE"/.venv/ 
     if [ -d "$PYENV_HOME" ]; then
         rm -rf "$PYENV_HOME"
     fi  
     virtualenv --no-site-packages "$PYENV_HOME"
     . "$PYENV_HOME"/bin/activate
-    pip install --quiet pylint
-    pip install --quiet nosexcover
-    pip install "$WORKSPACE/"
-    pylint -f parseable "$WORKSPACE" | tee pylint.out
+    pip install --no-cache-dir --quiet pylint
+    pip install --no-cache-dir --quiet nosexcover
+    pip install --no-cache-dir "$WORKSPACE"
+    pylint -f parseable "$WORKSPACE"| tee pylint.out
     nosetests --with-xcoverage --with-xunit \
       --cover-package="$WORKSPACE" --cover-erase
-
 
 ## Check out your results
 * Run your job

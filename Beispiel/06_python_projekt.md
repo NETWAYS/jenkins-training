@@ -80,8 +80,8 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 ## Add the ssh key
 
     @@@ Shell
-	sudo cp ~/jenkins-ssh/* /var/lib/jenkins/.ssh
-	sudo chown -R jenkins:jenkisn /var/lib/jenkins/.ssh
+	sudo cp -r ~/jenkins-ssh /var/lib/jenkins/.ssh
+	sudo chown -R jenkins:jenkins /var/lib/jenkins/.ssh
 
 ## Create a new Freestyle Project
 

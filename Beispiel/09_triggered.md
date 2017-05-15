@@ -78,7 +78,7 @@ damit der build fertig ist wenn man dazu zurückkehrt.
 
 ## Navigate to the Projects configuration page
 
-You can do this by yourself
+* The option we need is under 'Build Triggers'
 
 ## Add a `Poll SCM` trigger
 
@@ -89,13 +89,13 @@ You can do this by yourself
 
 <img src="./_img/every_minutes.png" />
 
-> You can click the '?' to see the documentation of the scheduling format
+* Clicking the '?' displays documentation for scheduling format
 
 ~~~PAGEBREAK~~~
 
 ## Apply and push the patch
 
     @@@ Sh
-	$ cd searchengine
+	$ cd ~/searchengine
 	$ git am 0001-Fix-syntax.patch
 	$ git push

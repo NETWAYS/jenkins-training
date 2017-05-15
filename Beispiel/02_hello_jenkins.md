@@ -77,6 +77,11 @@ See https://wiki.jenkins-ci.org/pages/viewpage.action?pageId=74876543
 ## Add a 'Execute shell'-build step
 <img src="./_img/create_build3.png" style="width:600px" />
 
+Enter:
+
+    @@@ shell
+	echo "Hello, Jenkins!"
+
 ## Start the Job and check its output
 <img src="./_img/create_build4.png" style="width:600px" />
 <img src="./_img/create_build5.png" style="width:600px" />
