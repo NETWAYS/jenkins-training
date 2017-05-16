@@ -1,38 +1,7 @@
 !SLIDE bullets noprint
 # Hello Jenkins!
 
-* TODO: Rework this introduction
-* `New Item`: Entry point for job creation
-* Choose a name and select 'Freestyle Project'
-* `Build` -> `Execute Shell`
-
-## Code:
-
-    @@@ sh
-    echo "Hello Jenkins"
-    exit 0 	  				 	 	 	   	 	  	   		  	 
-
-~~~SECTION:notes~~~
-
-Am Beamer Zeigen
-
-~~~ENDSECTION~~~
-
-!SLIDE smbullets printonly
-# Job Creation
-
-* `New Item`: Entry point for job creation
-* Choose a name and select 'Freestyle Project'
-* `Build` -> `Execute Shell`
-
-## Code:
-
-    @@@ sh
-    echo "Hello Jenkins"
-    exit 0
-
-###TODO: Explain job types here, after explain exit codes
-See https://wiki.jenkins-ci.org/pages/viewpage.action?pageId=74876543
+* Let's get started!
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Creating Your First Job
@@ -133,3 +102,10 @@ Contains files used and created by a Build
 * Build History  
 Past Builds, number can be configured.
 Contains more detailed state and progress information
+
+!SLIDE smbullets
+# About Exit Codes
+* Jenkins Job states come in three flavours
+ - Blue: Success! Job exited with true or 0
+ - Red: Failure! Job jexited with false or !0
+ - Yellow: Unstable. Post-build actions can set this code
