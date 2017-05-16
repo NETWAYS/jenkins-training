@@ -89,7 +89,9 @@ Or
 # Up and running
 * Default port for Jenkins is `8080`
 * Jenkins/Java configuration in `/etc/sysconfig/jenkins`
-* Firewall may need to be configured
+
+Firewall may need to be configured, this is already done for the training VMs
+
 
     @@@ Shell
 	firewall-cmd --zone=public --add-port=8080/tcp --permanent

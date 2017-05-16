@@ -1,7 +1,7 @@
 !SLIDE center noprint
 # Project-types
 
-<img src="./_img/project_typesv2.png" alt="Default Projekte + einige Plugins" />
+<img src="./_img/project_typesv2.png" />
 
 ~~~SECTION:notes~~~
 
@@ -39,7 +39,7 @@ TODO: Extra Teil über pipeline projekte
 
 !SLIDE smbullets
 # Multi-configuration project
-<img src="./_img/multi_conf_icinga.png" align="right"/>
+<img src="./_img/multi_conf_icinga.png" />
 
 * Useful for jobs with many parameters
 * Axes allow starting many builds with preconfigured parameters at the same time

@@ -1,6 +1,3 @@
-!SLIDE subsection
-#~~~SECTION:MAJOR~~~ Integrating Docker With Jenkins
-
 !SLIDE smbullets noprint
 # Docker And Jenkins
 Common use-cases for Docker in Jenkins are:
