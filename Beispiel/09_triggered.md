@@ -49,6 +49,12 @@ SCM: Source Control Management aussprechen, erklären: Versionskontrolle
  * Apply and push the patch
  * Wait for Jenkins to start the build itself
 
+~~~SECTION:notes~~~
+
+Indendation: Error docstrings erwähnen
+
+~~~ENDSECTION~~~
+
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A trigger
 

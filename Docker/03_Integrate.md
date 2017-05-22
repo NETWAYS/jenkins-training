@@ -83,6 +83,22 @@ Start the docker service and the registry
 ## Configure the Python-job to run within Docker
 <img src="./_img/run_in_docker.png" style="width:600px" >
 
+We also need to update the buildstep:
+
+    @@@ sh
+    PYENV_HOME="$WORKSPACE"/.venv/
+    if [ -d "$PYENV_HOME" ]; then
+        rm -rf "$PYENV_HOME"
+    fi  
+    virtualenv --no-site-packages "$PYENV_HOME"
+    . "$PYENV_HOME"/bin/activate
+    pip install --no-cache-dir --quiet pylint
+    pip install --no-cache-dir --quiet nosexcover
+    pip install --no-cache-dir "$WORKSPACE"
+    pylint -f parseable "$WORKSPACE"| tee pylint.out
+    nosetests --with-xcoverage --with-xunit \
+      --cover-package="$WORKSPACE" --cover-erase
+
 ## Check the result
 * Run the job to build the container first
 * Then run your Python job

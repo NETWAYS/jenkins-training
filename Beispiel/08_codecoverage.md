@@ -25,6 +25,7 @@ Post-build: Run another job, publish test results
 
 ~~~SECTION:notes~~~
 
+Schulungsunterlagen Fehler (Mai 2017), kein --no-cache-dir
 
 ~~~ENDSECTION~~~
 
@@ -49,6 +50,7 @@ Post-build: Run another job, publish test results
 
 TODO: Erklärung Grenzwerte, Erklärung ** foo
 Ant-style pfade 
+indentation error docstrings
 
 "pip --quiet ..." installiert aus dem Netz, output interssiert nicht
 "pylint ..." Statische code analyse (anhand output erklären)
@@ -91,9 +93,9 @@ Execute Shell:
     fi  
     virtualenv --no-site-packages "$PYENV_HOME"
     . "$PYENV_HOME"/bin/activate
-    pip install --no-cache-dir --quiet pylint
-    pip install --no-cache-dir --quiet nosexcover
-    pip install --no-cache-dir "$WORKSPACE"
+    pip install --quiet pylint
+    pip install --quiet nosexcover
+    pip install "$WORKSPACE"
     pylint -f parseable "$WORKSPACE"| tee pylint.out
     nosetests --with-xcoverage --with-xunit \
       --cover-package="$WORKSPACE" --cover-erase
