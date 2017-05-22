@@ -14,6 +14,20 @@ Post-build: Run another job, publish test results
 
 ~~~ENDSECTION~~~
 
+!SLIDE smbullets small
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Generating Metrics
+* Objective:
+  * Use plugins to collect and display metrics
+* Steps:
+  * Edit the job to use the plugins
+  * Update the build step
+  * Check out your results
+
+~~~SECTION:notes~~~
+
+
+~~~ENDSECTION~~~
+
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Generating Metrics
 

@@ -10,6 +10,7 @@
 
 Bi-wöchentliche offene meetings im IRC.
 SPI: Software in the Public Interest
+Conf: Since 2016 Jenkins World conference (single)
 
 ~~~ENDSECTION~~~
 
