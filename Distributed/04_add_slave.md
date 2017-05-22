@@ -10,6 +10,7 @@
 * Steps:
  * Add the agent using the credentials
  * Configure the project so it runs on the agent only
+ * Update the git repo
 
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Adding And Using Agents
@@ -26,6 +27,7 @@
 
 * Add the agent using the credentials
 * Configure the project so it runs on the agent only
+* Update the git repo
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
@@ -57,4 +59,10 @@
  - 'Restrict where this project can be run'
  - Enter the nodes label
 <img src="./_img/restrict.png" />
+
+## Update the git repo
+* The git repo only exists on the Jenkins master
+* Used credentials will be managed by Jenkins
+<img src="./_img/update_git.png" style="width:600px"/>
+
 
