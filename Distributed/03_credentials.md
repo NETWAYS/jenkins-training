@@ -46,7 +46,7 @@
 
 ## Add an SSH key to the jenkins user
 
-<img src="./_img/add_credentials.png" style="width:600px" />
 <img src="./_img/add_credentials2.png" style="width:600px" />
+<img src="./_img/add_credentials.png" style="width:600px" />
 
 * ID will be autofilled
