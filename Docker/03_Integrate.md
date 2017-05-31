@@ -36,6 +36,12 @@ Common use-cases for Docker in Jenkins are:
  * Configure the Python-job to run within Docker
  * Check the result
 
+~~~SECTION:notes~~~
+
+Missing: Pull from git repo docker-ubuntu.git
+
+~~~ENDSECTION~~~
+
 !SLIDE supplemental exercises
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Docker Integration
 
