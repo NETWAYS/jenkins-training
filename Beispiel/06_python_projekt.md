@@ -69,6 +69,7 @@ virtualenv erklären
 ~~~SECTION:notes~~~
 
 Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
+Manchmal erstellt jenkins ein .ssh dir, manchmal nicht.
 
 ~~~ENDSECTION~~~
 
@@ -84,7 +85,8 @@ Wenn es fehlschlägt, wahrscheinlich wegen Leerzeichen im Projektnamen
 ## Add the ssh key
 
     @@@ Shell
-	sudo cp -r ~/jenkins-ssh /var/lib/jenkins/.ssh
+	sudo mkdir -p /var/lib/jenkins/.ssh
+	sudo cp ~/jenkins-ssh/* /var/lib/jenkins/.ssh
 	sudo chown -R jenkins:jenkins /var/lib/jenkins/.ssh
 
 ## Create a new Freestyle Project
