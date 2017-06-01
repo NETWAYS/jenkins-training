@@ -78,10 +78,15 @@ Start the docker service and the registry
   - "CloudBees Docker Custom Build Environment Plugin"
   - "CloudBees Docker Build and Publish"
 
-* See Lab about Jenkins Plguins
+* See Lab about Jenkins Plugins
 
 ## Create a new job that builds a container
 * See Lab about creating jobs
+
+* Clone the Dockerfile with git
+<img src="./_img/docker_scm.png" style="width:600px" >
+
+* Add a "Docker Build And Publish"-build step
 <img src="./_img/build_docker.png" style="width:600px" >
 
 ~~~PAGEBREAK~~~
