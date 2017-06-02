@@ -130,6 +130,7 @@ See Docker Lab for further information
 <img src="./_img/post_build.png" style="width:600px">
 
 ## Buildstep
+Add as a new 'Execute Shell'-command:
 
     @@@ Shell
 	# Build the package
