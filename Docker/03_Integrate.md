@@ -92,6 +92,10 @@ Start the docker service and the registry
 ~~~PAGEBREAK~~~
 
 ## Configure the Python-job to run within Docker
+
+* Return to the Python-job created earlier
+* Configure it to run in Docker
+
 <img src="./_img/run_in_docker.png" style="width:600px" >
 
 We also need to update the buildstep:
