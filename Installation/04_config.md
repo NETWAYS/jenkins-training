@@ -19,6 +19,31 @@ Jenkins can be configured in two ways:
 * On the fly through the web interface
 * By editing it's config files (XML-formated)
 
+!SLIDE
+# Applying config changes
+After making changes to Jenkins' files, it needs to be made aware of these changes.
+
+Either by restarting Jenkins from the console
+
+    @@@ Shell
+    sudo systemctl restart jenkins
+
+Or by clicking the the correct button
+
+    @@@ Shell
+	'Manage Jenkins' ->  
+	'Reload Configuration from Disk'
+
+Or using the API
+
+	@@@ Shell
+    http://jenkins-master:8080/reload  
+
+~~~SECTION:notes~~~
+Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
+TODO: Add to cheatsheet
+~~~ENDSECTION~~~
+
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
 
@@ -79,31 +104,6 @@ Jenkins can be configured in two ways:
         <numExecutors>3</numExecutors>
 
     $ sudo systemctl restart jenkins
-
-!SLIDE
-# Applying config changes
-After making changes to Jenkins' files, it needs to be made aware of these changes.
-
-Either by restarting Jenkins from the console
-
-    @@@ Shell
-    sudo systemctl restart jenkins
-
-Or by clicking the the correct button
-
-    @@@ Shell
-	'Manage Jenkins' ->  
-	'Reload Configuration from Disk'
-
-Or using the API
-
-	@@@ Shell
-    http://jenkins-master:8080/reload  
-
-~~~SECTION:notes~~~
-Auch Befehle wie 'restart' oder 'exit' können per url ausgeführt werden.
-TODO: Add to cheatsheet
-~~~ENDSECTION~~~
 
 !SLIDE smbullets
 # Backing Up Your Jenkins
