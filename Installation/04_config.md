@@ -19,6 +19,7 @@ Jenkins can be configured in two ways:
 * On the fly through the web interface
 * By editing it's config files (XML-formated)
 
+!SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: The Two Ways Of Configuration
 
 * Objective:

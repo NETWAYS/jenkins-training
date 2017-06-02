@@ -80,7 +80,9 @@ Or
 * Default port for Jenkins is `8080`
 * Can be configured in `/etc/sysconfig/jenkins`
 * Also allows for further Jenkins/Java configurations
-* You should be able to reach Jenkins form your Browser now:
+
+
+You should be able to reach Jenkins form your Browser now:
 
     @@@ shell
     http://192.168.56.101:8080
