@@ -30,7 +30,7 @@
   - Test agents could be build with docker
   - Just merge and go productive
 
-!SLIDE bullets  noprint
+!SLIDE bullets noprint
 #Granularity: Keep Things Simple
 * Use dedicated build steps:
   - Reusing parts
@@ -39,7 +39,23 @@
 
 * Workflow/Pipeline Plugin
 
-!SLIDE bullets  noprint
+!SLIDE smbullets printonly
+#Granularity: Keep Things Simple
+* Use dedicated build steps:
+  - Reusing parts
+  - Smaller parts to debug
+  - Get back running error prone jobs
+
+* Workflow/Pipeline Plugin
+
+!SLIDE bullets noprint
+#Granularity: Keep Things Simple
+* Multiple teams - multiple masters
+  - Load balancing
+  - Less plugin bloat
+* Different projects on different servers
+
+!SLIDE smbullets printonly
 #Granularity: Keep Things Simple
 * Multiple teams - multiple masters
   - Load balancing
@@ -60,24 +76,9 @@ Auf Foreman, Ansible Schulung hinweisen.
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly
-#Granularity: Keep Things Simple
-* Use dedicated build steps:
-  - Reusing parts
-  - Smaller parts to debug
-  - Get back running error prone jobs
-
-* Workflow/Pipeline Plugin
-
-!SLIDE smbullets printonly
-#Granularity: Keep Things Simple
-* Multiple teams - multiple masters
-  - Load balancing
-  - Less plugin bloat
-* Different projects on different servers
-
-!SLIDE smbullets printonly
 #To Be Uniform
 * Easy replacement of uniform agents
 * Same tools, same platform
   - Same Dockerfile
 * Best Case: Agent provision via Foreman/Ansible etc.
+
