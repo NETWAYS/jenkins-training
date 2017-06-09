@@ -11,7 +11,7 @@
 #Permission Management
 * Applies to users within Jenkins
 * Simple
- - Anybody/Loggied in can do everything
+ - Anybody/Logged in can do everything
 * Matrix
  - Project or User/Group base
  - Can't inherit from userauth
@@ -24,7 +24,7 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 ~~~ENDSECTION~~~
 
 !SLIDE bullets noprint
-#Pro-tips
+#Pro-Tips
 * Use a dedicated user with their own SSH key on every slave
  - Reduce security issues that somebody gains control on every slave
 * No passwords in job scripts
