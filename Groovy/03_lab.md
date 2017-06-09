@@ -1,38 +1,38 @@
-!SLIDE bullets noprint
-# 
-
 !SLIDE smbullets small
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Groovy Script
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Utilise Groovy And The CLI
+
 * Objective:
- * Utilise Groovy
+ * Utilise Groovy And The CLI
 * Steps:
- * Download Plugin X
- * Set the executors through the console
- * Activate X for all jobs via curl
+ * Set the master executors to 0 through the console
+ * Download the Jenkins-cli
+ * Enable 'remoting'
+ * Activate 'Timestamper' for all jobs via CLI
 
 !SLIDE supplemental exercises
-# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Groovy Script
+# Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Utilise Groovy And The CLI
 
 ## Objective:
 
 ****
 
-* Utilise Groovy
+* Utilise Groovy And The CLI
 
 ## Steps:
 
 ****
 
 * Set the master executors to 0 through the console
-* Download the jenkins-cli
-* Activate 'Timestamper' over the cli
+* Download the Jenkins-cli
+* Enable 'remoting'
+* Activate 'Timestamper' for all jobs via CLI
 
 !SLIDE supplemental solutions
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
 
 ****
 
-## Utilise Groovy
+## Utilise Groovy And The CLI
 
 ****
 
@@ -70,7 +70,7 @@ Download the Jenkins-cli tool from your master
 
 ~~~PAGEBREAK~~~
 
-## Activate 'Timestamper' for all jobs via curl
+## Activate 'Timestamper' for all jobs via CLI
 
 First take a look at the script (~/scripts/enable-timetamper.groovy):
 

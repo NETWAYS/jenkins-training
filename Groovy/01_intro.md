@@ -19,7 +19,7 @@ Topics in this chapter
 * Simple Groovy script example
 * Security concerns
 
-!SLDIE bullets noprint
+!SLIDE bullets noprint
 # What Is Groovy
 * Apache Groovy, actually
 * Scripting language for Java
@@ -28,12 +28,13 @@ Topics in this chapter
 
 !SLIDE bullets noprint
 # General Groovy Usage
-* `/script` for web console
+* /script for web console
 * CLI can be used with curl
 * 'Remoting' as an insecure legacy option
 * `JENKINS_HOME/init.groovy.d/*.groovy` is run on startup
 
 ~~~SECTION:notes~~~
+sadsad
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets printonly

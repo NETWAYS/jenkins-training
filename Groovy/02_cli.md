@@ -25,7 +25,8 @@ Usage is a bit counterintuitive:
     $ java -jar jenkins-cli.jar [-s URL] command [opts...] args
 
 	# Example:
-	$ java -jar jenkins-cli.jar -s localhost:8080 help --username $USER --password $PASS
+	$ java -jar jenkins-cli.jar -s localhost:8080 \
+	    help --username $USER --password $PASS
 
 * Long options after command.
 * Can use `JENKINS_URL` env variable and others to ignore some options.
@@ -39,7 +40,8 @@ Usage is a bit counterintuitive:
     $ java -jar jenkins-cli.jar [-s URL] command [opts...] args
 
 	# Example:
-	$ java -jar jenkins-cli.jar -s localhost:8080 help --username $USER --password $PASS
+	$ java -jar jenkins-cli.jar -s localhost:8080 \
+	    help --username $USER --password $PASS
 
 * Long options after command.
 * Can use `JENKINS_URL` env variable and others to ignore some options.
