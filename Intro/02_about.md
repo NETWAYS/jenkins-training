@@ -117,6 +117,8 @@ Blue Ocean kommt nicht vor
  - Jenkins 2.0 having Pipline as a default Plugin
  - Blue Ocean as visualisation tool
  - Change of Introductory Material
+ - Still WIP
+* Enterprise-only plugins
 
 !SLIDE bullets noprint
 #Feature Set
