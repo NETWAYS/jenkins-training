@@ -1,5 +1,5 @@
 !SLIDE subsection
-#~~~SECTION:MAJOR~~~ Groovy Script
+#~~~SECTION:MAJOR~~~ Groovy Script & Jenkins CLI
 
 !SLIDE bullets noprint
 # Groovy Script
@@ -29,7 +29,7 @@ Topics in this chapter
 !SLIDE bullets noprint
 # General Groovy Usage
 * `/script` for web console
-* CLI can be used with curl (HTTPS)
+* CLI can be used with curl
 * 'Remoting' as an insecure legacy option
 * `JENKINS_HOME/init.groovy.d/*.groovy` is run on startup
 
@@ -40,7 +40,7 @@ Topics in this chapter
 # General Groovy Usage
 The Jenkins script console is accessible in two locations:
 * `/script` for web console
-* CLI can be used with curl (HTTPS)
+* CLI can be used with curl
 * 'Remoting' as an insecure legacy option
 * `JENKINS_HOME/init.groovy.d/*.groovy` is run on startup
 
@@ -81,18 +81,3 @@ The Jenkins script console is accessible in two locations:
 * job-dsl Plugins
 * Basically Groovy with job objects
 * Allows to move job config from xml to script
-
-!SLIDE bullets noprint
-# Security concerns
-* Script user can do anything the jenkins user can
-* Remoting is a BAD idea
-* Disabled by default in newer versions
-* Puppet module requires it :(
-
-!SLIDE smbullets printonly
-# Security Concerns
-* Script user can do anything the jenkins user can
-* Remoting is a bad idea
-* Disabled by default in newer versions
-* Puppet module requires it
-
