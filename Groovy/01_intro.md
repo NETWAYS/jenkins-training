@@ -40,6 +40,7 @@ sadsad
 !SLIDE smbullets printonly
 # General Groovy Usage
 The Jenkins script console is accessible in two locations:
+
 * `/script` for web console
 * CLI can be used with curl
 * 'Remoting' as an insecure legacy option
