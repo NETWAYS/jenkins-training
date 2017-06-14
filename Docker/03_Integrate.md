@@ -86,6 +86,8 @@ Start the docker service and the registry
 * Clone the Dockerfile with git
 <img src="./_img/docker_scm.png" style="width:600px" >
 
+~~~PAGEBREAK~~~
+
 * Add a "Docker Build And Publish"-build step
 <img src="./_img/build_docker.png" style="width:600px" >
 
