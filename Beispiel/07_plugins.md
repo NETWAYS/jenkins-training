@@ -64,7 +64,7 @@ Plugins are a big selling point of Jenkins
 * `Manage Jenkins` ->
 * `Manage Plugins`
 
-## Search for and install the 'Cobertura' and Violations plugins
+## Search for and install the 'Cobertura' and 'Violations' plugins
 <img src="./_img/get_plugin.png" style="width:600px" />
 <img src="./_img/get_plugin2.png" style="width:600px" />
 <img src="./_img/get_plugin3.png" style="width:600px" />

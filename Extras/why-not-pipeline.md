@@ -6,9 +6,27 @@
 
 !SLIDE smbullets noprint
 # Why Not Use Pipeline?
-* Still a work in process
+* Still under development
 * Plugins often problematic:
  - Not all Plugins are supported
  - Build in Docker broken
  - Other (e.g. git) have limited use
-* Does not much more that run Shell scripts
+* Sometimes not much more than a wrapper
+
+!SLIDE smbullets noprint
+# Why Not Use Pipeline?
+* Pipeline can be used to run other jobs:
+  - Easy to use
+  - Reduced visualization
+
+    @@@ sh
+    pipeline {
+      agent any
+      stages {
+        stage ("Prepare") { steps {
+          build 'Preperation Job'
+        }}
+        stage ("Build") { steps {
+          build 'Build Job'
+		}}
+	 }}

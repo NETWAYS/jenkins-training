@@ -141,6 +141,8 @@ Firewall may need to be configured, this is already done for the training VMs
     @@@ Shell
     $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
+Navigate to `192.168.56.101:8080` in your browser
+
 ## Install the suggested plugins
 
 <center><img src="./_img/install_suggested_plugins.png"/><center>
