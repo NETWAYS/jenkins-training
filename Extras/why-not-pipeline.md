@@ -34,6 +34,9 @@
   - Easy to use
   - Reduced visualization
 
+!SLIDE noprint
+# Visualize!
+
     @@@ sh
     pipeline {
       agent any
