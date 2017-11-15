@@ -34,8 +34,8 @@
 
     "Extras/Intro.md",
     "Extras/sicherheit.md",
+	"Extras/why-not-pipeline.md",
     "Extras/best-practise.md",
-//	"Extras/why-not-pipeline.md",
 
     {"section":"global/Post"}
   ]

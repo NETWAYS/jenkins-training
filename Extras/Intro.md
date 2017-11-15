@@ -4,11 +4,11 @@
 !SLIDE noprint bullets
 # Further Topics
 * Security
+* Pipelines
 * Best Practises
-* Current State Of Pipeline
 
 !SLIDE printonly smbullets
 # Further Topics
 * Security
+* Pipelines
 * Best Practises
-* Current State Of Pipeline
