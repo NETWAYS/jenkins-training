@@ -51,14 +51,14 @@ The Jenkins script console is accessible in two locations:
 * Groovy is quite powerful.
 * It can also be safely ignored.
 * Can be used to make tedious tasks easy...
-* ... Or automate Jenkins deployment completly
+* ... Or automate Jenkins deployment completely
 
 !SLIDE smbullets printonly
 # Possible Applications
 * Groovy is quite powerful.
 * It can also be safely ignored.
 * Can be used to make tedious tasks easy...
-* ... Or automate Jenkins deployment completly
+* ... Or automate Jenkins deployment completely
 
 !SLIDE bullets noprint
 # Manage Jenkins

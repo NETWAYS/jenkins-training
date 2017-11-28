@@ -2,14 +2,14 @@
 # Jenkins Job Options
 * Job Options fall in one of three categories
   - Meta options: Describe how Jenkins displays and handles jobs
-  - Preperation: Actions run before the actual build step
+  - Preparation: Actions run before the actual build step
   - Post-build: Are run after the job is finished
 
 ~~~SECTION:notes~~~
 
 Beispiele geben!
 meta: Disable this project
-Preperation: git scm
+Preparation: git scm
 Post-build: Run another job, publish test results
 
 ~~~ENDSECTION~~~

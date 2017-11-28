@@ -47,7 +47,7 @@ Kommunikation via tcp/ip.
 # The SSH-Agent
 * Master requires SSH-access to the agent-machine
   - Everything else is done by Jenkins
-* Required tool (python, virtualenv, ...) need to be installed by the user
+* Required tools (python, virtualenv, ...) need to be installed by the user
 
 ~~~SECTION:notes~~~
 
@@ -59,7 +59,7 @@ Tools sind schon vorinstalliert (ausser virtualenv, geplanter fehlschlag)
 # The SSH-Agent
 * Master requires SSH-access to the agent-machine
   - Everything else is done by Jenkins
-* Required tool (python, virtualenv, ...) need to be installed by the user
+* Required tools (python, virtualenv, ...) need to be installed by the user
 
 !SLIDE bullets noprint
 # Alternative Agents

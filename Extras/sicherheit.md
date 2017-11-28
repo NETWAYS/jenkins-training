@@ -26,7 +26,7 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 !SLIDE bullets noprint
 #Pro-Tips
 * Use a dedicated user with their own SSH key on every slave
- - Reduce security issues that somebody gains control on every slave
+ - Reduces security risk of somebody gaining control over all slaves
 * No passwords in job scripts
  - Even less when Jenkins is public
 
@@ -59,6 +59,6 @@ Für Unix auth brauch der user unter dem jenkins läuft rechte auf /etc/shadow
 !SLIDE smbullets printonly
 #Pro-tips
 * Use a dedicated user with their own SSH key on every slave
- - Reduce security issues that somebody gains control on every slave
+ - Reduces security risk of somebody gaining control over all slaves
 * No passwords in job scripts
   - Even less when Jenkins is public

@@ -21,7 +21,7 @@ But we don't want to push the build button again
 * `Build periodically`
   - Starts the job following a cron-like schedule
 * `Poll SCM`
-  - Periodically polls a SCM and starts the build when there are changes
+  - Periodically polls an SCM and starts the build when there are changes
 
 ~~~SECTION:notes~~~
 
@@ -36,7 +36,7 @@ SCM: Source Control Management aussprechen, erklären: Versionskontrolle
 * `Build periodically`
   - Starts the job following a cron-like schedule
 * `Poll SCM`
-  - Periodically polls a SCM and starts the build when there are changes
+  - Periodically polls an SCM and starts the build when there are changes
 
 !SLIDE smbullets small
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add A Trigger

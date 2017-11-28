@@ -13,7 +13,7 @@
 # Project-types
 * Many different types exists
 * More come as plugins
-* Types are not 'defualt-sets' but very much different from each other
+* Types are not 'default-sets' but very much different from each other
 
 ~~~SECTION:notes~~~
 Das heißt: Man kann ein Multi conf project nicht mit einem freestyle nachbauen
@@ -59,8 +59,8 @@ TODO: Extra Teil über pipeline projekte
 
 !SLIDE bullets noprint
 # Pipeline
-* Once knows as 'Workflow'
-* Uses a declarative Domain Specific Lanugage (DSL)
+* Once known as 'Workflow'
+* Uses a declarative Domain Specific Language (DSL)
 * 'Blue Ocean', a special pipeline UI
 
 ~~~SECTION:notes~~~

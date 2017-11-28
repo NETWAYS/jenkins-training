@@ -15,7 +15,7 @@
 * Still under development
 * Plugins often problematic:
  - Not all Plugins are supported
- - Build in Docker broken
+ - Build-in-Docker broken
  - Other (e.g. git) have limited use
 * Sometimes not much more than a wrapper
 
@@ -24,7 +24,7 @@
 * Still under development
 * Plugins often problematic:
  - Not all Plugins are supported
- - Build in Docker broken
+ - Build-in-Docker broken
  - Other (e.g. git) have limited use
 * Sometimes not much more than a wrapper
 
@@ -32,7 +32,7 @@
 # Why Not Pipeline?
 * Pipeline can be used to run other jobs:
   - Easy to use
-  - Reduced visualization
+  - Inferior visualization
 
 !SLIDE noprint
 # Visualize!
@@ -53,5 +53,5 @@
 # Why Not Pipeline?
 * Pipeline can be used to run other jobs:
   - Easy to use
-  - Reduced visualization
+  - Inferior visualization
 

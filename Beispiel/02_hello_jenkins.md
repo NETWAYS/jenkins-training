@@ -73,7 +73,7 @@ Can show a change log (requires an add-on)
 Contains files used and created by a Build
 
 > Note: No guarantee for files in the workspace to persist or be
-> cleaned up after a build (There's Plugins for that)
+> cleaned up after a build (There are Plugins for that)
 
 * Build History  
 Past Builds, number can be configured.
@@ -97,7 +97,7 @@ Can show a change log (requires an add-on)
 Contains files used and created by a Build
 
 > Note: No guarantee for files in the workspace to persist or be
-> cleaned up after a build (There's Plugins for that)
+> cleaned up after a build (There are Plugins for that)
 
 * Build History  
 Past Builds, number can be configured.
@@ -107,5 +107,5 @@ Contains more detailed state and progress information
 # About Exit Codes
 * Jenkins Job states come in three flavours
  - Blue: Success! Job exited with true or 0
- - Red: Failure! Job jexited with false or !0
+ - Red: Failure! Job exited with false or !0
  - Yellow: Unstable. Post-build actions can set this code

@@ -10,7 +10,7 @@ import key gpg --import something.asc
 
 !SLIDE bullets noprint
 # Chaining
-* The Python job now requires the docker job to be build first
+* The Python job now requires the docker job to be built first
 * There are multiple ways to model this dependency with Jenkins
 
 ~~~SECTION:notes~~~
@@ -20,7 +20,7 @@ Schlägt fehl wegen mangelnder files
 
 !SLIDE smbullets printonly
 # Chaining
-* The Python job now requires the docker job to be build first
+* The Python job now requires the docker job to be built first
 * There are multiple ways to model this dependency with Jenkins
 
 !SLIDE bullets noprint

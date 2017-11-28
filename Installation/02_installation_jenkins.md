@@ -82,7 +82,7 @@ Or
 * Also allows for further Jenkins/Java configurations
 
 
-You should be able to reach Jenkins form your Browser now:
+You should be able to reach Jenkins with your Browser now:
 
     @@@ shell
     http://192.168.56.101:8080

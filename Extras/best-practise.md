@@ -27,7 +27,7 @@
 * Commit $JENKINS\_HOME to git
   - Only included config that you really need
   - Don't commit artifacts or logs
-  - Test agents could be build with docker
+  - Test agents could be built with docker
   - Just merge and go productive
 
 !SLIDE bullets noprint

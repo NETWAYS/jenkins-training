@@ -6,7 +6,7 @@
 Jenkins can be configured in two ways
 
 * On the fly through the web interface
-* By editing it's config files (XML-formated)
+* By editing its config files (XML-formatted)
 
 ~~~SECTION:notes~~~
 Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
@@ -17,7 +17,7 @@ Konfigdateien liegen im Homeverzeichnis des jenkins-Benutzers.
 Jenkins can be configured in two ways:
 
 * On the fly through the web interface
-* By editing it's config files (XML-formated)
+* By editing its config files (XML-formatted)
 
 !SLIDE
 # Applying config changes

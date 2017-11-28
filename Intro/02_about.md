@@ -98,7 +98,7 @@ Hudson: ~30 Mitglieder/20 Repositories
 
 !SLIDE bullets noprint
 # Future Development
-* Push for Piplines
+* Push for Pipelines
  - Jenkins 2.0 having Pipline as a default Plugin
  - Blue Ocean as visualisation tool
  - Change of Introductory Material
@@ -113,7 +113,7 @@ Blue Ocean kommt nicht vor
 
 !SLIDE smbullets printonly
 # Future Development
-* Push for Piplines
+* Push for Pipelines
  - Jenkins 2.0 having Pipline as a default Plugin
  - Blue Ocean as visualisation tool
  - Change of Introductory Material

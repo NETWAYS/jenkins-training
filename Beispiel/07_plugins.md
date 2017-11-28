@@ -84,8 +84,7 @@ es gibt einige 'Git Plugins' aber wir sollen das normale
 !SLIDE bullets noprint
 # Worthwhile Plugins?
 * During the course of this training we will meet a few helpful or essential Plugins.
-* In the end there is a list of plugins we found useful
-* Often plugins are highly specifc or extension of other plugins
+* Often plugins are highly specific or extensions of other plugins
 
 ~~~SECTION:notes~~~
 

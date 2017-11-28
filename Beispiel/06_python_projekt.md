@@ -5,10 +5,10 @@
 
 !SLIDE smbullets noprint
 # Preparation
-Things to consider when before creating a new Job:
+Things to consider before creating a new Job:
 
 * Are all required Plugins installed?
-  - We will only be needing the Git Plugin (Preinstalled)
+  - We will only need the Git Plugin (Preinstalled)
   - More about plugins next
 * Are all my required build tools installed?
   - We will need: Python 2.X, python-pip and python-virtualenv
